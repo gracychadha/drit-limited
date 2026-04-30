@@ -12,9 +12,9 @@ class UserController extends Controller
     public function index()
     {
         $users = User::with('roles')->get();
-        // $roles = Role::all();
+        $roles = Role::all();
 
-        return view('admin.views.admin-users', compact('users','roles'));
+        return view('admin.views.admin-users', compact('users', 'roles'));
     }
 
     //  CREATE USER
@@ -37,7 +37,7 @@ class UserController extends Controller
 
         $user->assignRole($request->role);
 
-        return back()->with('success','User created');
+        return back()->with('success', 'User created');
     }
 
     //  UPDATE USER
@@ -69,7 +69,7 @@ class UserController extends Controller
         // update role
         $user->syncRoles([$request->role]);
 
-        return back()->with('success','User updated');
+        return back()->with('success', 'User updated');
     }
 
     //  DELETE USER
@@ -79,11 +79,11 @@ class UserController extends Controller
 
         //  protect super admin
         if ($user->hasRole('super-admin')) {
-            return back()->with('error',"You can't delete Super Admin");
+            return back()->with('error', "You can't delete Super Admin");
         }
 
         $user->delete();
 
-        return back()->with('success','User deleted');
+        return back()->with('success', 'User deleted');
     }
 }

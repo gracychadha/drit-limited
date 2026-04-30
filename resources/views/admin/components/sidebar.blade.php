@@ -37,20 +37,13 @@
                         </ul>
                     </li>
                 @endcan
-                @can('view college states')
+              
                     <li>
-                        <a href="{{ route('admin-college-states') }}">
-                            <i class="fe fe-image"></i> <span>College States</span>
+                        <a href="{{ route('admin-service') }}">
+                            <i class="fe fe-image"></i> <span>Services</span>
                         </a>
                     </li>
-                @endcan
-                @can('view colleges')
-                    <li>
-                        <a href="{{ route('colleges.index') }}">
-                            <i class="fe fe-image"></i> <span>Colleges</span>
-                        </a>
-                    </li>
-                @endcan
+              
 
                 @can('view course')
                     <li>

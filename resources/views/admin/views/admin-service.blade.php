@@ -6,17 +6,17 @@
             <!-- Page Header -->
             <div class="page-header">
                 <div class="content-page-header ">
-                    <h5>Blogs </h5>
+                    <h5>services </h5>
                     <div class="list-btn">
                         <ul class="filter-list">
 
-                            @can('create blog')
+                           
                                 <li>
                                     <a class="btn btn-primary" href="javascript:void(0);" data-bs-toggle="modal"
                                         data-bs-target="#add_category"><i class="fa fa-plus-circle me-2"
-                                            aria-hidden="true"></i>Add Blog</a>
+                                            aria-hidden="true"></i>Add Service</a>
                                 </li>
-                            @endcan
+                           
                         </ul>
                     </div>
                 </div>
@@ -37,34 +37,30 @@
                                     <thead class="thead-light">
                                         <tr>
                                             <th># </th>
-                                            <th>Blog Title</th>
-                                            <th>Author</th>
+                                            <th>Service Title</th>
+                                            <th>Status</th>
                                             <th class="no-sort">Action</th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        @forelse ($blogs as $blog)
+                                        @forelse ($Services as $service)
                                             <tr>
                                                 <td>{{ $loop->iteration }}</td>
                                                 <td><a href="" class="product-list-item-img">
-                                                        <!-- <img
-                                                                                                    src="{{ $blog->image ? asset('storage/' . $blog->image) : asset('placeholder.png') }}"
-                                                                                                    alt="product-list"> -->
-                                                        <span>{{ $blog->title }}</span></a></td>
-                                                <td>{{ $blog->author }} </td>
+                                                        <span>{{ $service->title }}</span></a></td>
+                                                <td>{{ $service->status }} </td>
                                                 <td class="d-flex align-items-center">
                                                     <a class="btn-action-icon me-2" href="javascript:void(0);"
-                                                        data-bs-toggle="modal" data-bs-target="#view_blog{{ $blog->id }}">
+                                                        data-bs-toggle="modal" data-bs-target="#view_service{{ $service->id }}">
                                                         <i class="fe fe-eye"></i>
                                                     </a>
-                                                    @can('edit blog')
+                                                  
                                                         <a class=" btn-action-icon me-2" href="javascript:void(0);"
                                                             data-bs-toggle="modal" data-bs-target="#edit_category"><i
                                                                 class="fe fe-edit"></i></a>
-                                                    @endcan
-                                                    @can('delete blog')
-                                                        <form action="{{ route('admin-blogs.destroy', $blog->id) }}" method="POST"
-                                                            class="d-inline delete-form">
+                                                 
+                                                        <form action="{{ route('admin-service.destroy', $service->id) }}"
+                                                            method="POST" class="d-inline delete-form">
                                                             @csrf
                                                             @method('DELETE')
 
@@ -73,13 +69,13 @@
                                                                 <i class="fe fe-trash-2"></i>
                                                             </button>
                                                         </form>
-                                                    @endcan
+                                                   
                                                 </td>
                                             </tr>
                                         @empty
                                             <tr>
                                                 <td></td>
-                                                <td>No blogs found yet.</td>
+                                                <td>No services found yet.</td>
                                                 <td></td>
                                                 <td></td>
                                             </tr>
@@ -97,27 +93,27 @@
 
         </div>
     </div>
-    <!-- Add blog Modal -->
+    <!-- Add service Modal -->
     <div class="modal custom-modal fade" id="add_category" role="dialog">
         <div class="modal-dialog modal-dialog-centered modal-lg">
             <div class="modal-content">
                 <div class="modal-header border-0 pb-0">
                     <div class="form-header modal-header-title text-start mb-0">
-                        <h4 class="mb-0">Add blog</h4>
+                        <h4 class="mb-0">Add service</h4>
                     </div>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
 
                     </button>
                 </div>
 
-                <form action="{{ route('admin-blogs.store') }}" method="POST" enctype="multipart/form-data">
+                <form action="{{ route('admin-service.store') }}" method="POST" enctype="multipart/form-data">
                     @csrf
 
                     <div class="modal-body">
                         <div class="row">
 
                             <div class="col-lg-6 mb-3">
-                                <label>Blog Title <span class="text-danger">*</span></label>
+                                <label>Service Title <span class="text-danger">*</span></label>
                                 <input type="text" name="title" class="form-control" placeholder="Enter Title" required>
                             </div>
 
@@ -126,19 +122,10 @@
                                 <input type="text" name="slug" class="form-control" placeholder="Enter Slug" readonly>
                             </div>
 
-                            <div class="col-lg-6 mb-3">
-                                <label>Author <span class="text-danger">*</span></label>
-                                <input type="text" name="author" class="form-control" placeholder="Enter Author" required>
-                                <small class="form-text text-muted">Size : 490 * 390(max size : 5MB)</small>
-                            </div>
+
 
                             <div class="col-lg-6 mb-3">
-                                <label>Date <span class="text-danger">*</span></label>
-                                <input type="date" name="date" class="form-control" required>
-                            </div>
-
-                            <div class="col-lg-6 mb-3">
-                                <label>Blog Image <span class="text-danger">*</span></label>
+                                <label>service Image <span class="text-danger">*</span></label>
                                 <input type="file" name="image" class="form-control" required>
                                 <span class="form-text text-muted">Size : 770 * 515(max size : 5MB)</span>
                             </div>
@@ -148,6 +135,10 @@
                             <div class="col-lg-12 mb-3">
                                 <label>Description <span class="text-danger">*</span></label>
                                 <textarea name="description" class="form-control" rows="4" required></textarea>
+                            </div>
+                            <div class="col-lg-12 mb-3">
+                                <label>Overview <span class="text-danger">*</span></label>
+                                <textarea name="overview" class="form-control" rows="4" required></textarea>
                             </div>
 
                             <div class="col-lg-6 mb-3">
@@ -163,7 +154,7 @@
 
                     <div class="modal-footer">
                         <button type="button" data-bs-dismiss="modal" class="btn btn-secondary me-3">Cancel</button>
-                        <button type="submit" class="btn btn-primary">Add Blog</button>
+                        <button type="submit" class="btn btn-primary">Add service</button>
                     </div>
 
                 </form>
@@ -173,14 +164,14 @@
     <!-- /Add  Modal -->
     {{-- view modal --}}
 
-    @foreach($blogs as $item)
-        <div class="modal custom-modal fade" id="view_blog{{ $item->id }}" role="dialog">
+    @foreach($Services as $item)
+        <div class="modal custom-modal fade" id="view_service{{ $item->id }}" role="dialog">
             <div class="modal-dialog modal-dialog-centered modal-lg">
                 <div class="modal-content">
 
                     <div class="modal-header border-0 pb-0">
                         <div class="form-header modal-header-title text-start mb-0">
-                            <h4 class="mb-0">View Blog</h4>
+                            <h4 class="mb-0">View service</h4>
                         </div>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
@@ -191,19 +182,17 @@
 
                             <tr>
                                 <th>Title :</th>
-                                <td class="tabledata" >
+                                <td class="tabledata">
                                     <div class="scroll-box">
                                         {{ $item->title }}
                                     </div>
                                 </td>
 
-                                <th>Author :</th>
-                                <td>{{ $item->author }}</td>
+
                             </tr>
 
                             <tr>
-                                <th>Date :</th>
-                                <td>{{ $item->date }}</td>
+
 
                                 <th>Status :</th>
                                 <td>
@@ -213,7 +202,7 @@
                                 </td>
                             </tr>
                             <tr>
-                                <th>Blog Image :</th>
+                                <th>service Image :</th>
                                 <td colspan="3">
                                     @if($item->image)
                                         <img src="{{ asset('storage/' . $item->image) }}" width="120">
@@ -227,9 +216,17 @@
 
                             <tr>
                                 <th>Description :</th>
-                                <td colspan="3" class="tableData">
+                                <td class="tableData">
                                     <div class="scroll-box">
                                         {{ $item->description }}
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Overview :</th>
+                                <td class="tableData">
+                                    <div class="scroll-box">
+                                        {{ $item->overview }}
                                     </div>
                                 </td>
                             </tr>
@@ -257,13 +254,14 @@
                 <div class="modal-content">
                     <div class="modal-header border-0 pb-0">
                         <div class="form-header modal-header-title text-start mb-0">
-                            <h4 class="mb-0">Edit Blog</h4>
+                            <h4 class="mb-0">Edit service</h4>
                         </div>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
 
                         </button>
                     </div>
-                    <form action="{{ route('admin-blogs.update', $blog->id) }}" method="POST" enctype="multipart/form-data">
+                    <form action="{{ route('admin-service.update', $service->id) }}" method="POST"
+                        enctype="multipart/form-data">
                         @csrf
                         @method('PUT')
 
@@ -271,31 +269,23 @@
                             <div class="row">
 
                                 <div class="col-lg-12">
-                                    <label>Blog Title *</label>
-                                    <input type="text" name="title" class="form-control" value="{{ $blog->title }}">
+                                    <label>Service Title *</label>
+                                    <input type="text" name="title" class="form-control" value="{{ $service->title }}">
                                 </div>
 
                                 <div class="col-lg-12">
                                     <label>Slug *</label>
-                                    <input type="text" name="slug" class="form-control" value="{{ $blog->slug }}">
+                                    <input type="text" name="slug" class="form-control" value="{{ $service->slug }}">
                                 </div>
 
-                                <div class="col-lg-6">
-                                    <label>Author *</label>
-                                    <input type="text" name="author" class="form-control" value="{{ $blog->author }}">
-                                </div>
+                                
 
                                 <div class="col-lg-6">
-                                    <label>Date *</label>
-                                    <input type="date" name="date" class="form-control" value="{{ $blog->date }}">
-                                </div>
-
-                                <div class="col-lg-6">
-                                    <label>Blog Image</label>
+                                    <label>service Image</label>
                                     <input type="file" name="image" class="form-control">
 
-                                    @if($blog->image)
-                                        <img src="{{ asset('storage/' . $blog->image) }}" width="80" class="mt-2">
+                                    @if($service->image)
+                                        <img src="{{ asset('storage/' . $service->image) }}" width="80" class="mt-2">
                                     @endif
                                 </div>
 
@@ -303,24 +293,30 @@
                                 <div class="col-lg-12">
                                     <label>Description *</label>
                                     <textarea name="description" class="form-control"
-                                        rows="4">{{ $blog->description }}</textarea>
+                                        rows="4">{{ $service->description }}</textarea>
+                                </div>
+                                <div class="col-lg-12">
+                                    <label>Overview *</label>
+                                    <textarea name="overview" class="form-control"
+                                        rows="4">{{ $service->overview }}</textarea>
                                 </div>
 
                                 <div class="col-lg-6">
                                     <label>Status *</label>
                                     <select name="status" class="form-control">
-                                        <option value="active" {{ $blog->status == 'active' ? 'selected' : '' }}>Active</option>
-                                        <option value="inactive" {{ $blog->status == 'inactive' ? 'selected' : '' }}>Inactive
+                                        <option value="active" {{ $service->status == 'active' ? 'selected' : '' }}>Active
+                                        </option>
+                                        <option value="inactive" {{ $service->status == 'inactive' ? 'selected' : '' }}>Inactive
                                         </option>
                                     </select>
                                 </div>
 
                             </div>
-                        </div>
+                        </div> 
 
                         <div class="modal-footer">
                             <button type="button" data-bs-dismiss="modal" class="btn btn-secondary">Cancel</button>
-                            <button type="submit" class="btn btn-primary">Update Blog</button>
+                            <button type="submit" class="btn btn-primary">Update service</button>
                         </div>
 
                     </form>
@@ -352,8 +348,8 @@
                 var form = $(this).closest('form');
 
                 Swal.fire({
-                    title: 'Delete Blog?',
-                    text: "This blog will be permanently deleted!",
+                    title: 'Delete service?',
+                    text: "This service will be permanently deleted!",
                     icon: 'warning',
                     showCancelButton: true,
                     confirmButtonColor: '#d33',

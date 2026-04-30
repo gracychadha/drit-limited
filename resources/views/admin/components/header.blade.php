@@ -1,23 +1,23 @@
 <div class="header header-one">
     <a href="{{ route('dashboard') }}"
         class="d-inline-flex d-sm-inline-flex align-items-center d-md-inline-flex d-lg-none align-items-center device-logo">
-        <img src="https://vidyaglobal.in/website/images/vidyaglobal-logo.png" class="img-fluid logo2" alt="Logo"  style="max-height: 50px;"/>
+        <img src="https://drit-limited.vibrantick.org/website/images/main-logo.png" class="img-fluid logo2" alt="Logo"  style="max-height: 50px;"/>
     </a>
     <div class="main-logo d-inline float-start d-lg-flex align-items-center d-none d-sm-none d-md-none">
         <div class="logo-white">
             <a href="{{ route('dashboard') }}">
-                <img src="https://vidyaglobal.in/website/images/vidyaglobal-logo.png" class="img-fluid logo-blue" alt="Logo" style="max-height: 50px;" />
+                <img src="https://drit-limited.vibrantick.org/website/images/main-logo.png" class="img-fluid logo-blue" alt="Logo" style="max-height: 50px;" />
             </a>
             <a href="{{ route('dashboard') }}">
-                <img src="https://vidyaglobal.in/website/images/vidyaglobal-logo.png" class="img-fluid logo-small" alt="Logo" />
+                <img src="https://drit-limited.vibrantick.org/website/images/main-logo.png" class="img-fluid logo-small" alt="Logo" />
             </a>
         </div>
         <div class="logo-color">
             <a href="{{ route('dashboard') }}">
-                <img src="https://vidyaglobal.in/website/images/vidyaglobal-logo.png" class="img-fluid logo-blue" alt="Logo" style="max-height: 50px;" />
+                <img src="https://drit-limited.vibrantick.org/website/images/main-logo.png" class="img-fluid logo-blue" alt="Logo" style="max-height: 50px;" />
             </a>
             <a href="{{ route('dashboard') }}">
-                <img src="https://vidyaglobal.in/website/images/vidyaglobal-logo.png" class="img-fluid logo-small" alt="Logo" />
+                <img src="https://drit-limited.vibrantick.org/website/images/main-logo.png" class="img-fluid logo-small" alt="Logo" />
             </a>
         </div>
     </div>

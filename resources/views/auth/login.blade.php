@@ -27,7 +27,7 @@
 
             <div class="admin-login-box">
 
-                <img class="mb-2" src="https://vidyaglobal.in/website/images/vidyaglobal-logo.png">
+                <img class="mb-2" src="https://drit-limited.vibrantick.org/website/images/main-logo.png">
                 <div class="admin-login-heading">Welcome back</div>
                 <div class="admin-login-subtext">Please enter your details</div>
 

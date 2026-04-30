@@ -1,23 +1,172 @@
 <?php
 
+
+use App\Http\Controllers\ContactLeadController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\BlogController;
+use App\Http\Controllers\CollegeStateController;
 use Illuminate\Support\Facades\Route;
+use App\Models\CollegeState;
+use App\Models\Course;
+use App\Http\Controllers\CollegeController;
+use App\Http\Controllers\CourseController;
+use App\Http\Controllers\PrivacyPolicyController;
+use App\Http\Controllers\TermsConditionController;
+use App\Http\Controllers\RoleController;
+use App\Http\Controllers\WebsiteSettingController;
+use App\Http\Controllers\SocialSettingController;
+use App\Models\ContactLead;
+use Illuminate\Support\Facades\DB;
+use App\Http\Controllers\UserController;
+use App\Http\Controllers\ServiceController;
+
+Route::get('/', function () {
+    return view('website.pages.welcome'); })->name('home');
+Route::get('/about-us', function () {
+    return view('website.pages.about-us'); })->name('about-us');
+Route::get('/contact-us', function () {
+    return view('website.pages.contact-us'); })->name('contact-us');
+Route::get('/our-clients', function () {
+    return view('website.pages.our-clients'); })->name('our-clients');
+Route::get('/service-details', function () {
+    return view('website.pages.service-details'); })->name('service-details');
+Route::get('/technology-details', function () {
+    return view('website.pages.technology-details'); })->name('technology-details');
 
 
-Route::get('/', function () { return view('website.pages.welcome');})->name('home');
-Route::get('/about-us', function () { return view('website.pages.about-us');})->name('about-us');
-Route::get('/contact-us', function () { return view('website.pages.contact-us');})->name('contact-us');
-Route::get('/our-clients', function () { return view('website.pages.our-clients');})->name('our-clients');
-Route::get('/service-details', function () { return view('website.pages.service-details');})->name('service-details');
-Route::get('/technology-details', function () { return view('website.pages.technology-details');})->name('technology-details');
 Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+    $totalLeads = App\Models\ContactLead::count();
+    $blogs = App\Models\Blog::count();
+    $states = App\Models\CollegeState::count();
+    $collegesCount = App\Models\College::count();
 
+
+    $colleges = App\Models\College::latest()->take(5)->get();
+    $statesData = App\Models\CollegeState::latest()->take(5)->get();
+
+    return view('admin.views.dashboard', [
+        'totalLeads' => $totalLeads,
+        'blogs' => $blogs,
+        'states' => $states,
+        'statesData' => $statesData,
+        'collegesCount' => $collegesCount,
+        'colleges' => $colleges
+    ]);
+})->middleware(['auth', 'verified'])->name('dashboard');
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-require __DIR__.'/auth.php';
+Route::middleware('auth')->group(function () {
+
+    // setting page
+    Route::get('/admin-settings', function () {
+        return view('admin.views.setting');
+    })->name('admin-setting');
+
+    // profile CRUD
+    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+    // admin settings
+    Route::get('/admin-settings', function () {
+        return view('admin.views.setting');
+    })->name('admin-setting');
+
+
+    // CONTACT LEADS
+    Route::get('/admin-leads', [ContactLeadController::class, 'index'])->name('admin-leads');
+    Route::delete('/admin-leads/{lead}', [ContactLeadController::class, 'destroy'])->name('admin-leads.destroy');
+    Route::post('/leads/delete-selected', [ContactLeadController::class, 'deleteSelected']);
+    // ************************************************************************************
+    // ************************************************************************************
+    // Event categories page CMS
+    // ************************************************************************************
+    // ************************************************************************************
+    Route::get('/admin-college-states', [CollegeStateController::class, 'index'])->name('admin-college-states');
+    Route::post('/admin-college-states', [CollegeStateController::class, 'store'])->name('admin-college-states.store');
+    Route::put('/admin-college-states/{collegeState}', [CollegeStateController::class, 'update'])->name('admin-college-states.update');
+    Route::delete('/admin-college-states/{collegeState}', [CollegeStateController::class, 'destroy'])->name('admin-college-states.destroy');
+    // collge crud 
+    // CRUD (index, create, store, edit, update, delete)
+    Route::get('/colleges', [CollegeController::class, 'index'])->name('colleges.index');
+    Route::post('/colleges', [CollegeController::class, 'store'])->name('colleges.store');
+    Route::put('/colleges/{college}', [CollegeController::class, 'update'])->name('colleges.update');
+    Route::delete('/colleges/{college}', [CollegeController::class, 'destroy'])->name('colleges.destroy');
+    Route::post('colleges-import', [CollegeController::class, 'import'])->name('colleges.import');
+    // BULK IMPORT
+    Route::post('colleges-import', [CollegeController::class, 'import'])->name('colleges.import');
+
+    Route::get('/admin-course', [CourseController::class, 'index'])->name('admin-course.index');
+    Route::post('/admin-course', [CourseController::class, 'store'])->name('admin-course.store');
+    Route::put('/admin-course/{item}', [CourseController::class, 'update'])->name('admin-course.update');
+    Route::delete('/admin-course/{item}', [CourseController::class, 'destroy'])->name('admin-course.destroy');
+
+
+
+
+    // blogs
+    Route::get('/admin-blogs', [BlogController::class, 'index'])->name('admin-blogs');
+    Route::post('/admin-blogs', [BlogController::class, 'store'])->name('admin-blogs.store');
+    Route::put('/admin-blogs/{blog}', [BlogController::class, 'update'])->name('admin-blogs.update');
+    Route::delete('/admin-blogs/{blog}', [BlogController::class, 'destroy'])->name('admin-blogs.destroy');
+    Route::get('/admin-service', [ServiceController::class, 'index'])->name('admin-service');
+    Route::post('/admin-service', [ServiceController::class, 'store'])->name('admin-service.store');
+    Route::put('/admin-service/{blog}', [ServiceController::class, 'update'])->name('admin-service.update');
+    Route::delete('/admin-service/{blog}', [ServiceController::class, 'destroy'])->name('admin-service.destroy');
+
+
+
+    // ************************************************************************************
+    // ************************************************************************************
+    // privacy Policy page CMS
+    // ************************************************************************************
+    // ************************************************************************************
+    Route::get('/admin-privacy-policy', [PrivacyPolicyController::class, 'index'])->name('admin-privacy-policy.index');
+    Route::put('/admin-privacy-policy/{section}', [PrivacyPolicyController::class, 'update'])->name('admin-privacy-policy.update');
+    // ************************************************************************************
+    // ************************************************************************************
+    // Terms Condition page CMS
+    // ************************************************************************************
+    // ************************************************************************************
+    Route::get('/admin-terms-condition', [TermsConditionController::class, 'index'])->name('admin-terms-condition.index');
+    Route::put('/admin-terms-condition/{section}', [TermsConditionController::class, 'update'])->name('admin-terms-condition.update');
+
+
+    // routes
+    Route::get('roles', [RoleController::class, 'index'])->name('roles.index');
+    Route::post('roles', [RoleController::class, 'store'])->name('roles.store');
+    Route::put('roles/{id}', [RoleController::class, 'update'])->name('roles.update');
+    Route::delete('roles/{id}', [RoleController::class, 'destroy'])->name('roles.destroy');
+    // ************************************************************************************
+    // ************************************************************************************
+    // Website settings CMS
+    // ************************************************************************************
+    // ************************************************************************************
+
+    Route::get('/admin-settings', [WebsiteSettingController::class, 'index'])->name('admin-settings.index');
+    Route::put('/admin-settings', [WebsiteSettingController::class, 'update'])->name('admin-settings.update');
+    // ************************************************************************************
+    // ************************************************************************************
+    // social settings CMS
+    // ************************************************************************************
+    // ************************************************************************************
+    Route::get('/admin-social-settings', [SocialSettingController::class, 'index'])
+        ->name('admin-social-settings.index');
+
+    Route::put('/admin-social-settings', [SocialSettingController::class, 'update'])
+        ->name('admin-social-settings.update');
+
+});
+
+
+Route::get('/admin-users', [UserController::class, 'index'])->name('admin-users.index');
+Route::post('/users', [UserController::class, 'store'])->name('users.store');
+Route::put('/users/{user}', [UserController::class, 'update'])->name('users.update');
+Route::delete('/users/{user}', [UserController::class, 'destroy'])->name('users.destroy');
+
+
+
+require __DIR__ . '/auth.php';
