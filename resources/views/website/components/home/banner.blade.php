@@ -2,7 +2,7 @@
     <!-- START decfoxSlider 1 REVOLUTION SLIDER 6.5.9 -->
     <p class="rs-p-wp-fix"></p>
     <rs-module-wrap id="rev_slider_3_1_wrapper" data-source="gallery">
-        <rs-module id="rev_slider_3_1" style="" data-version="6.5.9">
+        <rs-module id="rev_slider_3_1"  data-version="6.5.9">
             <rs-slides>
                 <rs-slide data-key="rs-1" data-title="Slide" data-thumb="images/slides/slider-mainbg-005.jpg"
                     data-anim="ei:d;eo:d;s:d;r:0;t:fade;sl:d;">
