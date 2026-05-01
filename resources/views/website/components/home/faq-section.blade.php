@@ -55,7 +55,7 @@
                                 </div>
                             </div><!-- section title end -->
                             <a class="cmt-btn btn-default cmt-icon-btn-left cmt-btn-size-md cmt-btn-color-dark res-991-pb-40"
-                                href="project-style-01.html"><i class="icon-right"></i><span>See More
+                                href="#"><i class="icon-right"></i><span>See More
                                     Services</span></a>
                         </div>
                         <div class="col-lg-7">

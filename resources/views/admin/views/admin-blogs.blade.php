@@ -47,9 +47,7 @@
                                             <tr>
                                                 <td>{{ $loop->iteration }}</td>
                                                 <td><a href="" class="product-list-item-img">
-                                                        <!-- <img
-                                                                                                    src="{{ $blog->image ? asset('storage/' . $blog->image) : asset('placeholder.png') }}"
-                                                                                                    alt="product-list"> -->
+                                                      
                                                         <span>{{ $blog->title }}</span></a></td>
                                                 <td>{{ $blog->author }} </td>
                                                 <td class="d-flex align-items-center">
@@ -147,7 +145,7 @@
 
                             <div class="col-lg-12 mb-3">
                                 <label>Description <span class="text-danger">*</span></label>
-                                <textarea name="description" class="form-control" rows="4" required></textarea>
+                                <textarea name="description" placeholder="Enter Description" class="form-control" rows="4" required></textarea>
                             </div>
 
                             <div class="col-lg-6 mb-3">

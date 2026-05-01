@@ -6,17 +6,16 @@
             <!-- Page Header -->
             <div class="page-header">
                 <div class="content-page-header ">
-                    <h5>Course </h5>
+                    <h5>Technology </h5>
                     <div class="list-btn">
                         <ul class="filter-list">
-                            @can('create course')
-
+                          
                                 <li>
                                     <a class="btn btn-primary" href="javascript:void(0);" data-bs-toggle="modal"
                                         data-bs-target="#add_category"><i class="fa fa-plus-circle me-2"
-                                            aria-hidden="true"></i>Add Course</a>
+                                            aria-hidden="true"></i>Add Technology</a>
                                 </li>
-                            @endcan
+                           
                         </ul>
                     </div>
                 </div>
@@ -37,13 +36,13 @@
                                     <thead class="thead-light">
                                         <tr>
                                             <th>#</th>
-                                            <th>Course Name</th>
+                                            <th>Technology </th>
                                             <th>Status</th>
                                             <th class="no-sort">Action</th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        @forelse ($course as $item)
+                                        @forelse ($technology as $item)
                                             <tr>
                                                 <td>{{ $loop->iteration }}</td>
                                                 <td><a href="" class="product-list-item-img"><span>{{ $item->name }}</span></a>
@@ -65,7 +64,7 @@
                                                                 class="fe fe-edit"></i></a>
                                                     @endcan
                                                     @can('delete course')
-                                                        <form action="{{ route('admin-course.destroy', $item->id) }}" method="POST"
+                                                        <form action="{{ route('admin-technology.destroy', $item->id) }}" method="POST"
                                                             class="d-inline delete-form">
                                                             @csrf
                                                             @method('DELETE')
@@ -81,7 +80,7 @@
                                         @empty
                                             <tr>
                                                 <td></td>
-                                                <td>No Courses found yet.</td>
+                                                <td>No technology found yet.</td>
                                                 <td></td>
                                                 <td></td>
                                             </tr>
@@ -105,21 +104,21 @@
             <div class="modal-content">
                 <div class="modal-header border-0 pb-0">
                     <div class="form-header modal-header-title text-start mb-0">
-                        <h4 class="mb-0">Add Course</h4>
+                        <h4 class="mb-0">Add Technology</h4>
                     </div>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
 
                     </button>
                 </div>
-                <form action="{{ route('admin-course.store') }}" method="POST" enctype="multipart/form-data">
+                <form action="{{ route('admin-technology.store') }}" method="POST" enctype="multipart/form-data">
                     @csrf
 
                     <div class="modal-body">
                         <div class="row">
 
                             <div class="col-lg-6 mb-3">
-                                <label>Course Name <span class="text-danger">*</span></label>
-                                <input type="text" name="name" class="form-control" placeholder="Enter State Name" required>
+                                <label>Technology Name <span class="text-danger">*</span></label>
+                                <input type="text" name="name" class="form-control" placeholder="Enter  Name" required>
                             </div>
 
                             <div class="col-lg-6 mb-3">
@@ -130,7 +129,7 @@
 
 
                             <div class="col-lg-6 mb-3">
-                                <label>Course Image <span class="text-danger">*</span></label>
+                                <label>Technology Image <span class="text-danger">*</span></label>
                                 <input type="file" name="image" class="form-control" required>
                                 <span class="form-text text-muted">Allowed JPG, GIF or PNG. Max size of 2MB (680x560)</span>
                             </div>
@@ -171,14 +170,14 @@
     <!-- /Add  Modal -->
     {{-- view modal --}}
 
-    @foreach($course as $item)
+    @foreach($technology as $item)
         <div class="modal custom-modal fade" id="view_item{{ $item->id }}" role="dialog">
             <div class="modal-dialog modal-dialog-centered modal-lg">
                 <div class="modal-content">
 
                     <div class="modal-header border-0 pb-0">
                         <div class="form-header modal-header-title text-start mb-0">
-                            <h4 class="mb-0">View Course</h4>
+                            <h4 class="mb-0">View Technology</h4>
                         </div>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
@@ -203,7 +202,7 @@
                                 </td>
                             </tr>
                             <tr>
-                                <th>College State Image :</th>
+                                <th> Image :</th>
                                 <td>
                                     @if($item->image)
                                         <img src="{{ asset('storage/' . $item->image) }}" width="120">
@@ -256,13 +255,13 @@
                 <div class="modal-content">
                     <div class="modal-header border-0 pb-0">
                         <div class="form-header modal-header-title text-start mb-0">
-                            <h4 class="mb-0">Edit Course</h4>
+                            <h4 class="mb-0">Edit Technology</h4>
                         </div>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
 
                         </button>
                     </div>
-                    <form action="{{ route('admin-course.update', $item->id) }}" method="POST" enctype="multipart/form-data">
+                    <form action="{{ route('admin-technology.update', $item->id) }}" method="POST" enctype="multipart/form-data">
                         @csrf
                         @method('PUT')
 
@@ -270,7 +269,7 @@
                             <div class="row">
 
                                 <div class="col-lg-6">
-                                    <label>College State Name *</label>
+                                    <label> Name *</label>
                                     <input type="text" name="name" class="form-control" value="{{ $item->name }}">
                                 </div>
 
@@ -281,7 +280,7 @@
 
 
                                 <div class="col-lg-6">
-                                    <label>College State Image</label>
+                                    <label> Image</label>
                                     <input type="file" name="image" class="form-control">
 
                                     @if($item->image)
@@ -348,8 +347,8 @@
                 var form = $(this).closest('form');
 
                 Swal.fire({
-                    title: 'Delete Course?',
-                    text: "This course will be permanently deleted!",
+                    title: 'Delete Technology?',
+                    text: "This Technology will be permanently deleted!",
                     icon: 'warning',
                     showCancelButton: true,
                     confirmButtonColor: '#d33',

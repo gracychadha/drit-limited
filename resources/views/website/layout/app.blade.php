@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>@yield('title')</title>
 
-    <link rel="shortcut icon" href="{{ asset('websiteimages/favicon.png') }}">
+    <link rel="shortcut icon" href="{{ asset('website/images/fav.jpg') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('website/css/bootstrap.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('website/css/animate.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('website/css/all.min.css') }}">
@@ -77,7 +77,7 @@
     <script src='{{ asset('website/revolution/js/rs6.min.js') }}'></script>
     <script src="{{ asset('website/revolution/js/slider.js') }}"></script>
     <!-- Javascript end-->
-
+    @stack('scripts')
 </body>
 
 </html>

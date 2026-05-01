@@ -76,8 +76,7 @@ class ContactLeadController extends Controller
             'ip' => $request->ip(),
         ]);
 
-        Mail::to($Lead->email)->send(new ContactLeadMail($Lead));
-        Mail::to('info@vidyaglobal.in')->send(new ContactLeadMail($Lead));
+    
         return back()->with('success', 'Your enquiry has been submitted successfully!');
     }
     public function destroy(ContactLead $lead)

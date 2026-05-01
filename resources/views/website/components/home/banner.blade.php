@@ -43,7 +43,7 @@
                     </rs-layer><!--
 
                         
-                                    --><a id="slider-1-slide-1-layer-4" href="contact-us.html"
+                                    --><a id="slider-1-slide-1-layer-4" href="{{ route('contact-us') }}"
                         class="rs-layer cmt-btn btn-default cmt-btn-color-white cmt-icon-btn-left cmt-btn-size-md"
                         data-type="text" data-color="#05255f" data-rsp_ch="on"
                         data-xy="x:l,l,c,c;xo:-100px,35px,15px,15px;y:t,t,t,m;yo:466px,460px,309px,63px;"
@@ -109,7 +109,7 @@
                     </rs-layer><!--
 
                         
-                                    --><a id="slider-1-slide-4-layer-4" href="contact-us.html"
+                                    --><a id="slider-1-slide-4-layer-4" href="{{ route('contact-us') }}"
                         class="rs-layer cmt-btn btn-default cmt-btn-color-white cmt-icon-btn-left cmt-btn-size-md"
                         data-type="text" data-color="#05255f" data-rsp_ch="on"
                         data-xy="x:l,l,c,c;xo:-100px,35px,15px,15px;y:t,t,t,m;yo:466px,460px,309px,63px;"

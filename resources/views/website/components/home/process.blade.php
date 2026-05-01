@@ -24,7 +24,7 @@
                         <li class="tab"><a href="#">Cloud Services</a></li>
                         <li class="tab"><a href="#">Network Security</a></li>
                         <a class="cmt-btn btn-default cmt-icon-btn-left cmt-btn-size-md cmt-btn-color-dark res-991-pb-40 pt-30 res-767-pb-20"
-                            href="project-style-01.html"><i class="icon-right"></i><span>See More Services</span></a>
+                            href="#"><i class="icon-right"></i><span>See More Services</span></a>
                     </ul>
                     <div class="content-tab">
                         <!-- content-inner -->
@@ -47,7 +47,7 @@
                                         </p>
                                     </div>
                                     <a class="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-skincolor"
-                                        href="it-consultancy.html">More Details<i class="icon-right"></i></a>
+                                        href="#">More Details<i class="icon-right"></i></a>
                                 </div>
                             </div><!-- featured-icon-box end-->
                             <p><img width="570" height="630" class="img-fluid"
@@ -73,7 +73,7 @@
                                         </p>
                                     </div>
                                     <a class="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-skincolor"
-                                        href="it-consultancy.html">More Details<i class="icon-right"></i></a>
+                                        href="#">More Details<i class="icon-right"></i></a>
                                 </div>
                             </div><!-- featured-icon-box end-->
                             <p><img width="570" height="630" class="img-fluid"
@@ -99,7 +99,7 @@
                                         </p>
                                     </div>
                                     <a class="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-skincolor"
-                                        href="it-consultancy.html">More Details<i class="icon-right"></i></a>
+                                        href="#">More Details<i class="icon-right"></i></a>
                                 </div>
                             </div><!-- featured-icon-box end-->
                             <p><img width="570" height="630" class="img-fluid"
@@ -124,7 +124,7 @@
                                         <p>The application of technologies processes and controls to protect systems</p>
                                     </div>
                                     <a class="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-skincolor"
-                                        href="it-consultancy.html">More Details<i class="icon-right"></i></a>
+                                        href="#">More Details<i class="icon-right"></i></a>
                                 </div>
                             </div><!-- featured-icon-box end-->
                             <p><img width="570" height="630" class="img-fluid"
@@ -150,7 +150,7 @@
                                         </p>
                                     </div>
                                     <a class="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-skincolor"
-                                        href="it-consultancy.html">More Details<i class="icon-right"></i></a>
+                                        href="#">More Details<i class="icon-right"></i></a>
                                 </div>
                             </div><!-- featured-icon-box end-->
                             <p><img width="570" height="630" class="img-fluid"
@@ -175,7 +175,7 @@
                                         <p>Infrastructure, platforms, and software that are provided by third-party</p>
                                     </div>
                                     <a class="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-skincolor"
-                                        href="it-consultancy.html">More Details<i class="icon-right"></i></a>
+                                        href="#">More Details<i class="icon-right"></i></a>
                                 </div>
                             </div><!-- featured-icon-box end-->
                             <p><img width="570" height="630" class="img-fluid"
@@ -201,7 +201,7 @@
                                         </p>
                                     </div>
                                     <a class="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-skincolor"
-                                        href="it-consultancy.html">More Details<i class="icon-right"></i></a>
+                                        href="#">More Details<i class="icon-right"></i></a>
                                 </div>
                             </div><!-- featured-icon-box end-->
                             <p><img width="570" height="630" class="img-fluid"

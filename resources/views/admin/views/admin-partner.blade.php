@@ -6,17 +6,16 @@
             <!-- Page Header -->
             <div class="page-header">
                 <div class="content-page-header ">
-                    <h5>Course </h5>
+                    <h5>Partner </h5>
                     <div class="list-btn">
                         <ul class="filter-list">
-                            @can('create course')
 
-                                <li>
-                                    <a class="btn btn-primary" href="javascript:void(0);" data-bs-toggle="modal"
-                                        data-bs-target="#add_category"><i class="fa fa-plus-circle me-2"
-                                            aria-hidden="true"></i>Add Course</a>
-                                </li>
-                            @endcan
+                            <li>
+                                <a class="btn btn-primary" href="javascript:void(0);" data-bs-toggle="modal"
+                                    data-bs-target="#add_category"><i class="fa fa-plus-circle me-2"
+                                        aria-hidden="true"></i>Add Partner</a>
+                            </li>
+
                         </ul>
                     </div>
                 </div>
@@ -37,13 +36,13 @@
                                     <thead class="thead-light">
                                         <tr>
                                             <th>#</th>
-                                            <th>Course Name</th>
+                                            <th>Partner </th>
                                             <th>Status</th>
                                             <th class="no-sort">Action</th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        @forelse ($course as $item)
+                                        @forelse ($partners as $item)
                                             <tr>
                                                 <td>{{ $loop->iteration }}</td>
                                                 <td><a href="" class="product-list-item-img"><span>{{ $item->name }}</span></a>
@@ -65,7 +64,7 @@
                                                                 class="fe fe-edit"></i></a>
                                                     @endcan
                                                     @can('delete course')
-                                                        <form action="{{ route('admin-course.destroy', $item->id) }}" method="POST"
+                                                        <form action="{{ route('admin-partner.destroy', $item->id) }}" method="POST"
                                                             class="d-inline delete-form">
                                                             @csrf
                                                             @method('DELETE')
@@ -81,7 +80,7 @@
                                         @empty
                                             <tr>
                                                 <td></td>
-                                                <td>No Courses found yet.</td>
+                                                <td>No partner found yet.</td>
                                                 <td></td>
                                                 <td></td>
                                             </tr>
@@ -105,47 +104,31 @@
             <div class="modal-content">
                 <div class="modal-header border-0 pb-0">
                     <div class="form-header modal-header-title text-start mb-0">
-                        <h4 class="mb-0">Add Course</h4>
+                        <h4 class="mb-0">Add Partner</h4>
                     </div>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
 
                     </button>
                 </div>
-                <form action="{{ route('admin-course.store') }}" method="POST" enctype="multipart/form-data">
+                <form action="{{ route('admin-partner.store') }}" method="POST" enctype="multipart/form-data">
                     @csrf
 
                     <div class="modal-body">
                         <div class="row">
 
                             <div class="col-lg-6 mb-3">
-                                <label>Course Name <span class="text-danger">*</span></label>
-                                <input type="text" name="name" class="form-control" placeholder="Enter State Name" required>
+                                <label>Partner Name <span class="text-danger">*</span></label>
+                                <input type="text" name="name" class="form-control" placeholder="Enter  Name" required>
+                            </div>
+                            <div class="col-lg-6 mb-3">
+                                <label>Partner Link <span class="text-danger">*</span></label>
+                                <input type="url" name="link" class="form-control" placeholder="Enter  URL" required>
                             </div>
 
                             <div class="col-lg-6 mb-3">
-                                <label>Slug</label>
-                                <input type="text" name="slug" class="form-control" placeholder="Enter Slug" readonly>
-                            </div>
-
-
-
-                            <div class="col-lg-6 mb-3">
-                                <label>Course Image <span class="text-danger">*</span></label>
+                                <label> Image <span class="text-danger">*</span></label>
                                 <input type="file" name="image" class="form-control" required>
-                                <span class="form-text text-muted">Allowed JPG, GIF or PNG. Max size of 2MB (680x560)</span>
-                            </div>
-
-
-
-                            <div class="col-lg-12 mb-3">
-                                <label>Description <span class="text-danger">*</span></label>
-                                <textarea name="description" class="form-control" placeholder="Enter description" rows="4"
-                                    required></textarea>
-                            </div>
-                            <div class="col-lg-12 mb-3">
-                                <label>Overview <span class="text-danger">*</span></label>
-                                <textarea name="overview" class="form-control" placeholder="Enter overview" rows="4"
-                                    required></textarea>
+                                <span class="form-text text-muted">Allowed JPG, GIF or PNG. Max size of 2MB (370x420)</span>
                             </div>
 
                             <div class="col-lg-6 mb-3">
@@ -171,14 +154,14 @@
     <!-- /Add  Modal -->
     {{-- view modal --}}
 
-    @foreach($course as $item)
+    @foreach($partners as $item)
         <div class="modal custom-modal fade" id="view_item{{ $item->id }}" role="dialog">
             <div class="modal-dialog modal-dialog-centered modal-lg">
                 <div class="modal-content">
 
                     <div class="modal-header border-0 pb-0">
                         <div class="form-header modal-header-title text-start mb-0">
-                            <h4 class="mb-0">View Course</h4>
+                            <h4 class="mb-0">View Partners</h4>
                         </div>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
@@ -191,9 +174,14 @@
                                 <th>Name :</th>
                                 <td>{{ $item->name }}</td>
                             </tr>
-
-
-
+                            <tr>
+                                <th>Link :</th>
+                                  <td class="tableData">
+                                    <div class="scroll-box">
+                                        {{ $item->link }}
+                                    </div>
+                                </td>
+                            </tr>
                             <tr>
                                 <th>Status :</th>
                                 <td>
@@ -203,34 +191,13 @@
                                 </td>
                             </tr>
                             <tr>
-                                <th>College State Image :</th>
+                                <th> Image :</th>
                                 <td>
                                     @if($item->image)
                                         <img src="{{ asset('storage/' . $item->image) }}" width="120">
                                     @endif
                                 </td>
 
-
-                            </tr>
-
-
-
-                            <tr>
-                                <th>Description :</th>
-                                <td colspan="3" class="tableData">
-                                    <div class="scroll-box">
-                                        {{ $item->description }}
-
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>Overview :</th>
-                                <td colspan="3" class="tableData">
-                                    <div class="scroll-box">
-                                        {{ $item->overview }}
-                                    </div>
-                                </td>
                             </tr>
 
                         </table>
@@ -256,13 +223,13 @@
                 <div class="modal-content">
                     <div class="modal-header border-0 pb-0">
                         <div class="form-header modal-header-title text-start mb-0">
-                            <h4 class="mb-0">Edit Course</h4>
+                            <h4 class="mb-0">Edit Partners</h4>
                         </div>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
 
                         </button>
                     </div>
-                    <form action="{{ route('admin-course.update', $item->id) }}" method="POST" enctype="multipart/form-data">
+                    <form action="{{ route('admin-partner.update', $item->id) }}" method="POST" enctype="multipart/form-data">
                         @csrf
                         @method('PUT')
 
@@ -270,18 +237,16 @@
                             <div class="row">
 
                                 <div class="col-lg-6">
-                                    <label>College State Name *</label>
+                                    <label> Name *</label>
                                     <input type="text" name="name" class="form-control" value="{{ $item->name }}">
                                 </div>
-
                                 <div class="col-lg-6">
-                                    <label>Slug *</label>
-                                    <input type="text" name="slug" class="form-control" value="{{ $item->slug }}">
+                                    <label> Link *</label>
+                                    <input type="url" name="link" class="form-control" value="{{ $item->link }}">
                                 </div>
 
-
                                 <div class="col-lg-6">
-                                    <label>College State Image</label>
+                                    <label> Image</label>
                                     <input type="file" name="image" class="form-control">
 
                                     @if($item->image)
@@ -298,16 +263,7 @@
                                     </select>
                                 </div>
 
-                                <div class="col-lg-12">
-                                    <label>Description *</label>
-                                    <textarea name="description" class="form-control"
-                                        rows="4">{{ $item->description }}</textarea>
-                                </div>
 
-                                <div class="col-lg-12">
-                                    <label>Overview *</label>
-                                    <textarea name="overview" class="form-control" rows="4">{{ $item->overview }}</textarea>
-                                </div>
 
 
 
@@ -330,15 +286,7 @@
 @push('scripts')
 
     <script>
-        document.querySelectorAll('input[name="name"]').forEach(function (input) {
-            input.addEventListener('keyup', function () {
-                let slug = this.value.toLowerCase()
-                    .replace(/ /g, '-')
-                    .replace(/[^\w-]+/g, '');
 
-                this.closest('form').querySelector('input[name="slug"]').value = slug;
-            });
-        });
 
         $(document).ready(function () {
 
@@ -348,8 +296,8 @@
                 var form = $(this).closest('form');
 
                 Swal.fire({
-                    title: 'Delete Course?',
-                    text: "This course will be permanently deleted!",
+                    title: 'Delete Partner?',
+                    text: "This Partner will be permanently deleted!",
                     icon: 'warning',
                     showCancelButton: true,
                     confirmButtonColor: '#d33',

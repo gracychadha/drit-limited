@@ -8,7 +8,7 @@
     <title>Admin Login</title>
     <link rel="stylesheet" href="{{ asset('admin/css/main.css') }}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="icon" href="{{asset('admin/images/logo/fav.png')}}" type="image/png">
+    <link rel="icon" href="{{ asset('website/images/fav.jpg') }}" type="image/png">
     <style>
         .admin-signin-button:disabled{
             background:grey;

@@ -12,7 +12,7 @@
                     <div class="title-desc">
                         <p>The positive distinction within the World Inspiring of Success & Connections of People
                             and Organizations. Devfox's pillar of strength is rely on our team members who running
-                            the whole show. &nbsp; <a href="our-team.html"
+                            the whole show. &nbsp; <a href="#"
                                 class="cmt-btn cmt-btn-size-md cmt-btn-color-skincolor btn-inline btn-underline">
                                 More Team Members</a></p>
                     </div>
@@ -38,11 +38,11 @@
                         <div class="featured-content">
                             <div class="team-position">IT Service Officer</div>
                             <div class="featured-title">
-                                <h3><a href="team-details.html">Garreth Mills</a></h3>
+                                <h3><a href="#">Garreth Mills</a></h3>
                             </div>
                             <div class="featured-view-more">
                                 <a class="cmt-btn btn-inline cmt-btn-size-md cmt-btn-color-skincolor"
-                                    href="team-details.html">more details</a>
+                                    href="#">more details</a>
                             </div>
                             <div class="featured-iconbox cmt-media-link">
                                 <div class="media-block">
@@ -74,11 +74,11 @@
                         <div class="featured-content">
                             <div class="team-position">Web Designer</div>
                             <div class="featured-title">
-                                <h3><a href="team-details.html">Ivan Hindshaw</a></h3>
+                                <h3><a href="#">Ivan Hindshaw</a></h3>
                             </div>
                             <div class="featured-view-more">
                                 <a class="cmt-btn btn-inline cmt-btn-size-md cmt-btn-color-skincolor"
-                                    href="team-details.html">more details</a>
+                                    href="#">more details</a>
                             </div>
                             <div class="featured-iconbox cmt-media-link">
                                 <div class="media-block">
@@ -110,11 +110,11 @@
                         <div class="featured-content">
                             <div class="team-position">Project Manager</div>
                             <div class="featured-title">
-                                <h3><a href="team-details.html">Natalia Zox</a></h3>
+                                <h3><a href="#">Natalia Zox</a></h3>
                             </div>
                             <div class="featured-view-more">
                                 <a class="cmt-btn btn-inline cmt-btn-size-md cmt-btn-color-skincolor"
-                                    href="team-details.html">more details</a>
+                                    href="#">more details</a>
                             </div>
                             <div class="featured-iconbox cmt-media-link">
                                 <div class="media-block">
@@ -146,11 +146,11 @@
                         <div class="featured-content">
                             <div class="team-position">Consultant Officer</div>
                             <div class="featured-title">
-                                <h3><a href="team-details.html">Maria Gordian</a></h3>
+                                <h3><a href="#">Maria Gordian</a></h3>
                             </div>
                             <div class="featured-view-more">
                                 <a class="cmt-btn btn-inline cmt-btn-size-md cmt-btn-color-skincolor"
-                                    href="team-details.html">more details</a>
+                                    href="#">more details</a>
                             </div>
                             <div class="featured-iconbox cmt-media-link">
                                 <div class="media-block">

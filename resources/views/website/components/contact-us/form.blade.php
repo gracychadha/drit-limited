@@ -37,7 +37,8 @@
                             <h2 class="title">Contact Us To Learn More.</h2>
                         </div>
                     </div><!-- section title end -->
-                    <form action="#" class="query_form wrap-form clearfix" method="post">
+                    <form id="contact-form" action="{{ route('contact-us.store') }}" method="POST"
+                        class="query_form wrap-form clearfix">
                         <div class="row">
                             <div class="col-md-6">
                                 <label>
@@ -45,12 +46,7 @@
                                             placeholder="First Name" required="required"></span>
                                 </label>
                             </div>
-                            <div class="col-md-6">
-                                <label>
-                                    <span class="text-input"><input name="name" type="text" value=""
-                                            placeholder="Last Name" required="required"></span>
-                                </label>
-                            </div>
+
                             <div class="col-md-6">
                                 <label>
                                     <span class="text-input"><input name="email" type="text" value=""
@@ -59,14 +55,15 @@
                             </div>
                             <div class="col-md-6">
                                 <label>
-                                    <span class="text-input"><input name="phone" type="text" value=""
-                                            placeholder="Phone" required="required"></span>
+                                    <span class="text-input"><input name="phone" type="text"
+                                            placeholder="Enter Phone Numner" pattern="[6-9]{1}[0-9]{9}" maxlength="10"
+                                            required></span>
                                 </label>
                             </div>
-                            <div class="col-md-12">
+                            <div class="col-md-6">
                                 <label>
                                     <span class="text-input select-option">
-                                        <select name="menu-232">
+                                        <select name="enquiry_for">
                                             <option value="Experience Design">Experience Design</option>
                                             <option value="IT Consultancy">IT Consultancy</option>
                                         </select>
@@ -79,6 +76,9 @@
                                             placeholder="Message goes here" required="required"></textarea></span>
                                 </label>
                             </div>
+                            <!-- recaptcha hidden input -->
+                            <input type="hidden" name="g-recaptcha-response" id="recaptcha-token">
+
                             <div class="col-md-12">
                                 <button
                                     class="submit cmt-btn btn-default cmt-icon-btn-left cmt-btn-size-md cmt-btn-color-dark mt-5"

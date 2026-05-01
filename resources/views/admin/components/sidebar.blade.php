@@ -37,21 +37,25 @@
                         </ul>
                     </li>
                 @endcan
-              
-                    <li>
-                        <a href="{{ route('admin-service') }}">
-                            <i class="fe fe-image"></i> <span>Services</span>
-                        </a>
-                    </li>
-              
 
-                @can('view course')
-                    <li>
-                        <a href="{{ route('admin-course.index') }}">
-                            <i class="fe fe-image"></i> <span>Course</span>
-                        </a>
-                    </li>
-                @endcan
+                <li>
+                    <a href="{{ route('admin-partner.index') }}">
+                        <i class="fe fe-briefcase"></i> <span>Partner</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ route('admin-service') }}">
+                        <i class="fe fe-briefcase"></i> <span>Services</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ route('admin-technology.index') }}">
+                        <i class="fe fe-cpu"></i> <span>Technology</span>
+                    </a>
+                </li>
+
+
+
 
 
 

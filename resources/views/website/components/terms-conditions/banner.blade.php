@@ -6,13 +6,13 @@
             <div class="col-lg-12">
                 <div class="cmt-page-title-row-inner">
                     <div class="page-title-heading">
-                        <h2 class="title">{{ $technology->name ?? 'Technology Details' }}</h2>
+                        <h2 class="title">Terms and Conditions</h2>
                     </div>
                     <div class="breadcrumb-wrapper">
                         <span>
                             <a title="Homepage" href="{{ route('home') }}">Home</a>
                         </span>
-                        <span>{{ $technology->name ?? 'Technology Details' }}</span>
+                        <span>Terms and Conditions</span>
                     </div>
                 </div>
             </div>

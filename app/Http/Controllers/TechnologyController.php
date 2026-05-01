@@ -1,17 +1,17 @@
 <?php
 
 namespace App\Http\Controllers;
-
-use Illuminate\Http\Request;
-use App\Models\Course;
+use App\Models\Technology;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\Storage;
-class CourseController extends Controller
+use Illuminate\Http\Request;
+
+class TechnologyController extends Controller
 {
-    public function index()
+     public function index()
     {
-        $course = Course::latest()->get();
-        return view('admin.views.admin-course', compact('course'));
+        $technology = Technology::latest()->get();
+        return view('admin.views.admin-technology', compact('technology'));
     }
     public function store(Request $request)
     {
@@ -26,11 +26,11 @@ class CourseController extends Controller
 
         $imagePath = null;
         if ($request->hasFile('image')) {
-            $imagePath = $request->file('image')->store('course-images', 'public');
+            $imagePath = $request->file('image')->store('technology-images', 'public');
         }
 
 
-        Course::create([
+        Technology::create([
             'name' => $request->name,
             'slug' => $request->slug,
             'image' => $imagePath,
@@ -39,9 +39,9 @@ class CourseController extends Controller
             'status' => $request->status
         ]);
 
-        return back()->with('success', 'Course added successfully!');
+        return back()->with('success', 'Technology added successfully!');
     }
-    public function update(Request $request, Course $item)
+    public function update(Request $request, Technology $item)
     {
         $request->validate([
             'name' => 'required|string|max:255',
@@ -56,7 +56,7 @@ class CourseController extends Controller
         $imagePath = $item->image;
 
         if ($request->hasFile('image')) {
-            $imagePath = $request->file('image')->store('course-images', 'public');
+            $imagePath = $request->file('image')->store('technology-images', 'public');
         }
 
 
@@ -70,9 +70,9 @@ class CourseController extends Controller
             'status' => $request->status
         ]);
 
-        return back()->with('success', 'Course updated successfully!');
+        return back()->with('success', 'Technology updated successfully!');
     }
-    public function destroy(Course $item)
+    public function destroy(Technology $item)
     {
         if ($item->image) {
             Storage::disk('public')->delete($item->image);
@@ -81,6 +81,6 @@ class CourseController extends Controller
 
         $item->delete();
 
-        return back()->with('success', 'Course deleted successfully!');
+        return back()->with('success', 'Technology deleted successfully!');
     }
 }

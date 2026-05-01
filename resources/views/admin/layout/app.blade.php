@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
     <!-- Favicon -->
-    <link rel="icon" href="{{asset('assets/images/logo/fav.png')}}" type="image/png">
+    <link rel="icon" href="{{ asset('website/images/fav.jpg') }}" type="image/png">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{ asset('admin/assets/css/bootstrap.min.css') }}">
     <!-- Fontawesome CSS -->

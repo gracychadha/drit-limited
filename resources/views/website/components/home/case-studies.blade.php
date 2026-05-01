@@ -5,7 +5,7 @@
             <div class="col-md-8">
                 <div class="section-title">
                     <div class="title-header">
-                        <h3>Case studies</h3>
+                        <h3>Projects</h3>
                         <h2 class="title">Our recent launched projects</h2>
                     </div>
                 </div>
@@ -13,7 +13,7 @@
             <div class="col-md-4">
                 <div class="text-md-end res-767-pb-30">
                     <a class="cmt-btn btn-default cmt-icon-btn-left cmt-btn-size-md cmt-btn-color-dark"
-                        href="project-style-01.html"><i class="icon-right"></i><span>see more projects</span></a>
+                        href="#"><i class="icon-right"></i><span>see more projects</span></a>
                 </div>
             </div>
         </div><!-- row end -->
@@ -35,7 +35,7 @@
                             <span>Image Documentary</span>
                         </div>
                         <div class="featured-title">
-                            <h3><a href="portfolio-single.html">Bootstrap modal plugin</a></h3>
+                            <h3><a href="#">Bootstrap modal plugin</a></h3>
                         </div>
                     </div>
                 </div>
@@ -53,7 +53,7 @@
                             <span>SM Management</span>
                         </div>
                         <div class="featured-title">
-                            <h3><a href="portfolio-single.html">Elementor plugin</a></h3>
+                            <h3><a href="#">Elementor plugin</a></h3>
                         </div>
                     </div>
                 </div>
@@ -70,7 +70,7 @@
                             <span>Software Development</span>
                         </div>
                         <div class="featured-title">
-                            <h3><a href="portfolio-single.html">HTML 5 language</a></h3>
+                            <h3><a href="#">HTML 5 language</a></h3>
                         </div>
                     </div>
                 </div>
@@ -88,7 +88,7 @@
                             <span>Revolution slider</span>
                         </div>
                         <div class="featured-title">
-                            <h3><a href="portfolio-single.html">Network Cabelling</a></h3>
+                            <h3><a href="#">Network Cabelling</a></h3>
                         </div>
                     </div>
                 </div>
@@ -105,7 +105,7 @@
                             <span>Image Documentary</span>
                         </div>
                         <div class="featured-title">
-                            <h3><a href="portfolio-single.html">WordPress plugin</a></h3>
+                            <h3><a href="#">WordPress plugin</a></h3>
                         </div>
                     </div>
                 </div>
@@ -122,7 +122,7 @@
                             <span>Author Projects</span>
                         </div>
                         <div class="featured-title">
-                            <h3><a href="portfolio-single.html">Wp bakery plugin</a></h3>
+                            <h3><a href="#">Wp bakery plugin</a></h3>
                         </div>
                     </div>
                 </div>

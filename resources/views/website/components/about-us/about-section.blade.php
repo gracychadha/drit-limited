@@ -40,7 +40,7 @@
                         </div>
                     </div>
                     <a class="cmt-btn btn-default cmt-icon-btn-left cmt-btn-size-md cmt-btn-color-dark"
-                        href="project-style-01.html"><i class="icon-right"></i><span>see more projects</span></a>
+                        href="#"><i class="icon-right"></i><span>see more projects</span></a>
                 </div>
             </div>
         </div><!-- row end -->

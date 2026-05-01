@@ -6,13 +6,13 @@
             <div class="col-lg-12">
                 <div class="cmt-page-title-row-inner">
                     <div class="page-title-heading">
-                        <h2 class="title">Services</h2>
+                        <h2 class="title">{{ $service->title ?? 'Service Details' }}</h2>
                     </div>
                     <div class="breadcrumb-wrapper">
                         <span>
                             <a title="Homepage" href="{{ route('home') }}">Home</a>
                         </span>
-                        <span>Services</span>
+                        <span>{{ $service->title ?? 'Service Details' }}</span>
                     </div>
                 </div>
             </div>

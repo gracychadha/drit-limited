@@ -36,7 +36,7 @@
                             <p>Explore our service list to get of them for business</p>
                         </div>
                         <a class="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-skincolor"
-                            href="contact-us.html">view more<i class="icon-right"></i></a>
+                            href="{{ route('contact-us') }}">view more<i class="icon-right"></i></a>
                     </div>
                 </div><!-- featured-icon-box end-->
             </div>
@@ -58,7 +58,7 @@
                             <p>We will set up meeting with experts for your business</p>
                         </div>
                         <a class="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-skincolor"
-                            href="contact-us.html">view more<i class="icon-right"></i></a>
+                            href="{{ route('contact-us') }}">view more<i class="icon-right"></i></a>
                     </div>
                 </div><!-- featured-icon-box end-->
             </div>
@@ -80,7 +80,7 @@
                             <p>Get your work done according to your flexibility</p>
                         </div>
                         <a class="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-skincolor"
-                            href="contact-us.html">view more<i class="icon-right"></i></a>
+                            href="{{ route('contact-us') }}">view more<i class="icon-right"></i></a>
                     </div>
                 </div><!-- featured-icon-box end-->
             </div>
@@ -102,7 +102,7 @@
                             <p>Your work is under progress by our experts team</p>
                         </div>
                         <a class="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-skincolor"
-                            href="blog.html">view more<i class="icon-right"></i></a>
+                            href="{{ route('our-blogs') }}">view more<i class="icon-right"></i></a>
                     </div>
                 </div><!-- featured-icon-box end-->
             </div>

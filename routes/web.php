@@ -4,53 +4,75 @@
 use App\Http\Controllers\ContactLeadController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\BlogController;
-use App\Http\Controllers\CollegeStateController;
 use Illuminate\Support\Facades\Route;
-use App\Models\CollegeState;
-use App\Models\Course;
-use App\Http\Controllers\CollegeController;
-use App\Http\Controllers\CourseController;
 use App\Http\Controllers\PrivacyPolicyController;
 use App\Http\Controllers\TermsConditionController;
 use App\Http\Controllers\RoleController;
 use App\Http\Controllers\WebsiteSettingController;
 use App\Http\Controllers\SocialSettingController;
-use App\Models\ContactLead;
+use App\Models\Technology;
+use App\Models\Service;
+use App\Models\Blog;
 use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\ServiceController;
+use App\Http\Controllers\TechnologyController;
+use App\Http\Controllers\PartnerController;
 
 Route::get('/', function () {
-    return view('website.pages.welcome'); })->name('home');
+    return view('website.pages.welcome');
+})->name('home');
 Route::get('/about-us', function () {
-    return view('website.pages.about-us'); })->name('about-us');
+    return view('website.pages.about-us');
+})->name('about-us');
 Route::get('/contact-us', function () {
-    return view('website.pages.contact-us'); })->name('contact-us');
+    return view('website.pages.contact-us');
+})->name('contact-us');
 Route::get('/our-clients', function () {
-    return view('website.pages.our-clients'); })->name('our-clients');
-Route::get('/service-details', function () {
-    return view('website.pages.service-details'); })->name('service-details');
-Route::get('/technology-details', function () {
-    return view('website.pages.technology-details'); })->name('technology-details');
+    return view('website.pages.our-clients');
+})->name('our-clients');
+Route::get('/privacy-policy', function () {
+    return view('website.pages.privacy-policy');
+})->name('privacy-policy');
+Route::get('/terms-conditions', function () {
+    return view('website.pages.terms-conditions');
+})->name('terms-conditions');
+Route::get('/our-blogs', function () {
+    return view('website.pages.our-blogs');
+})->name('our-blogs');
 
+Route::get('/blog-details/{slug}', function ($slug) {
+    $blogs = Blog::where('slug', $slug)->firstOrFail();
+    return view('website.pages.blog-details', compact('blogs'));
+})->name('blog-details');
+
+
+
+Route::get('/technology-details/{slug}', function ($slug) {
+    $technology = Technology::where('slug', $slug)
+        ->where('status', 'active')
+        ->first();
+    return view('website.pages.technology-details', compact('technology'));
+})->name('technology-details');
+Route::get('/service-details/{slug}', function ($slug) {
+    $service = Service::where('slug', $slug)
+        ->where('status', 'active')
+        ->first();
+    return view('website.pages.service-details', compact('service'));
+})->name('service-details');
+
+// contact leads store
+Route::post('/contact-us/store', [ContactLeadController::class, 'store'])->name('contact-us.store');
 
 Route::get('/dashboard', function () {
     $totalLeads = App\Models\ContactLead::count();
     $blogs = App\Models\Blog::count();
-    $states = App\Models\CollegeState::count();
-    $collegesCount = App\Models\College::count();
 
-
-    $colleges = App\Models\College::latest()->take(5)->get();
-    $statesData = App\Models\CollegeState::latest()->take(5)->get();
 
     return view('admin.views.dashboard', [
         'totalLeads' => $totalLeads,
         'blogs' => $blogs,
-        'states' => $states,
-        'statesData' => $statesData,
-        'collegesCount' => $collegesCount,
-        'colleges' => $colleges
+
     ]);
 })->middleware(['auth', 'verified'])->name('dashboard');
 Route::middleware('auth')->group(function () {
@@ -85,24 +107,7 @@ Route::middleware('auth')->group(function () {
     // Event categories page CMS
     // ************************************************************************************
     // ************************************************************************************
-    Route::get('/admin-college-states', [CollegeStateController::class, 'index'])->name('admin-college-states');
-    Route::post('/admin-college-states', [CollegeStateController::class, 'store'])->name('admin-college-states.store');
-    Route::put('/admin-college-states/{collegeState}', [CollegeStateController::class, 'update'])->name('admin-college-states.update');
-    Route::delete('/admin-college-states/{collegeState}', [CollegeStateController::class, 'destroy'])->name('admin-college-states.destroy');
-    // collge crud 
-    // CRUD (index, create, store, edit, update, delete)
-    Route::get('/colleges', [CollegeController::class, 'index'])->name('colleges.index');
-    Route::post('/colleges', [CollegeController::class, 'store'])->name('colleges.store');
-    Route::put('/colleges/{college}', [CollegeController::class, 'update'])->name('colleges.update');
-    Route::delete('/colleges/{college}', [CollegeController::class, 'destroy'])->name('colleges.destroy');
-    Route::post('colleges-import', [CollegeController::class, 'import'])->name('colleges.import');
-    // BULK IMPORT
-    Route::post('colleges-import', [CollegeController::class, 'import'])->name('colleges.import');
 
-    Route::get('/admin-course', [CourseController::class, 'index'])->name('admin-course.index');
-    Route::post('/admin-course', [CourseController::class, 'store'])->name('admin-course.store');
-    Route::put('/admin-course/{item}', [CourseController::class, 'update'])->name('admin-course.update');
-    Route::delete('/admin-course/{item}', [CourseController::class, 'destroy'])->name('admin-course.destroy');
 
 
 
@@ -112,10 +117,24 @@ Route::middleware('auth')->group(function () {
     Route::post('/admin-blogs', [BlogController::class, 'store'])->name('admin-blogs.store');
     Route::put('/admin-blogs/{blog}', [BlogController::class, 'update'])->name('admin-blogs.update');
     Route::delete('/admin-blogs/{blog}', [BlogController::class, 'destroy'])->name('admin-blogs.destroy');
+
+    // admin service
     Route::get('/admin-service', [ServiceController::class, 'index'])->name('admin-service');
     Route::post('/admin-service', [ServiceController::class, 'store'])->name('admin-service.store');
-    Route::put('/admin-service/{blog}', [ServiceController::class, 'update'])->name('admin-service.update');
-    Route::delete('/admin-service/{blog}', [ServiceController::class, 'destroy'])->name('admin-service.destroy');
+    Route::put('/admin-service/{Service}', [ServiceController::class, 'update'])->name('admin-service.update');
+    Route::delete('/admin-service/{Service}', [ServiceController::class, 'destroy'])->name('admin-service.destroy');
+
+
+    // admin technology
+    Route::get('/admin-technology', [TechnologyController::class, 'index'])->name('admin-technology.index');
+    Route::post('/admin-technology', [TechnologyController::class, 'store'])->name('admin-technology.store');
+    Route::put('/admin-technology/{item}', [TechnologyController::class, 'update'])->name('admin-technology.update');
+    Route::delete('/admin-technology/{item}', [TechnologyController::class, 'destroy'])->name('admin-technology.destroy');
+    // admin partner
+    Route::get('/admin-partner', [PartnerController::class, 'index'])->name('admin-partner.index');
+    Route::post('/admin-partner', [PartnerController::class, 'store'])->name('admin-partner.store');
+    Route::put('/admin-partner/{item}', [PartnerController::class, 'update'])->name('admin-partner.update');
+    Route::delete('/admin-partner/{item}', [PartnerController::class, 'destroy'])->name('admin-partner.destroy');
 
 
 

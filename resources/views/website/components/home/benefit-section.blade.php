@@ -34,7 +34,7 @@
                     <div class="featured-imagebox featured-imagebox-services style1">
                         <!-- featured-thumbnail -->
                         <div class="featured-thumbnail">
-                            <a href="it-consultancy.html"><img class="img-fluid auto_size"
+                            <a href="#"><img class="img-fluid auto_size"
                                     src="{{ asset('website/images/services/services-01.jpg') }}" alt="image" width="740" height="500"></a>
                         </div><!-- featured-thumbnail end-->
                         <div class="featured-content">
@@ -43,7 +43,7 @@
                                 <h3>How we can help</h3>
                             </div>
                             <div class="ser_num"></div>
-                            <div class="ser_readmore"><a href="it-consultancy.html"
+                            <div class="ser_readmore"><a href="#"
                                     class="cmt-btn cmt-btn-size-md cmt-icon-btn-right cmt-btn-color-skincolor btn-inline">Discover
                                     Now<i class="icon-right"></i></a></div>
                         </div>
@@ -54,7 +54,7 @@
                     <div class="featured-imagebox featured-imagebox-services style1">
                         <!-- featured-thumbnail -->
                         <div class="featured-thumbnail">
-                            <a href="experience-design.html"><img class="img-fluid auto_size"
+                            <a href="#"><img class="img-fluid auto_size"
                                     src="{{ asset('website/images/services/services-02.jpg') }}" alt="image" width="740" height="500"></a>
                         </div><!-- featured-thumbnail end-->
                         <div class="featured-content">
@@ -63,7 +63,7 @@
                                 <h3>Why partner with us</h3>
                             </div>
                             <div class="ser_num"></div>
-                            <div class="ser_readmore"><a href="experience-design.html"
+                            <div class="ser_readmore"><a href="#"
                                     class="cmt-btn cmt-btn-size-md cmt-icon-btn-right cmt-btn-color-skincolor btn-inline">Discover
                                     Now<i class="icon-right"></i></a></div>
                         </div>
@@ -74,7 +74,7 @@
                     <div class="featured-imagebox featured-imagebox-services style1">
                         <!-- featured-thumbnail -->
                         <div class="featured-thumbnail">
-                            <a href="digital-services.html"><img class="img-fluid auto_size"
+                            <a href="#"><img class="img-fluid auto_size"
                                     src="{{ asset('website/images/services/services-03.jpg') }}" alt="image" width="740" height="500"></a>
                         </div><!-- featured-thumbnail end-->
                         <div class="featured-content">
@@ -83,7 +83,7 @@
                                 <h3>Client success stories</h3>
                             </div>
                             <div class="ser_num"></div>
-                            <div class="ser_readmore"><a href="digital-services.html"
+                            <div class="ser_readmore"><a href="#"
                                     class="cmt-btn cmt-btn-size-md cmt-icon-btn-right cmt-btn-color-skincolor btn-inline">Discover
                                     Now<i class="icon-right"></i></a></div>
                         </div>

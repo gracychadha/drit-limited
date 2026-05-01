@@ -4,15 +4,13 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Course extends Model
+class Partner extends Model
 {
-    protected $fillable = [
+      protected $fillable = [
 
         'name',
-        'slug',
+        'link',
         'image',
-        'description',
-        'overview',
         'status'
     ];
 }
