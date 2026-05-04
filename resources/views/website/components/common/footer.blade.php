@@ -10,17 +10,17 @@
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 widget-area">
                     <div class="widget widget_text clearfix">
                         <div class="footer-logo">
-                             @php
-                                    $logo = optional($websiteSetting)->logo
-                                        ? asset('storage/' . $websiteSetting->logo)
-                                        : asset('website/images/main-logo.png');
-                                    $logoWhite = optional($websiteSetting)->logo_white
-                                        ? asset('storage/' . $websiteSetting->logo_white)
-                                        : asset('website/images/main-logo.png');
-                                @endphp
+                            @php
+                                $logo = optional($websiteSetting)->logo
+                                    ? asset('storage/' . $websiteSetting->logo)
+                                    : asset('website/images/main-logo.png');
+                                $logoWhite = optional($websiteSetting)->logo_white
+                                    ? asset('storage/' . $websiteSetting->logo_white)
+                                    : asset('website/images/main-logo.png');
+                            @endphp
                             <img id="footer-logo-img" class="img-fluid auto_size" height="42" width="132"
                                 src="{{ $logoWhite }}" alt="image">
-                            
+
                         </div>
                         <div class="textwidget widget-text">
                             <p>{{ $websiteSetting->description ?? 'An ' }}</p>
@@ -28,33 +28,41 @@
                         <div class="widget_social_wrapper social-icons pt-40">
                             <h3 class="fs-18 mb-25">Social Info</h3>
                             <ul class="list-inline">
-                                <li>
-                                    <a href="{{ $social->facebook_url ?? '#' }}" target="_blank" rel="noopener"
-                                        aria-label="facebook">
-                                        <i class="icon-facebook"></i>
-                                    </a>
-                                </li>
+                                @if(!empty($social->facebook_url))
+                                    <li>
+                                        <a href="{{ $social->facebook_url }}" target="_blank" rel="noopener"
+                                            aria-label="facebook">
+                                            <i class="icon-facebook"></i>
+                                        </a>
+                                    </li>
+                                @endif
 
-                                <li>
-                                    <a href="{{ $social->twitter_url ?? '#' }}" target="_blank" rel="noopener"
-                                        aria-label="twitter">
-                                        <i class="icon-twitter"></i>
-                                    </a>
-                                </li>
+                                @if(!empty($social->twitter_url))
+                                    <li>
+                                        <a href="{{ $social->twitter_url }}" target="_blank" rel="noopener"
+                                            aria-label="twitter">
+                                            <i class="icon-twitter"></i>
+                                        </a>
+                                    </li>
+                                @endif
 
-                                <li>
-                                    <a href="{{ $social->linkedin_url ?? '#' }}" target="_blank" rel="noopener"
-                                        aria-label="linkedin">
-                                        <i class="icon-linkedin"></i>
-                                    </a>
-                                </li>
+                                @if(!empty($social->linkedin_url))
+                                    <li>
+                                        <a href="{{ $social->linkedin_url }}" target="_blank" rel="noopener"
+                                            aria-label="linkedin">
+                                            <i class="icon-linkedin"></i>
+                                        </a>
+                                    </li>
+                                @endif
 
-                                <li>
-                                    <a href="{{ $social->instagram_url ?? '#' }}" target="_blank" rel="noopener"
-                                        aria-label="instagram">
-                                        <i class="icon-instagram"></i>
-                                    </a>
-                                </li>
+                                @if(!empty($social->instagram_url))
+                                    <li>
+                                        <a href="{{ $social->instagram_url }}" target="_blank" rel="noopener"
+                                            aria-label="instagram">
+                                            <i class="icon-instagram"></i>
+                                        </a>
+                                    </li>
+                                @endif
                             </ul>
                         </div>
                     </div>

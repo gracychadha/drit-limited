@@ -25,6 +25,9 @@ Route::get('/', function () {
 Route::get('/about-us', function () {
     return view('website.pages.about-us');
 })->name('about-us');
+Route::get('/eea', function () {
+    return view('website.pages.eea');
+})->name('eea');
 Route::get('/contact-us', function () {
     return view('website.pages.contact-us');
 })->name('contact-us');

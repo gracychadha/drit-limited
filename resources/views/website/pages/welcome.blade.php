@@ -8,7 +8,6 @@
     @include('website.components.home.team')
     @include('website.components.home.work-section')
     
-    @include('website.components.home.process')
 
     @include('website.components.home.case-studies')
     @include('website.components.home.blog-section')

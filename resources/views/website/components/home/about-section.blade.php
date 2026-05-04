@@ -18,7 +18,7 @@
                             </h2>
                         </div>
                         <div class="title-desc">
-                            <p>
+                            <p align="justify">
                                 Devfox is high-tech industries play an important role in the
                                 modern economy & often experience significantly higher pay than
                                 other industries. And Digital solutions have transformed the

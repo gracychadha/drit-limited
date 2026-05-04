@@ -83,27 +83,11 @@
                 <div
                     class="d-table bg-base-white p-50 pt-45 pb-45 res-991-p-30 border-rad_5 z-index-2 position-relative box-shadow mt_130 res-991-mt-30">
                     <div class="d-md-flex cmt-vertical_sep align-items-center">
-                        <div class="pr-20 mr-20 border-end res-575-pr-0 res-575-mr-0">
+                        <div class="pr-20 mr-20  res-575-pr-0 res-575-mr-0">
                             <h2 class="fs-22 mb-0">Delivering business solutions for the<span class="text-base-skin"><i>
                                         web and mobile</i> </span>world Bring your ideas to life</h2>
                         </div>
-                        <div
-                            class="d-flex align-items-center pl-20 res-767-pl-0 res-767-mt-30 flex-grow-0 flex-shrink-0 flex-basis-auto">
-                            <div class="cmt-play-icon-btn animated">
-                                <div class="cmt-play-icon-animation">
-                                    <a href="https://youtu.be/7e90gBu4pas" target="_self" class="cmt_prettyphoto">
-                                        <div
-                                            class="cmt-icon cmt-icon_element-fill cmt-icon_element-color-skincolor cmt-icon_element-size-md cmt-icon_element-style-rounded">
-                                            <i class="fas fa-play"></i>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="pl-30">
-                                <h3 class="fs-20 mb-0">Watch the Video</h3>
-                                <p class="mb-0">Sed do eiusmod tempor</p>
-                            </div>
-                        </div>
+                       
                     </div>
                 </div>
             </div>

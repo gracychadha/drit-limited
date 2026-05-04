@@ -9,11 +9,7 @@
                         <h3>How We Works</h3>
                         <h2 class="title">How Assist your Business</h2>
                     </div>
-                    <div class="title-desc">
-                        <p>High-tech industries play an important role in the modern economy & often experience
-                            significantly higher pay than other industries. A Digital solutions have transformed the
-                            world’s for web applications.</p>
-                    </div>
+                   
                 </div><!-- section title end -->
             </div>
         </div>
