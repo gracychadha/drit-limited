@@ -8,7 +8,6 @@
     @include('website.components.about-us.counter')
     @include('website.components.about-us.why-choose-us-section')
     @include('website.components.common.testimonial-section')
-    @include('website.components.common.partners')
   
   
 @endsection

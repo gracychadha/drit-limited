@@ -44,7 +44,7 @@
                                                 <a href="{{ route('about-us') }}">About Us</a>
                                             </li>
                                             <li class="mega-menu-item">
-                                                <a href="">EEA</a>
+                                                <a href="{{ route('eea') }}">EEA</a>
                                             </li>
 
                                         </ul>
