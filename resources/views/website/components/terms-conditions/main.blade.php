@@ -15,7 +15,7 @@
                             <h2 class="title">{{ $termsCondition->main_title ?? 'Privacy Policy' }}</h2>
                         </div>
                         <div class="title-desc">
-                            <p>{{ $termsCondition->description_1 ?? 'No Data Found Yet !!' }}</p>
+                            <p align="justify">{{ $termsCondition->description_1 ?? 'No Data Found Yet !!' }}</p>
                         </div>
                     </div><!-- section title end -->
 
