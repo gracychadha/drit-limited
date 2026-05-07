@@ -17,7 +17,7 @@ return new class extends Migration {
             $table->string('image');
             $table->string('author');
             $table->string('date');
-            $table->string('description');
+            $table->longText('description');
             $table->enum('status', ['active', 'inactive'])->default('active');
             $table->timestamps();
         });
