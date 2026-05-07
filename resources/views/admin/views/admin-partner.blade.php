@@ -60,7 +60,7 @@
                                                     @endcan
                                                     @can('edit course')
                                                         <a class=" btn-action-icon me-2" href="javascript:void(0);"
-                                                            data-bs-toggle="modal" data-bs-target="#edit_category"><i
+                                                            data-bs-toggle="modal" data-bs-target="#edit_category{{ $item->id }}"><i
                                                                 class="fe fe-edit"></i></a>
                                                     @endcan
                                                     @can('delete course')
@@ -218,7 +218,7 @@
 
 
         <!-- edit Modal -->
-        <div class="modal custom-modal fade" id="edit_category" role="dialog">
+        <div class="modal custom-modal fade" id="edit_category{{ $item->id }}" role="dialog">
             <div class="modal-dialog modal-dialog-centered modal-md">
                 <div class="modal-content">
                     <div class="modal-header border-0 pb-0">

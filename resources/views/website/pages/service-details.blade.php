@@ -1,5 +1,5 @@
 @extends('website.layout.app')
-@section('title', 'Service Details | Dr. IT Limited')
+@section('title', 'Service Details | Dr. ITM Private Limited')
 @section('content')
 
     @include('website.components.services.banner')

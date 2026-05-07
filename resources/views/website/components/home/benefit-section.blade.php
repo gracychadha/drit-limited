@@ -31,7 +31,7 @@
                     <!-- featured-thumbnail -->
                     <div class="featured-thumbnail">
                         <a href="#"><img class="img-fluid auto_size"
-                                src="{{ asset('website/images/services/services-01.jpg') }}" alt="image" width="740"
+                                src="{{ asset('website/images/upload/help-1.png') }}" alt="image" width="740"
                                 height="500"></a>
                     </div><!-- featured-thumbnail end-->
                     <div class="featured-content">
@@ -54,7 +54,7 @@
                     <!-- featured-thumbnail -->
                     <div class="featured-thumbnail">
                         <a href="#"><img class="img-fluid auto_size"
-                                src="{{ asset('website/images/services/services-02.jpg') }}" alt="image" width="740"
+                                src="{{ asset('website/images/upload/help-2.png') }}" alt="image" width="740"
                                 height="500"></a>
                     </div><!-- featured-thumbnail end-->
                     <div class="featured-content">
@@ -76,7 +76,7 @@
                     <!-- featured-thumbnail -->
                     <div class="featured-thumbnail">
                         <a href="#"><img class="img-fluid auto_size"
-                                src="{{ asset('website/images/services/services-03.jpg') }}" alt="image" width="740"
+                                src="{{ asset('website/images/upload/help-3.png') }}" alt="image" width="740"
                                 height="500"></a>
                     </div><!-- featured-thumbnail end-->
                     <div class="featured-content">

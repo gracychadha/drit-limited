@@ -3,11 +3,9 @@
         <!-- row -->
         <div class="row align-items-center">
             <div class="col-xl-6 col-md-12 col-sm-12">
-                <div class="ttm_single_image-wrapper d-table border-rad_5 overflow-hidden">
-                    <img width="1140" height="1300" class="img-fluid"
-                        src="{{ asset('website/images/single-img-01.jpg') }}" alt="single-01">
+                <div class="ttm_single_image-wrapper border-rad_5 overflow-hidden">
+                    <img class="img-fluid w-100" src="{{ asset('website/images/upload/eea.png') }}" alt="single-01">
                 </div>
-
             </div>
             <div class="col-xl-6">
                 <div class="pl-20 res-1199-pt-40 mb-20 res-1199-mb-0 res-1199-pl-0">

@@ -5,7 +5,7 @@
             <div class="col-xl-6 col-md-12">
                 <div class="cmt_single_image-wrapper d-table border-rad_5 overflow-hidden res-991-mt_15">
                     <img width="1400" height="1200" class="img-fluid"
-                        src="{{ asset('website/images/single-img-12.jpg') }}" alt="single-12" />
+                        src="{{ asset('website/images/upload/about-home.png') }}" alt="single-12" />
                 </div>
             </div>
             <div class="col-xl-6">

@@ -4,10 +4,10 @@
     <rs-module-wrap id="rev_slider_3_1_wrapper" data-source="gallery">
         <rs-module id="rev_slider_3_1" data-version="6.5.9">
             <rs-slides>
-                <rs-slide data-key="rs-1" data-title="Slide" data-thumb="images/slides/slider-mainbg-005.jpg"
+                <rs-slide data-key="rs-1" data-title="Slide" data-thumb="images/upload/main-banner-1.png"
                     data-anim="ei:d;eo:d;s:d;r:0;t:fade;sl:d;">
 
-                    <img src="{{ asset('website/images/slides/slider-mainbg-005.jpg') }}" title="slider-img-01.jpg"
+                    <img src="{{ asset('website/images/upload/main-banner-1.png') }}" title="slider-img-01.jpg"
                         width="1920" height="750" class="rev-slidebg tp-rs-img" data-no-retina=""><!--
                                     --><rs-layer id="slider-1-slide-1-layer-0" data-type="text" data-color="#ff382f"
                         data-rsp_ch="on" data-xy="x:l,l,c,c;xo:-100px,35px,0,0;yo:191px,185px,83px,80px;"
@@ -70,10 +70,10 @@
                     </rs-layer><!--
                                 -->
                 </rs-slide>
-                <rs-slide data-key="rs-4" data-title="Slide" data-thumb="images/slides/slider-mainbg-006.jpg"
+                <rs-slide data-key="rs-4" data-title="Slide" data-thumb="images/upload/main-banner-2.png"
                     data-anim="ei:d;eo:d;s:d;r:0;t:fade;sl:d;">
 
-                    <img src="{{ asset('website/images/slides/slider-mainbg-006.jpg') }}" title="slider-img-01.jpg"
+                    <img src="{{ asset('website/images/upload/main-banner-2.png') }}" title="slider-img-01.jpg"
                         width="1920" height="750" class="rev-slidebg tp-rs-img" data-no-retina=""><!--
                                     --><rs-layer id="slider-1-slide-4-layer-0" data-type="text" data-color="#ff382f"
                         data-rsp_ch="on" data-xy="x:l,l,c,c;xo:-100px,35px,0,0;yo:191px,185px,83px,80px;"
@@ -107,7 +107,7 @@
                         data-frame_0="y:-100%;" data-frame_0_mask="u:t;" data-frame_1="st:680;sp:1200;sR:680;"
                         data-frame_1_mask="u:t;" data-frame_999="o:0;st:w;sR:7120;"
                         style="z-index:11;font-family:'Lato', sans-serif;">We provide value-based, high-quality services
-                        that meet professional standards while ensuring exceptional results for every client.
+                        that meet professional<br> standards while ensuring exceptional results for every client.
 
                     </rs-layer><!--
 

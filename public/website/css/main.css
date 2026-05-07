@@ -3750,3 +3750,8 @@ section.error-404 .page-content p {
         hue-rotate(0deg);
     border-radius: 5px;
 }
+.ttm_single_image-wrapper img{
+    width: 100% !important;
+    height: auto !important;
+    display: block !important;
+}

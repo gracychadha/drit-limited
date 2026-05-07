@@ -1,5 +1,5 @@
 @extends('website.layout.app')
-@section('title', 'Blog Details | Dr. IT Limited')
+@section('title', 'Blog Details | Dr. ITM Private Limited')
 @section('content')
 
     @include('website.components.our-blogs.blog-details.banner')
@@ -14,7 +14,7 @@
                 <div class="row">
                     @include('website.components.our-blogs.blog-details.detail')
                     @include('website.components.our-blogs.blog-details.sidebar')
-                   
+
                 </div><!-- row end -->
             </div>
         </div>
