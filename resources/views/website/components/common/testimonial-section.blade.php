@@ -15,9 +15,11 @@
                                     <div class="testimonial-quote-icon">
                                         <i class="icon-quote-right-alt"></i>
                                     </div>
-                                    <blockquote class="testimonial-text">We are still not sure how we got here, but
-                                        we’re excited about where we’re going. Their innovators & engineer makes things
-                                        easy and in a timely matter.</blockquote>
+                                    <blockquote class="testimonial-text">The team at Dr ITM is truly dedicated to
+                                        bridging the gap between technology and operations. Their well-structured
+                                        approach and clear communication of role expectations made them a standout
+                                        partner for our technical requirements.
+                                    </blockquote>
                                     <div class="testimonial-caption">
                                         <h3>Victor Wilson</h3>
                                         <label>Web Developer</label>
@@ -30,9 +32,11 @@
                                     <div class="testimonial-quote-icon">
                                         <i class="icon-quote-right-alt"></i>
                                     </div>
-                                    <blockquote class="testimonial-text">We are still not sure how we got here, but
-                                        we’re excited about where we’re going. Their innovators & engineer makes things
-                                        easy. I'm referring them to my others partners</blockquote>
+                                    <blockquote class="testimonial-text">Working with Dr ITM has been a transformative
+                                        experience for our customer support. Their focus on providing exceptional
+                                        customer experiences through advanced technology and agile processes has
+                                        consistently delivered superior outcomes.
+                                    </blockquote>
                                     <div class="testimonial-caption">
                                         <h3>Aenna Bell</h3>
                                         <label>IT Manager</label>
@@ -45,9 +49,9 @@
                                     <div class="testimonial-quote-icon">
                                         <i class="icon-quote-right-alt"></i>
                                     </div>
-                                    <blockquote class="testimonial-text">Our team discussed every single detail to make
-                                        sure Creatives Planet is the most versatile and unique theme created so far. I
-                                        recommend DevFox to others</blockquote>
+                                    <blockquote class="testimonial-text">A trusted strategic partner that delivers
+                                        scalable and cost-effective solutions with unmatched professional standards.
+                                    </blockquote>
                                     <div class="testimonial-caption">
                                         <h3>Er. john Martin</h3>
                                         <label>WordPress Expert</label>

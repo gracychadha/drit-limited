@@ -7,9 +7,10 @@
                 <div class="section-title style2 res-991-mb_20">
                     <div class="title-header">
                         <h3>Meet Our Team</h3>
-                        <h2 class="title">Our powerful team members</h2>
+                        <h2 class="title">The Experts Behind Your Success
+                        </h2>
                     </div>
-                    
+
                 </div><!-- section title end -->
                 <div class="pb-100 pt-60 res-991-p-0"></div>
             </div>
@@ -35,9 +36,10 @@
                             <h3><a href="#">Garreth Mills</a></h3>
                         </div>
                         <div class="featured-view-more">
-                            <a class="cmt-btn btn-inline cmt-btn-size-md cmt-btn-color-skincolor" href="{{ route('contact-us') }}">Contact Us</a>
+                            <a class="cmt-btn btn-inline cmt-btn-size-md cmt-btn-color-skincolor"
+                                href="{{ route('contact-us') }}">Contact Us</a>
                         </div>
-                       
+
                     </div>
                 </div><!-- featured-imagebox-team end-->
             </div>
@@ -54,9 +56,10 @@
                             <h3><a href="#">Ivan Hindshaw</a></h3>
                         </div>
                         <div class="featured-view-more">
-                            <a class="cmt-btn btn-inline cmt-btn-size-md cmt-btn-color-skincolor" href="{{ route('contact-us') }}">Contact Us</a>
+                            <a class="cmt-btn btn-inline cmt-btn-size-md cmt-btn-color-skincolor"
+                                href="{{ route('contact-us') }}">Contact Us</a>
                         </div>
-                       
+
                     </div>
                 </div><!-- featured-imagebox-team end-->
             </div>
@@ -73,9 +76,10 @@
                             <h3><a href="#">Natalia Zox</a></h3>
                         </div>
                         <div class="featured-view-more">
-                            <a class="cmt-btn btn-inline cmt-btn-size-md cmt-btn-color-skincolor" href="{{ route('contact-us') }}">Contact Us</a>
+                            <a class="cmt-btn btn-inline cmt-btn-size-md cmt-btn-color-skincolor"
+                                href="{{ route('contact-us') }}">Contact Us</a>
                         </div>
-                        
+
                     </div>
                 </div><!-- featured-imagebox-team end-->
             </div>
@@ -92,9 +96,10 @@
                             <h3><a href="#">Maria Gordian</a></h3>
                         </div>
                         <div class="featured-view-more">
-                            <a class="cmt-btn btn-inline cmt-btn-size-md cmt-btn-color-skincolor" href="{{ route('contact-us') }}">Contact Us</a>
+                            <a class="cmt-btn btn-inline cmt-btn-size-md cmt-btn-color-skincolor"
+                                href="{{ route('contact-us') }}">Contact Us</a>
                         </div>
-                        
+
                     </div>
                 </div><!-- featured-imagebox-team end-->
             </div>

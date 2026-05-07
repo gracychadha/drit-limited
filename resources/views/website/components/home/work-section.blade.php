@@ -11,8 +11,8 @@
                 <!-- section title -->
                 <div class="section-title title-style-center_text">
                     <div class="title-header">
-                        <h3>how it works</h3>
-                        <h2 class="title">Start your new skill in easy steps</h2>
+                        <h3>How We Work </h3>
+                        <h2 class="title">Simple Steps to Deliver Powerful Results</h2>
                     </div>
                 </div><!-- section title end -->
             </div>
@@ -30,10 +30,10 @@
                     </div>
                     <div class="featured-content">
                         <div class="featured-title">
-                            <h3>Explore Services List</h3>
+                            <h3>Understand Your Needs</h3>
                         </div>
                         <div class="featured-desc">
-                            <p>Explore our service list to get of them for business</p>
+                            <p>We evaluate your business needs, and objectives to map out a strategic path forward.</p>
                         </div>
                         <a class="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-skincolor"
                             href="{{ route('contact-us') }}">view more<i class="icon-right"></i></a>
@@ -52,10 +52,11 @@
                     </div>
                     <div class="featured-content">
                         <div class="featured-title">
-                            <h3>Request Meet Up</h3>
+                            <h3>Customize the Solution</h3>
                         </div>
                         <div class="featured-desc">
-                            <p>We will set up meeting with experts for your business</p>
+                            <p>Our team designs tailored IT, BPO, and support solutions aligned with your unique needs.
+                            </p>
                         </div>
                         <a class="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-skincolor"
                             href="{{ route('contact-us') }}">view more<i class="icon-right"></i></a>
@@ -74,10 +75,11 @@
                     </div>
                     <div class="featured-content">
                         <div class="featured-title">
-                            <h3>Receive Custom Plan</h3>
+                            <h3>Implement & Execute</h3>
                         </div>
                         <div class="featured-desc">
-                            <p>Get your work done according to your flexibility</p>
+                            <p>We deploy solutions using advanced technology and experts to ensure seamless operations.
+                            </p>
                         </div>
                         <a class="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-skincolor"
                             href="{{ route('contact-us') }}">view more<i class="icon-right"></i></a>
@@ -96,10 +98,11 @@
                     </div>
                     <div class="featured-content">
                         <div class="featured-title">
-                            <h3>Execute Submissions</h3>
+                            <h3>Monitor & Optimize</h3>
                         </div>
                         <div class="featured-desc">
-                            <p>Your work is under progress by our experts team</p>
+                            <p>We consistently monitor and optimize performance to enhance the customer experience.
+                            </p>
                         </div>
                         <a class="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-skincolor"
                             href="{{ route('our-blogs') }}">view more<i class="icon-right"></i></a>

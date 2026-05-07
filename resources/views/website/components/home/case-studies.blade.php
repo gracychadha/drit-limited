@@ -10,7 +10,8 @@
                 <div class="section-title">
                     <div class="title-header">
                         <h3>Our Clients</h3>
-                        <h2 class="title">Our recent launched projects</h2>
+                        <h2 class="title">Driving Growth for Leading Names Across Every Sector. 
+</h2>
                     </div>
                 </div>
             </div>

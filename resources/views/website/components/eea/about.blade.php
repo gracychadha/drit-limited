@@ -14,23 +14,28 @@
                     <!-- section title -->
                     <div class="section-title">
                         <div class="title-header">
-                            <h3>EEA</h3>
-                            <h2 class="title">What is Employee Engagement?</h2>
+                            <h3>Nurturing Talent for Collective Success
+                            </h3>
+                            <h2 class="title">Employee Engagement Activities at Dr ITM
+                                ?</h2>
                         </div>
                         <div class="title-desc">
-                            <p>Employee engagement is a workplace approach resulting in the right conditions for all
-                                members of an organization to give of their best each day, committed to their
-                                organization’s goals and values, motivated to contribute to organizational success, with
-                                an enhanced sense of their own well-being.</p>
-                            <p>This is about how we create the conditions in which employees offer more of their
-                                capability and potential”</p>
-                            <p>Employee engagement is based on trust, integrity, two way commitment and communication
-                                between an organization and its members. It is an approach that increases the chances of
-                                business success, contributing to organizational and individual performance,
-                                productivity and well-being. It can be measured. It varies from poor to great. It can be
-                                nurtured and dramatically increased; it can lost and thrown away.
-
+                            <p align="justify">Employee engagement is the foundation of our workplace excellence. It
+                                creates an
+                                environment where every team member is empowered to perform at their peak, deeply
+                                aligned with our corporate goals and core values. We believe in fostering a culture
+                                motivated by collective success and the personal well-being of our people.
+                                <br>
+                                Engagement isn't static; it is something we actively nurture. By prioritizing the growth
+                                and happiness of our employees, we drive organizational productivity, individual
+                                performance, and long-term business success.
+                                <br>
+                                Engagement isn't static; it is something we actively nurture. By prioritizing the growth
+                                and happiness of our employees, we drive organizational productivity, individual
+                                performance, and long-term business success.
                             </p>
+
+
                         </div>
                     </div><!-- section title end -->
 

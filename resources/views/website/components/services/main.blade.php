@@ -2,7 +2,7 @@
     <div class="cmt-service-single-content-area">
         <div class="cmt-service-description">
             <h3>{{ $service->title ?? 'No Title Found Yet' }}</h3>
-            <p>{{ $service->description ?? 'No Description Found Yet !!' }}</p>
+            <p align="justify">{{ $service->description ?? 'No Description Found Yet !!' }}</p>
             <!-- post-featured-wrapper -->
             <div class="cmt-post-featured-wrapper cmt-featured-wrapper">
                 <div class="cmt-post-featured">
@@ -15,7 +15,7 @@
 
         </div>
         <div class="cmt-service-description">
-            <p>{{ $service->overview ?? 'No Overview Found Yet !!' }}</p>
+            <p align="justify">{{ $service->overview ?? 'No Overview Found Yet !!' }}</p>
 
         </div>
 

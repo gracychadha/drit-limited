@@ -78,6 +78,7 @@
     <script src="{{ asset('website/revolution/js/slider.js') }}"></script>
     <!-- Javascript end-->
     @stack('scripts')
+    
 </body>
 
 </html>

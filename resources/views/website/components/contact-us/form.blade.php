@@ -1,3 +1,7 @@
+@php
+    $websiteSetting = App\Models\WebsiteSetting::where('is_active', true)->first();
+    $social = App\Models\SocialSetting::where('is_active', true)->first();
+@endphp
 <section class="cmt-row padding_top_zero-section bg-layer-equal-height clearfix">
     <div class="container">
         <!-- row end -->
@@ -12,16 +16,17 @@
                         <div class="section-title">
                             <div class="title-header">
                                 <h3>Need Some Advice?</h3>
-                                <h2 class="title">Feel free to contact Devfox!</h2>
+                                <h2 class="title">Reach Out. We’re Ready When You Are
+                                </h2>
                             </div>
                             <div class="title-desc">
-                                <p>Devfox IT Solutions pride on world class customer service. To help you contact the
-                                    right department for your query we’ve put it all in one central place for you</p>
+                                <p>Whether you need support or strategy, let’s connect and build something impactful
+                                    together.</p>
                             </div>
                         </div><!-- section title end -->
                         <div class="g-map mt-30" id="map">
                             <iframe
-                                src="https://maps.google.com/maps?q=London%20Eye%2C%20London%2C%20United%20Kingdom&t=m&z=10&output=embed&iwloc=near"
+                                src="https://www.google.com/maps?q={{ urlencode($websiteSetting->location ?? 'Mohali,Punjab,India') }}&output=embed"
                                 title="London Eye, London, United Kingdom"
                                 aria-label="London Eye, London, United Kingdom"></iframe>
                         </div>
@@ -33,8 +38,8 @@
                     <!-- section title -->
                     <div class="section-title">
                         <div class="title-header">
-                            <h3>Need Some Advice?</h3>
-                            <h2 class="title">Contact Us To Learn More.</h2>
+                            <h3>Looking for Expert IT Solutions?</h3>
+                            <h2 class="title">Connect With Us to Discuss Your Requirements.</h2>
                         </div>
                     </div><!-- section title end -->
                     <form id="contact-form" action="{{ route('contact-us.store') }}" method="POST"

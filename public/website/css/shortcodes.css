@@ -3527,6 +3527,7 @@ div:hover > .cmt-box-view-overlay:before, div:hover > .cmt-box-view-content-inne
 /*** Color Switcher Style
 ==================================================================== ***/
 .cmt_floting_customsett {
+    display: none;
     position: fixed;
     top: 50%;
     right: 0;

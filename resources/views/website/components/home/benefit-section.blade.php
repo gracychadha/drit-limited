@@ -7,8 +7,10 @@
                 <!-- section title -->
                 <div class="section-title style2 res-991-mb_20">
                     <div class="title-header">
-                        <h3>Our Company</h3>
-                        <h2 class="title">How can we help you?</h2>
+                        <h3>Dr ITM Private Limited
+                        </h3>
+                        <h2 class="title">How Can We Help You?
+                        </h2>
                     </div>
 
                 </div><!-- section title end -->
@@ -33,9 +35,11 @@
                                 height="500"></a>
                     </div><!-- featured-thumbnail end-->
                     <div class="featured-content">
-                        <div class="ser_category">Our Service</div>
+                        <div class="ser_category">Our Services
+                        </div>
                         <div class="featured-title">
-                            <h3>How we can help</h3>
+                            <h3>IT & BPO Solutions
+                            </h3>
                         </div>
                         <div class="ser_num"></div>
                         <div class="ser_readmore"><a href="{{ route('contact-us') }}"
@@ -54,9 +58,10 @@
                                 height="500"></a>
                     </div><!-- featured-thumbnail end-->
                     <div class="featured-content">
-                        <div class="ser_category">Our expertise</div>
+                        <div class="ser_category">Our Technology
+                        </div>
                         <div class="featured-title">
-                            <h3>Why partner with us</h3>
+                            <h3>Technical & Network Support</h3>
                         </div>
                         <div class="ser_num"></div>
                         <div class="ser_readmore"><a href="{{ route('contact-us') }}"
@@ -75,9 +80,9 @@
                                 height="500"></a>
                     </div><!-- featured-thumbnail end-->
                     <div class="featured-content">
-                        <div class="ser_category">Our customers</div>
+                        <div class="ser_category">Our Clients</div>
                         <div class="featured-title">
-                            <h3>Client success stories</h3>
+                            <h3>Trusted Industry Partners</h3>
                         </div>
                         <div class="ser_num"></div>
                         <div class="ser_readmore"><a href="{{ route('contact-us') }}"

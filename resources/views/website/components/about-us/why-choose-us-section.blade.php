@@ -14,7 +14,7 @@
                                 <div class="section-title">
                                     <div class="title-header">
                                         <h3>why choose us</h3>
-                                        <h2 class="title">Any IT related work solution can be easily found from us</h2>
+                                        <h2 class="title">Empowering Businesses Through Technology</h2>
                                     </div>
                                 </div><!-- section title end -->
                                 <div class="pt-5">
@@ -29,11 +29,13 @@
                                         </div>
                                         <div class="featured-content">
                                             <div class="featured-title">
-                                                <h3>Network Cabling Services</h3>
+                                                <h3>Value-Driven, Customer-Centric Approach</h3>
                                             </div>
                                             <div class="featured-desc">
-                                                <p>IT infrastructure & network cable setup drastically improves your
-                                                    online performance, ensure business at any time.</p>
+                                                <p>High-quality, cost-effective solutions tailored to your business
+                                                    needs, ensuring enhanced efficiency, better customer experiences,
+                                                    and measurable results.
+                                                </p>
                                             </div>
                                         </div>
                                     </div><!-- featured-icon-box end -->
@@ -48,11 +50,13 @@
                                         </div>
                                         <div class="featured-content">
                                             <div class="featured-title">
-                                                <h3>Core Networking Services</h3>
+                                                <h3>Scalable Solutions with Proven Expertise</h3>
                                             </div>
                                             <div class="featured-desc">
-                                                <p>Networking and structured cabling services, firewall, VPN, router,
-                                                    switch and wireless configuration for residences.</p>
+                                                <p>With strong experience in IT, BPO, and data services, we provide
+                                                    flexible and reliable solutions that adapt to your growth and
+                                                    consistently deliver successful outcomes.
+                                                </p>
                                             </div>
                                         </div>
                                     </div><!-- featured-icon-box end -->
@@ -84,10 +88,14 @@
                     class="d-table bg-base-white p-50 pt-45 pb-45 res-991-p-30 border-rad_5 z-index-2 position-relative box-shadow mt_130 res-991-mt-30">
                     <div class="d-md-flex cmt-vertical_sep align-items-center">
                         <div class="pr-20 mr-20  res-575-pr-0 res-575-mr-0">
-                            <h2 class="fs-22 mb-0">Delivering business solutions for the<span class="text-base-skin"><i>
-                                        web and mobile</i> </span>world Bring your ideas to life</h2>
+                            <h2 class="fs-22 mb-0">We combine industry expertise, advanced technology, and a
+                                customer-centric approach
+
+                                <span class="text-base-skin"><i>
+                                        to deliver reliable, scalable, and cost-effective solutions.</i> </span>
+                            </h2>
                         </div>
-                       
+
                     </div>
                 </div>
             </div>

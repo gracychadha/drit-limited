@@ -23,7 +23,7 @@
 
                         </div>
                         <div class="textwidget widget-text">
-                            <p>{{ $websiteSetting->description ?? 'An ' }}</p>
+                            <p align="justify">{{ $websiteSetting->description ?? 'At Dr ITM, we bridge the gap between complex technology and seamless business operations. Our commitment to Value-Driven Excellence ensures scalable, cost-effective solutions that drive superior outcomes for our global partners. ' }}</p>
                         </div>
                         <div class="widget_social_wrapper social-icons pt-40">
                             <h3 class="fs-18 mb-25">Social Info</h3>
@@ -69,18 +69,18 @@
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 widget-area">
                     <div class="widget widget_cta clearfix">
-                        <h4>{{ $websiteSetting->phone1 ?? '+0022 6544 9977' }}</h4>
+                        <!-- <h4>{{ $websiteSetting->phone1 ?? '+0022 6544 9977' }}</h4> -->
                         <ul class="widget_contact_wrapper">
                             <li><i class="flaticon-envelope"></i><a
-                                    href="mailto:{{ $websiteSetting->email ?? 'info@dritlimited.com' }}"
-                                    target="_blank">{{ $websiteSetting->email ?? 'info@dritlimited.com' }}</a>24 x 7
+                                    href="mailto:{{ $websiteSetting->email ?? 'info@drit.in' }}"
+                                    target="_blank">{{ $websiteSetting->email ?? 'info@drit.in' }}</a>24 x 7
                                 Online Support
                             </li>
                             <li><i class="flaticon-pin"></i>{{ $websiteSetting->location ?? 'Mohali' }}</li>
                         </ul>
                         <div class="g-map">
                             <iframe
-                                src="https://www.google.com/maps?q={{ urlencode($websiteSetting->location ?? 'Ranchi,Jharkhand,India') }}&output=embed"
+                                src="https://www.google.com/maps?q={{ urlencode($websiteSetting->location ?? 'Mohali,Punjab,India') }}&output=embed"
                                 width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy">
                             </iframe>
                         </div>
