@@ -46,20 +46,20 @@
                                         @forelse ($Services as $service)
                                             <tr>
                                                 <td>{{ $loop->iteration }}</td>
-                                                <td><a href="" class="product-list-item-img">
+                                                <td><a href="" class="product-list-service-img">
                                                         <span>{{ $service->title }}</span></a></td>
                                                 <td> <span
                                                         class="badge bg-{{ $service->status == 'active' ? 'success' : 'danger' }}">
                                                         {{ ucfirst($service->status) }}
                                                     </span></td>
-                                                <td class="d-flex align-items-center">
+                                                <td class="d-flex align-services-center">
                                                     <a class="btn-action-icon me-2" href="javascript:void(0);"
                                                         data-bs-toggle="modal" data-bs-target="#view_service{{ $service->id }}">
                                                         <i class="fe fe-eye"></i>
                                                     </a>
 
                                                     <a class=" btn-action-icon me-2" href="javascript:void(0);"
-                                                        data-bs-toggle="modal" data-bs-target="#edit_category"><i
+                                                        data-bs-toggle="modal" data-bs-target="#edit_category{{ $service->id }}"><i
                                                             class="fe fe-edit"></i></a>
 
                                                     <form action="{{ route('admin-service.destroy', $service->id) }}"
@@ -169,8 +169,8 @@
     <!-- /Add  Modal -->
     {{-- view modal --}}
 
-    @foreach($Services as $item)
-        <div class="modal custom-modal fade" id="view_service{{ $item->id }}" role="dialog">
+    @foreach($Services as $service)
+        <div class="modal custom-modal fade" id="view_service{{ $service->id }}" role="dialog">
             <div class="modal-dialog modal-dialog-centered modal-lg">
                 <div class="modal-content">
 
@@ -189,7 +189,7 @@
                                 <th>Title :</th>
                                 <td class="tabledata">
                                     <div class="scroll-box">
-                                        {{ $item->title }}
+                                        {{ $service->title }}
                                     </div>
                                 </td>
 
@@ -201,16 +201,16 @@
 
                                 <th>Status :</th>
                                 <td>
-                                    <span class="badge bg-{{ $item->status == 'active' ? 'success' : 'danger' }}">
-                                        {{ ucfirst($item->status) }}
+                                    <span class="badge bg-{{ $service->status == 'active' ? 'success' : 'danger' }}">
+                                        {{ ucfirst($service->status) }}
                                     </span>
                                 </td>
                             </tr>
                             <tr>
                                 <th>service Image :</th>
                                 <td colspan="3">
-                                    @if($item->image)
-                                        <img src="{{ asset('storage/' . $item->image) }}" width="120">
+                                    @if($service->image)
+                                        <img src="{{ asset('storage/' . $service->image) }}" width="120">
                                     @endif
                                 </td>
 
@@ -223,7 +223,7 @@
                                 <th>Description :</th>
                                 <td class="tableData">
                                     <div class="scroll-box">
-                                        {{ $item->description }}
+                                        {{ $service->description }}
                                     </div>
                                 </td>
                             </tr>
@@ -231,7 +231,7 @@
                                 <th>Overview :</th>
                                 <td class="tableData">
                                     <div class="scroll-box">
-                                        {{ $item->overview }}
+                                        {{ $service->overview }}
                                     </div>
                                 </td>
                             </tr>
@@ -254,7 +254,7 @@
 
 
         <!-- edit Modal -->
-        <div class="modal custom-modal fade" id="edit_category" role="dialog">
+        <div class="modal custom-modal fade" id="edit_category{{ $service->id }}" role="dialog">
             <div class="modal-dialog modal-dialog-centered modal-md">
                 <div class="modal-content">
                     <div class="modal-header border-0 pb-0">
