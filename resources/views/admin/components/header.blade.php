@@ -20,7 +20,7 @@
     <div class="main-logo d-inline float-start d-lg-flex align-items-center d-none d-sm-none d-md-none">
         <div class="logo-white">
             <a href="{{ route('dashboard') }}">
-                <img src="{{ $logoWhite }}" class="img-fluid logo-blue"
+                <img src="{{ $logo }}" class="img-fluid logo-blue"
                     alt="Logo" style="max-height: 50px;" />
             </a>
             <a href="{{ route('dashboard') }}">
@@ -30,7 +30,7 @@
         </div>
         <div class="logo-color">
             <a href="{{ route('dashboard') }}">
-                <img src="{{ $logoWhite }}" class="img-fluid logo-blue"
+                <img src="{{ $logo }}" class="img-fluid logo-blue"
                     alt="Logo" style="max-height: 50px;" />
             </a>
             <a href="{{ route('dashboard') }}">
