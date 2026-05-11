@@ -10,8 +10,8 @@
                 <div class="section-title">
                     <div class="title-header">
                         <h3>Our Clients</h3>
-                        <h2 class="title">Driving Growth for Leading Names Across Every Sector. 
-</h2>
+                        <h2 class="title">Driving Growth for Leading Names Across Every Sector.
+                        </h2>
                     </div>
                 </div>
             </div>
@@ -30,8 +30,7 @@
 
     <!-- Slider -->
     <div class="container-fluid">
-        <div class="row slick_slider ps-3 pe-3"
-            data-slick='{"slidesToShow": 5, "slidesToScroll": 1, "arrows":false, "autoplay":true, "dots":false, "infinite":true,
+        <div class="row slick_slider ps-3 pe-3" data-slick='{"slidesToShow": 5, "slidesToScroll": 1, "arrows":false, "autoplay":true, "dots":false, "infinite":true,
             "responsive":[
                 {"breakpoint":1200,"settings":{"slidesToShow":4}},
                 {"breakpoint":992,"settings":{"slidesToShow":3}},
@@ -42,7 +41,7 @@
             @forelse($projects as $project)
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="featured-imagebox featured-imagebox-portfolio style1">
-                        
+
                         <!-- Image -->
                         <div class="featured-thumbnail">
                             <img class="img-fluid" width="700" height="800"
@@ -53,13 +52,13 @@
                         <!-- Content -->
                         <div class="featured-content">
                             <div class="category">
-                                <span>{{ $project->category ?? 'Project' }}</span>
+                                <span><a class="text-white" href="{{ $partner->link ?? '' }}" target="_blank">Explore More</a></span>
                             </div>
 
                             <div class="featured-title">
                                 <h3>
                                     <a href="{{ $project->link ?? '#' }}" target="_blank">
-                                        {{ $project->title ?? 'Project Title' }}
+                                        {{ $project->name ?? 'Project Title' }}
                                     </a>
                                 </h3>
                             </div>
@@ -74,8 +73,7 @@
                     <div class="featured-imagebox featured-imagebox-portfolio style1">
                         <div class="featured-thumbnail">
                             <img class="img-fluid" width="700" height="800"
-                                src="{{ asset('website/images/portfolio/portfolio-01-700x800.jpg') }}"
-                                alt="portfolio_img">
+                                src="{{ asset('website/images/portfolio/portfolio-01-700x800.jpg') }}" alt="portfolio_img">
                         </div>
 
                         <div class="featured-content">

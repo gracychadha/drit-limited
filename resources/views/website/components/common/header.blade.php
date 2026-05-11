@@ -8,6 +8,7 @@
                         $websiteSetting = App\Models\WebsiteSetting::where('is_active', true)->first();
                         $socialSetting = App\Models\SocialSetting::where('is_active', true)->first();
                     @endphp
+                    
                     <div class="col-lg-12">
                         <!--site-navigation -->
                         <div class="site-navigation d-flex align-items-center justify-content-between">

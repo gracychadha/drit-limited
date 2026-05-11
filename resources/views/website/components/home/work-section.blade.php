@@ -105,7 +105,7 @@
                             </p>
                         </div>
                         <a class="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-skincolor"
-                            href="{{ route('our-blogs') }}">view more<i class="icon-right"></i></a>
+                            href="{{ route('contact-us') }}">view more<i class="icon-right"></i></a>
                     </div>
                 </div><!-- featured-icon-box end-->
             </div>

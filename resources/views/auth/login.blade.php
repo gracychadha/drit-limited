@@ -8,10 +8,10 @@
     <title>Admin Login</title>
     <link rel="stylesheet" href="{{ asset('admin/css/main.css') }}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="icon" href="{{ asset('website/images/fav.jpg') }}" type="image/png">
+    <link rel="icon" href="{{ asset('website/images/fav.png') }}" type="image/png">
     <style>
-        .admin-signin-button:disabled{
-            background:grey;
+        .admin-signin-button:disabled {
+            background: grey;
             cursor: default;
         }
     </style>
@@ -26,14 +26,26 @@
         <div class="admin-login-form-area">
 
             <div class="admin-login-box">
+                @php
+                    $websiteSetting = App\Models\WebsiteSetting::where('is_active', true)->first();
+                    $socialSetting = App\Models\SocialSetting::where('is_active', true)->first();
+                @endphp
+                @php
+                    $logo = optional($websiteSetting)->logo
+                        ? asset('storage/' . $websiteSetting->logo)
+                        : asset('website/images/main-logo.png');
+                    $logoWhite = optional($websiteSetting)->logo_white
+                        ? asset('storage/' . $websiteSetting->logo_white)
+                        : asset('website/images/main-logo.png');
+                @endphp
 
-                <img class="mb-2" src="https://drit-limited.vibrantick.org/website/images/main-logo.png">
+                <img class="mb-2" src="{{ $logo }}">
                 <div class="admin-login-heading">Welcome back</div>
                 <div class="admin-login-subtext">Please enter your details</div>
 
                 <form method="POST" action="{{ route('login') }}">
                     @csrf
-                   
+
                     @if ($errors->any())
                         <div class="text-danger">
                             <ul>
@@ -60,7 +72,7 @@
                     @error('captcha')
                         <div class="text-danger">{{ $message }}</div>
                     @enderror
-                     <div class="admin-extra-options">
+                    <div class="admin-extra-options">
 
                         <label>
                             <input type="checkbox" name="remember"> Remember for 30 days

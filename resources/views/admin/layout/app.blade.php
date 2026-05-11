@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
     <!-- Favicon -->
-    <link rel="icon" href="{{ asset('website/images/fav.jpg') }}" type="image/png">
+    <link rel="icon" href="{{ asset('website/images/fav.png') }}" type="image/png">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{ asset('admin/assets/css/bootstrap.min.css') }}">
     <!-- Fontawesome CSS -->
@@ -32,7 +32,7 @@
     <script src="{{ asset('admin/assets/js/layout.js') }}"></script>
     {{-- custom css --}}
     <link rel="stylesheet" href="{{ asset('admin/css/main.css') }}">
-    
+
 
     <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js"></script>

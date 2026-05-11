@@ -46,7 +46,7 @@
                                             data-after-style="sub">26</span>
                                     </h4>
                                     <h3 class="cmt-fid-title">
-                                        Years <br />
+                                        Years of <br />
                                         Experience
                                     </h3>
                                 </div>
@@ -55,7 +55,7 @@
                         </div>
                         <div class="col-lg-8 col-md-9 col-sm-12">
                             <h3 class="pl-5 res-991-pl-0 mb-0 pt-15 res-767-pt-20">
-                                Dr ITM Private Limited <br />Funded in<strong class="text-base-skin">
+                                Dr ITM Private Limited <br />Founded in<strong class="text-base-skin">
                                     2000</strong>
                             </h3>
                         </div>

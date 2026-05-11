@@ -37,7 +37,7 @@
                         </div>
                         <div class="featured-view-more">
                             <a class="cmt-btn btn-inline cmt-btn-size-md cmt-btn-color-skincolor"
-                                href="{{ route('contact-us') }}">Contact Us</a>
+                                href="{{ route('contact-us') }}">IT Service Officer</a>
                         </div>
 
                     </div>
@@ -57,7 +57,7 @@
                         </div>
                         <div class="featured-view-more">
                             <a class="cmt-btn btn-inline cmt-btn-size-md cmt-btn-color-skincolor"
-                                href="{{ route('contact-us') }}">Contact Us</a>
+                                href="{{ route('contact-us') }}">Web Designer</a>
                         </div>
 
                     </div>
@@ -77,7 +77,7 @@
                         </div>
                         <div class="featured-view-more">
                             <a class="cmt-btn btn-inline cmt-btn-size-md cmt-btn-color-skincolor"
-                                href="{{ route('contact-us') }}">Contact Us</a>
+                                href="{{ route('contact-us') }}">Project Manager</a>
                         </div>
 
                     </div>
@@ -97,7 +97,7 @@
                         </div>
                         <div class="featured-view-more">
                             <a class="cmt-btn btn-inline cmt-btn-size-md cmt-btn-color-skincolor"
-                                href="{{ route('contact-us') }}">Contact Us</a>
+                                href="{{ route('contact-us') }}">Consultant Officer</a>
                         </div>
 
                     </div>

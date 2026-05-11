@@ -1,23 +1,41 @@
 <div class="header header-one">
+    @php
+        $websiteSetting = App\Models\WebsiteSetting::where('is_active', true)->first();
+        $socialSetting = App\Models\SocialSetting::where('is_active', true)->first();
+    @endphp
+    @php
+        $logo = optional($websiteSetting)->logo
+            ? asset('storage/' . $websiteSetting->logo)
+            : asset('website/images/main-logo.png');
+        $logoWhite = optional($websiteSetting)->logo_white
+            ? asset('storage/' . $websiteSetting->logo_white)
+            : asset('website/images/main-logo.png');
+    @endphp
+
     <a href="{{ route('dashboard') }}"
         class="d-inline-flex d-sm-inline-flex align-items-center d-md-inline-flex d-lg-none align-items-center device-logo">
-        <img src="https://drit-limited.vibrantick.org/website/images/main-logo.png" class="img-fluid logo2" alt="Logo"  style="max-height: 50px;"/>
+        <img src="{{ $logo }}" class="img-fluid logo2" alt="Logo"
+            style="max-height: 50px;" />
     </a>
     <div class="main-logo d-inline float-start d-lg-flex align-items-center d-none d-sm-none d-md-none">
         <div class="logo-white">
             <a href="{{ route('dashboard') }}">
-                <img src="https://drit-limited.vibrantick.org/website/images/main-logo.png" class="img-fluid logo-blue" alt="Logo" style="max-height: 50px;" />
+                <img src="{{ $logoWhite }}" class="img-fluid logo-blue"
+                    alt="Logo" style="max-height: 50px;" />
             </a>
             <a href="{{ route('dashboard') }}">
-                <img src="https://drit-limited.vibrantick.org/website/images/main-logo.png" class="img-fluid logo-small" alt="Logo" />
+                <img src="{{ $logo }}" class="img-fluid logo-small"
+                    alt="Logo" />
             </a>
         </div>
         <div class="logo-color">
             <a href="{{ route('dashboard') }}">
-                <img src="https://drit-limited.vibrantick.org/website/images/main-logo.png" class="img-fluid logo-blue" alt="Logo" style="max-height: 50px;" />
+                <img src="{{ $logoWhite }}" class="img-fluid logo-blue"
+                    alt="Logo" style="max-height: 50px;" />
             </a>
             <a href="{{ route('dashboard') }}">
-                <img src="https://drit-limited.vibrantick.org/website/images/main-logo.png" class="img-fluid logo-small" alt="Logo" />
+                <img src="{{ $logo }}" class="img-fluid logo-small"
+                    alt="Logo" />
             </a>
         </div>
     </div>
@@ -52,7 +70,7 @@
 
     <!-- Header Menu -->
     <ul class="nav nav-tabs user-menu">
-       
+
 
         <li class="nav-item has-arrow dropdown-heads">
             <a href="javascript:void(0);" class="toggle-switch">
@@ -92,7 +110,7 @@
                     </div>
                     <div class="subscription-logout">
                         <ul>
-                            
+
                             <li class="pb-0">
                                 <a class="dropdown-item" href="{{ route('logout') }}"
                                     onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
