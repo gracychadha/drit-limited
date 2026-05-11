@@ -1,6 +1,6 @@
 <section class="cmt-row services-section  bg-img2 cmt-bgimage-yes cmt-bg clearfix">
     <div class="container">
-        
+
         <!-- row -->
         <div class="row">
             <div class="col-lg-12">
@@ -50,7 +50,8 @@
                                     <h2 class="title">Let's help you with technology needs</h2>
                                 </div>
                                 <div class="title-desc">
-                                    <p>DevFox provides complete IT solutions to turn an organizational needs,
+                                    <p>Dr. ITM Private Limited provides complete IT solutions to turn an organizational
+                                        needs,
                                         process and technology changes into powerful business</p>
                                 </div>
                             </div><!-- section title end -->
@@ -86,7 +87,8 @@
                                             declare?</a></div>
                                     <div class="toggle-content">
                                         <p>We thoroughly monitor our developers and control how much time they spend on
-                                            each task down to the exact minute. We use Harvest software and Devfox to
+                                            each task down to the exact minute. We use Harvest software and Dr. ITM
+                                            Private Limited to
                                             track time spent on your project. we can quickly assign additional team</p>
                                     </div>
                                 </div><!-- toggle end -->
@@ -96,7 +98,8 @@
                                     </div>
                                     <div class="toggle-content">
                                         <p>We thoroughly monitor our developers and control how much time they spend on
-                                            each task down to the exact minute. We use Harvest software and Devfox to
+                                            each task down to the exact minute. We use Harvest software and Dr. ITM
+                                            Private Limited to
                                             track time spent on your project. we can quickly assign additional team</p>
                                     </div>
                                 </div><!-- toggle end -->
