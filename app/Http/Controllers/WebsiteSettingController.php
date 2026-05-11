@@ -33,7 +33,7 @@ class WebsiteSettingController extends Controller
     {
         $websiteSetting = WebsiteSetting::firstOrFail();
 
-       
+
         $request->validate([
             'brand_name' => 'required|string|max:200',
             'description' => 'required|string',
@@ -56,7 +56,7 @@ class WebsiteSettingController extends Controller
             'phone_2'
         ]);
 
-        $data['is_active'] = $request->has('is_active');
+        $data['is_active'] = 1;
 
         /* =========================
            LOGO UPLOAD (DARK LOGO)

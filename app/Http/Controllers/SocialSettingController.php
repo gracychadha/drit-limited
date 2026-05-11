@@ -41,7 +41,7 @@ class SocialSettingController extends Controller
             'linkedin_url'
         ]);
 
-        $data['is_active'] = $request->has('is_active');
+        $data['is_active'] = 1;
 
         $socialSetting->update($data);
 
