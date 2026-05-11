@@ -41,7 +41,7 @@
                             <div class="cmt-fid inside style6">
                                 <div class="cmt-fid-contents text-left">
                                     <h4 class="cmt-fid-inner">
-                                        <span data-appear-animation="animateDigits" data-from="0" data-to="12"
+                                        <span data-appear-animation="animateDigits" data-from="0" data-to="26"
                                             data-interval="5" data-before="" data-before-style="sup" data-after="+"
                                             data-after-style="sub">26</span>
                                     </h4>
