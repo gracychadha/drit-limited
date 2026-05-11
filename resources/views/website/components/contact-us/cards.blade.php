@@ -76,10 +76,8 @@
             </div>
             <div class="col-lg-12">
                 <div class="mt-20 text-center">
-                    <p><span class="fs-20 fw-600 text-base-dark"><img src="{{ asset('website/images/star-01.png') }}"
-                                width="88" height="15" alt="rating">&nbsp; 4.7/5.0 </span>Trusted by over <span
-                            class="text-base-skin fs-18"><strong><i>38k+</i></strong></span> Ambitious Brands Across the
-                        World</p>
+                    <p><span class="fs-20 fw-600 text-base-dark"> </span>A Trusted Growth Partner for  <span
+                            class="text-base-skin fs-18"><strong><i>38k+</i></strong></span>  Brands</p>
                 </div>
             </div>
         </div>

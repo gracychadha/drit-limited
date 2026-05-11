@@ -35,15 +35,15 @@
                                         </div>
                                     </div>
                                     <div class="featured-title">
-                                        <h3>Celebrate Careers</h3>
+                                        <h3>Career Celebrations</h3>
                                     </div>
                                     <div class="featured-hover-content">
                                         <div class="featured-title">
-                                            <h3><a href="#">Celebrate Careers</a></h3>
+                                            <h3><a href="#">Career Celebrations</a></h3>
                                         </div>
                                         <div class="featured-desc">
-                                            <p>Reinvent your service awards and celebrate employee’s career moments with
-                                                Yearbook™ and Numerals™.</p>
+                                            <p>We recognize employee achievements through rewards and appreciation.
+                                            </p>
                                         </div>
 
                                     </div>
@@ -60,15 +60,17 @@
                                         </div>
                                     </div>
                                     <div class="featured-title">
-                                        <h3>Performance Recognition</h3>
+                                        <h3>Excellence Recognition
+                                        </h3>
                                     </div>
                                     <div class="featured-hover-content">
                                         <div class="featured-title">
-                                            <h3><a href="">Performance Recognition</a></h3>
+                                            <h3><a href="">Excellence Recognition
+                                                </a></h3>
                                         </div>
                                         <div class="featured-desc">
-                                            <p>Make people feel the most valued person of the company with our
-                                                world-class recognition awards and programs</p>
+                                            <p>We acknowledge performance and celebrate employee success.
+                                            </p>
                                         </div>
 
                                     </div>
@@ -85,15 +87,17 @@
                                         </div>
                                     </div>
                                     <div class="featured-title">
-                                        <h3>Event Celebration</h3>
+                                        <h3>Corporate Event
+                                        </h3>
                                     </div>
                                     <div class="featured-hover-content">
                                         <div class="featured-title">
-                                            <h3><a href="">Event Celebration</a></h3>
+                                            <h3><a href="">Corporate Event
+                                                </a></h3>
                                         </div>
                                         <div class="featured-desc">
-                                            <p>Be it the long service award or best employee award. We bring solutions
-                                                to match your circumstance, budget, and desired impact.</p>
+                                            <p>We organize events that support engagement and team bonding.
+                                            </p>
                                         </div>
 
                                     </div>
@@ -110,15 +114,16 @@
                                         </div>
                                     </div>
                                     <div class="featured-title">
-                                        <h3>World Class Training</h3>
+                                        <h3>Development Training
+                                        </h3>
                                     </div>
                                     <div class="featured-hover-content">
                                         <div class="featured-title">
-                                            <h3><a href="">World Class Training</a></h3>
+                                            <h3><a href="">Development Training
+                                                </a></h3>
                                         </div>
                                         <div class="featured-desc">
-                                            <p>Get an optimal blend of leadership & recognition training solutions to
-                                                suit your talent management needs.
+                                            <p>We provide structured training to improve skills and performance.
 
                                             </p>
                                         </div>
@@ -137,14 +142,17 @@
                                         </div>
                                     </div>
                                     <div class="featured-title">
-                                        <h3>Social Appreciation</h3>
+                                        <h3>Appreciation Culture
+                                        </h3>
                                     </div>
                                     <div class="featured-hover-content">
                                         <div class="featured-title">
-                                            <h3><a href="">Social Appreciation</a></h3>
+                                            <h3><a href="">Appreciation Culture
+                                                </a></h3>
                                         </div>
                                         <div class="featured-desc">
-                                            <p>Appreciation is a priceless. Make it accessible to all with eCards.</p>
+                                            <p>We promote a culture where recognition is value-driven.
+                                            </p>
                                         </div>
 
                                     </div>
@@ -161,15 +169,17 @@
                                         </div>
                                     </div>
                                     <div class="featured-title">
-                                        <h3>Work Environment</h3>
+                                        <h3>Enhanced Experience
+                                        </h3>
                                     </div>
                                     <div class="featured-hover-content">
                                         <div class="featured-title">
-                                            <h3><a href="">Work Environment</a></h3>
+                                            <h3><a href="">Enhanced Experience
+                                                </a></h3>
                                         </div>
                                         <div class="featured-desc">
-                                            <p>Our organizations have been increasingly focusing on enhancing the
-                                                happiness and satisfaction level of employees at work.
+                                            <p>We create a workplace that boosts satisfaction and productivity.
+
                                             </p>
                                         </div>
 
