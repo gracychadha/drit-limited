@@ -18,19 +18,13 @@
                                 ?</h2>
                         </div>
                         <div class="title-desc">
-                            <p align="justify">Employee engagement is the foundation of our workplace excellence. It
-                                creates an
-                                environment where every team member is empowered to perform at their peak, deeply
-                                aligned with our corporate goals and core values. We believe in fostering a culture
-                                motivated by collective success and the personal well-being of our people.
-                                <br>
-                                Engagement isn't static; it is something we actively nurture. By prioritizing the growth
-                                and happiness of our employees, we drive organizational productivity, individual
-                                performance, and long-term business success.
-                                <br>
-                                Engagement isn't static; it is something we actively nurture. By prioritizing the growth
-                                and happiness of our employees, we drive organizational productivity, individual
-                                performance, and long-term business success.
+                            <p align="justify">Employee engagement is a key part of our workplace culture at Dr ITM. We
+                                create an environment where every team member is empowered to perform at their best
+                                while staying aligned with our values and organizational goals. We believe that a
+                                motivated and supported workforce drives better performance, higher productivity, and
+                                improved service delivery for our clients.
+
+
                             </p>
 
 
@@ -41,4 +35,7 @@
             </div>
         </div><!-- row end -->
     </div>
+</section>
+<section class="cmt-row about-section clearfix">
+    
 </section>

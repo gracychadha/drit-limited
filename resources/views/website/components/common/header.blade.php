@@ -108,7 +108,7 @@
                             <div class="header_extra d-flex flex-row align-items-center">
                                 <div class="header_btn"><a
                                         class="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-skincolor"
-                                        href="{{ route('contact-us') }}">Need A Help<i class="icon-right"></i></a></div>
+                                        href="{{ route('contact-us') }}">Need Help<i class="icon-right"></i></a></div>
 
                             </div><!-- header_extra end -->
                         </div><!-- site-navigation end-->

@@ -10,7 +10,8 @@
                 <div class="section-title">
                     <div class="title-header">
                         <h3>Our Clients</h3>
-                        <h2 class="title">Driving Growth for Leading Names Across Every Sector.
+                        <h2 class="title">Trusted by Businesses Across Industries for Reliable BPO Solutions.
+
                         </h2>
                     </div>
                 </div>
@@ -52,7 +53,8 @@
                         <!-- Content -->
                         <div class="featured-content">
                             <div class="category">
-                                <span><a class="text-white" href="{{ $partner->link ?? '' }}" target="_blank">Explore More</a></span>
+                                <span><a class="text-white" href="{{ $partner->link ?? '' }}" target="_blank">Explore
+                                        More</a></span>
                             </div>
 
                             <div class="featured-title">

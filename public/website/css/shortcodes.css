@@ -3412,7 +3412,7 @@ div:hover > .cmt-box-view-overlay:before, div:hover > .cmt-box-view-content-inne
 }
 .widget.widget-nav-menu ul li a{
     display: block;
-    padding: 11px 20px 9px 20px;
+    padding: 11px 24px 9px 20px;
     position: relative;
     color: var(--base-dark);
     z-index: 1;

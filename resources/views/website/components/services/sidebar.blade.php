@@ -18,6 +18,8 @@
                     <a>No Service Found Yet !!</a>
                 </li>
             @endforelse
+            <li><a href="https://dritimt.in/" target="_blank">Education </a></li>
+
 
         </ul>
     </aside>
@@ -30,7 +32,7 @@
                 <div class="icon-img mb-25">
                     <img src="{{ asset('website/images/icon-service.png') }}" alt="icon-service.png">
                 </div>
-                <h3>For Tommorow We Can Take Action Today!</h3>
+                <h3>For Tomorrow We Can Take Action Today!</h3>
                 <a class="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-white"
                     href="{{ route('contact-us') }}">Join With Us<i class="icon-right"></i></a>
             </div>

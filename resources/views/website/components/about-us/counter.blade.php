@@ -10,7 +10,7 @@
                     </div>
                     <div class="cmt-fid-contents">
                         <h4 class="cmt-fid-inner">
-                            <span data-appear-animation="animateDigits" data-from="20" data-to="1" data-interval="1"
+                            <span data-appear-animation="animateDigits" data-from="1" data-to="26" data-interval="1"
                                 data-before="" data-before-style="sup" data-after="+" data-after-style="sub"
                                 class="numinate">0
                             </span>
@@ -19,7 +19,9 @@
                         <h3 class="cmt-fid-title">Years of Experience</h3>
                     </div>
                     <div class="cmt-fid-desc">
-                        <p>Delivering time-tested digital solutions and expert partnership since 1999.
+                        <p>Delivering reliable BPO and IT-enabled services with proven expertise and long-term client
+                            partnerships.
+
                         </p>
                     </div>
                 </div><!-- cmt-fid end -->

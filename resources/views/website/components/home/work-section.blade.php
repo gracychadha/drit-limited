@@ -30,10 +30,12 @@
                     </div>
                     <div class="featured-content">
                         <div class="featured-title">
-                            <h3>Understand Your Needs</h3>
+                            <h3>Discover</h3>
                         </div>
                         <div class="featured-desc">
-                            <p>We evaluate your business needs, and objectives to map out a strategic path forward.</p>
+                            <p>We evaluate your business needs and operational challenges to develop the right
+                                outsourcing strategy.
+                            </p>
                         </div>
                         <a class="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-skincolor"
                             href="{{ route('contact-us') }}">view more<i class="icon-right"></i></a>
@@ -52,10 +54,12 @@
                     </div>
                     <div class="featured-content">
                         <div class="featured-title">
-                            <h3>Customize the Solution</h3>
+                            <h3>Design</h3>
                         </div>
                         <div class="featured-desc">
-                            <p>Our team designs tailored IT, BPO, and support solutions aligned with your unique needs.
+                            <p>We create customized BPO and support solutions tailored to your business goals and
+                                customer expectations.
+
                             </p>
                         </div>
                         <a class="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-skincolor"
@@ -75,10 +79,12 @@
                     </div>
                     <div class="featured-content">
                         <div class="featured-title">
-                            <h3>Implement & Execute</h3>
+                            <h3>Deploy</h3>
                         </div>
                         <div class="featured-desc">
-                            <p>We deploy solutions using advanced technology and experts to ensure seamless operations.
+                            <p>We implement efficient workflows with skilled professionals to ensure seamless service
+                                delivery.
+
                             </p>
                         </div>
                         <a class="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-skincolor"
@@ -98,10 +104,12 @@
                     </div>
                     <div class="featured-content">
                         <div class="featured-title">
-                            <h3>Monitor & Optimize</h3>
+                            <h3>Optimize </h3>
                         </div>
                         <div class="featured-desc">
-                            <p>We consistently monitor and optimize performance to enhance the customer experience.
+                            <p>We continuously monitor and improve performance to enhance efficiency and customer
+                                satisfaction.
+
                             </p>
                         </div>
                         <a class="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-skincolor"
