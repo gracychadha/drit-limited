@@ -13,8 +13,7 @@
                     data-padding="t:6,6,6,5;r:20,20,19,12;b:6,6,6,5;l:20,20,19,12;" data-border="bor:0px,0px,0px,0px;"
                     data-frame_0="y:-100%;" data-frame_0_mask="u:t;" data-frame_1="st:190;sp:1200;sR:190;"
                     data-frame_1_mask="u:t;" data-frame_999="o:0;st:w;sR:7610;"
-                    style="z-index:9;background-color:#b30000;font-family:'Lato', sans-serif;">Information Technology
-                    Business
+                    style="z-index:9;background-color:#b30000;font-family:'Lato', sans-serif;">Customer-Centric Approach
                 </rs-layer>
 
 
@@ -22,24 +21,26 @@
                     data-xy="x:r,r,c,c;xo:34px,34px,0,0;yo:200px,202px,122px,85px;"
                     data-text="w:normal;s:72,72,60,50;l:92,92,80,70;fw:400;" data-frame_0="y:-100%;"
                     data-frame_0_mask="u:t;" data-frame_1="st:310;sp:1200;sR:310;" data-frame_1_mask="u:t;"
-                    data-frame_999="o:0;st:w;sR:7490;" style="z-index:10;font-family: 'Lato', sans-serif;">Challenges
-                    with
+                    data-frame_999="o:0;st:w;sR:7490;" style="z-index:10;font-family: 'Lato', sans-serif;">Focused on
+                    What
+
                 </rs-layer>
 
                 <rs-layer id="slider-1-slide-1-layer-2" data-type="text" data-color="#05255f" data-rsp_ch="on"
                     data-xy="x:r,r,c,c;xo:34px,34px,0,1px;yo:294px,298px,198px,141px;"
                     data-text="w:normal;s:72,72,60,50;l:92,92,80,70;fw:700;" data-frame_0="y:-100%;"
                     data-frame_0_mask="u:t;" data-frame_1="st:440;sp:1200;sR:440;" data-frame_1_mask="u:t;"
-                    data-frame_999="o:0;st:w;sR:7360;" style="z-index:11; font-family: 'Lato', sans-serif;">Innovative
-                    <span class="text-base-skin">Ideas</span>
+                    data-frame_999="o:0;st:w;sR:7360;" style="z-index:11; font-family: 'Lato', sans-serif;">Matters
+                    <span class="text-base-skin">Most</span>
                 </rs-layer>
 
                 <rs-layer id="slider-1-slide-1-layer-3" data-type="text" data-color="#676b72" data-rsp_ch="on"
                     data-xy="x:r,r,c,c;xo:34px,34px,0,666px;yo:399px,389px,256px,233px;"
                     data-text="w:normal;s:18,18,18,15;l:26,26,26,25;" data-vbility="t,t,f,f" data-frame_0="y:-100%;"
                     data-frame_0_mask="u:t;" data-frame_1="st:680;sp:1200;sR:680;" data-frame_1_mask="u:t;"
-                    data-frame_999="o:0;st:w;sR:7120;" style="z-index:12;font-family: 'Lato', sans-serif;">Lorem ipsum
-                    dolor sit amet, consectetur adipiscing elit, sed
+                    data-frame_999="o:0;st:w;sR:7120;" style="z-index:12;font-family: 'Lato', sans-serif;">We put
+                    clients first—delivering tailored
+                    solutions <br> that build trust and long-term value.
                 </rs-layer>
             </rs-slide>
             <rs-slide data-key="rs-4" data-title="Slide" data-thumb="images/slides/slider-mainbg-004.jpg"
@@ -53,31 +54,31 @@
                     data-xy="x:l,l,c,c;xo:35px,35px,0,0;yo:145px,145px,75px,49px;"
                     data-text="w:normal;s:16,16,16,16;l:26,26,26,26;fw:700;" data-frame_0="y:-100%;"
                     data-frame_0_mask="u:t;" data-frame_1="st:190;sp:1200;sR:190;" data-frame_1_mask="u:t;"
-                    data-frame_999="o:0;st:w;sR:7610;" style="z-index:9;font-family: 'Lato', sans-serif;">Welcome To
-                    Devfox
+                    data-frame_999="o:0;st:w;sR:7610;" style="z-index:9;font-family: 'Lato', sans-serif;">Value-Driven Excellence
                 </rs-layer>
 
                 <rs-layer id="slider-1-slide-4-layer-1" data-type="text" data-color="#05255f" data-rsp_ch="on"
                     data-xy="x:l,l,c,c;xo:35px,35px,0,0;yo:175px,175px,111px,71px;"
                     data-text="w:normal;s:72,72,60,50;l:92,92,80,70;fw:400;" data-frame_0="y:-100%;"
                     data-frame_0_mask="u:t;" data-frame_1="st:310;sp:1200;sR:310;" data-frame_1_mask="u:t;"
-                    data-frame_999="o:0;st:w;sR:7490;" style="z-index:10;font-family:'Lato', sans-serif;">IT Managed
+                    data-frame_999="o:0;st:w;sR:7490;" style="z-index:10;font-family:'Lato', sans-serif;">Delivering
+                        Quality
                 </rs-layer>
 
                 <rs-layer id="slider-1-slide-4-layer-2" data-type="text" data-color="#05255f" data-rsp_ch="on"
                     data-xy="x:l,l,c,c;xo:35px,35px,0,1px;yo:269px,269px,185px,127px;"
                     data-text="w:normal;s:72,72,60,50;l:92,92,80,70;fw:700;" data-frame_0="y:-100%;"
                     data-frame_0_mask="u:t;" data-frame_1="st:440;sp:1200;sR:440;" data-frame_1_mask="u:t;"
-                    data-frame_999="o:0;st:w;sR:7360;" style="z-index:11;font-family:'Lato', sans-serif;">Solution <span
-                        class="text-base-skin">Partners</span>
+                    data-frame_999="o:0;st:w;sR:7360;" style="z-index:11;font-family:'Lato', sans-serif;">You Can <span
+                        class="text-base-skin">Trust</span>
                 </rs-layer>
 
                 <rs-layer id="slider-1-slide-4-layer-3" data-type="text" data-color="#676b72" data-rsp_ch="on"
                     data-xy="x:l,l,c,c;xo:35px,35px,0,666px;yo:375px,375px,255px,233px;"
                     data-text="w:normal;s:18,18,18,15;l:26,26,26,25;" data-vbility="t,t,f,f" data-frame_0="y:-100%;"
                     data-frame_0_mask="u:t;" data-frame_1="st:680;sp:1200;sR:680;" data-frame_1_mask="u:t;"
-                    data-frame_999="o:0;st:w;sR:7120;" style="z-index:12;font-family:'Lato', sans-serif;">We’ve One
-                    Mission to be the Best IT Software Company in UK
+                    data-frame_999="o:0;st:w;sR:7120;" style="z-index:12;font-family:'Lato', sans-serif;">We provide value-based, high-quality services
+                        that meet professional<br> standards while ensuring exceptional results for every client.
                 </rs-layer></rs-slide>
         </rs-slides>
     </rs-module>

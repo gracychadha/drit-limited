@@ -18,13 +18,16 @@
                     <div class="section-title">
                         <div class="title-header">
                             <h3>About Our Company</h3>
-                            <h2 class="title">We have a smart solution for each IT challenge</h2>
+                            <h2 class="title">Where Customer Experience Meets Operational Excellence</h2>
                         </div>
                         <div class="title-desc">
-                            <p align="justify">Dr IT Group is a distinguished leader in Business Process Outsourcing (BPO), Educational
-                                Services, Skill Development, Financial Services, Real Estate and Coworking Spaces. With
-                                over 26+ years of excellence and 7000+ employees, the organization has established a
-                                strong PAN India presence delivering world-class business solutions.</p>
+                            <p align="justify">At Dr ITM, we offer highly professional services that are focused on
+                                value and quality, always following the top standards of professionalism. We are
+                                dedicated to providing our global clients with exceptional results while fostering a
+                                world-class environment where our employees can thrive. With complete hard work and
+                                innovations from our workforce, we are committed to achieving tremendous success for
+                                every partner we serve. Our mission is to provide cost-effective, scalable services that
+                                enhance customer experiences and drive superior business outcomes.</p>
                         </div>
                     </div><!-- section title end -->
                     <div class="row pt-15 res-991-pt-0">
