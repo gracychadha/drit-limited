@@ -6,7 +6,7 @@
                 <div class="section-title title-style-center_text">
                     <div class="title-header">
                         <h3>Meet Our Team</h3>
-                        <h2 class="title">Excellent Team Of Experts IT</h2>
+                        <h2 class="title">Excellent Team Of Experts BPO</h2>
                     </div>
                    
                 </div><!-- section title end -->

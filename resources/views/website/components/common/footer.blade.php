@@ -23,7 +23,9 @@
 
                         </div>
                         <div class="textwidget widget-text">
-                            <p align="justify">{{ $websiteSetting->description ?? 'At Dr ITM, we bridge the gap between complex technology and seamless business operations. Our commitment to Value-Driven Excellence ensures scalable, cost-effective solutions that drive superior outcomes for our global partners. ' }}</p>
+                            <p align="justify">
+                                {{ $websiteSetting->description ?? 'At Dr ITM, we bridge the gap between complex technology and seamless business operations. Our commitment to Value-Driven Excellence ensures scalable, cost-effective solutions that drive superior outcomes for our global partners. ' }}
+                            </p>
                         </div>
                         <div class="widget_social_wrapper social-icons pt-40">
                             <h3 class="fs-18 mb-25">Social Info</h3>
@@ -72,8 +74,8 @@
                         <!-- <h4>{{ $websiteSetting->phone1 ?? '+0022 6544 9977' }}</h4> -->
                         <ul class="widget_contact_wrapper">
                             <li><i class="flaticon-envelope"></i><a
-                                    href="mailto:{{ $websiteSetting->email ?? 'info@drit.in' }}"
-                                    target="_blank">{{ $websiteSetting->email ?? 'info@drit.in' }}</a>24 x 7
+                                    href="mailto:{{ $websiteSetting->email ?? 'info@drit.in' }}" target="_blank">{{
+                                    $websiteSetting->email ?? 'info@drit.in' }}</a>24 x 7
                                 Online Support
                             </li>
                             <li><i class="flaticon-pin"></i>{{ $websiteSetting->location ?? 'Mohali' }}</li>
@@ -157,3 +159,15 @@
         </div>
     </div>
 </footer>
+<!-- Floating Call Button -->
+<div class="floating-call-btn">
+
+    <span></span>
+    <span></span>
+    <span></span>
+
+    <a href="tel:+911234567890">
+        <i class="flaticon-phone-call"></i>
+    </a>
+
+</div>

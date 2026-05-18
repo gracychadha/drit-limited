@@ -4,7 +4,7 @@
         ->orderBy('id', 'desc')
         ->get();
 @endphp
-<section class="cmt-row bg-base-grey clearfix">
+<section class="cmt-row bg-base-dark clearfix">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -12,7 +12,7 @@
                 <div class="section-title title-style-center_text res-991-mb_20">
                     <div class="title-header">
                         <h3>Our Services</h3>
-                        <h2 class="title">The specialize IT services</h2>
+                        <h2 class="title">The specialize BPO services</h2>
                     </div>
 
                 </div><!-- section title end -->
@@ -26,7 +26,7 @@
         <div class="row mt_140 res-991-mt-40 mb_15 res-991-mb-0">
             @forelse($ServiceHome as $service)
 
-                <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
                     <!-- featured-imagebox -->
 
                     <div class="featured-imagebox featured-imagebox-procedure">
