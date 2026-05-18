@@ -25,23 +25,23 @@
                     <div class="featured-content">
                         <div class="team-position">IT Service Officer</div>
                         <div class="featured-title">
-                            <h3><a href="team-details.html">Garreth Mills</a></h3>
+                            <h3><a href="#">Garreth Mills</a></h3>
                         </div>
                         <div class="featured-view-more">
                             <a class="cmt-btn btn-inline cmt-btn-size-md cmt-btn-color-skincolor"
-                                href="team-details.html">more details</a>
+                                href="#">IT Service Officer</a>
                         </div>
                         <div class="featured-iconbox cmt-media-link">
                             <div class="media-block">
                                 <div class="media-btn"><i class="icon-plus"></i></div>
                                 <ul class="social-icons list-inline">
-                                    <li class="social-facebook"><a href="https://www.facebook.com/cymolthemes.191219"><i
+                                    <li class="social-facebook"><a href="#"><i
                                                 class="ti ti-facebook"></i></a></li>
-                                    <li class="social-twitter"><a href="https://twitter.com/CymolThemes"><i
+                                    <li class="social-twitter"><a href="#"><i
                                                 class="ti ti-twitter-alt"></i></a></li>
-                                    <li class="social-pinterest"><a href="https://in.pinterest.com/cymolthemes/"><i
+                                    <li class="social-pinterest"><a href="#"><i
                                                 class="ti ti-pinterest"></i></a></li>
-                                    <li class="social-instagram"><a href="https://www.instagram.com/cymol_themes/"><i
+                                    <li class="social-instagram"><a href="#"><i
                                                 class="ti ti-instagram"></i></a></li>
                                 </ul>
                             </div>
@@ -59,23 +59,23 @@
                     <div class="featured-content">
                         <div class="team-position">Web Designer</div>
                         <div class="featured-title">
-                            <h3><a href="team-details.html">Ivan Hindshaw</a></h3>
+                            <h3><a href="#">Ivan Hindshaw</a></h3>
                         </div>
                         <div class="featured-view-more">
                             <a class="cmt-btn btn-inline cmt-btn-size-md cmt-btn-color-skincolor"
-                                href="team-details.html">more details</a>
+                                href="#">Web Designer</a>
                         </div>
                         <div class="featured-iconbox cmt-media-link">
                             <div class="media-block">
                                 <div class="media-btn"><i class="icon-plus"></i></div>
                                 <ul class="social-icons list-inline">
-                                    <li class="social-facebook"><a href="https://www.facebook.com/cymolthemes.191219"><i
+                                    <li class="social-facebook"><a href="#"><i
                                                 class="ti ti-facebook"></i></a></li>
-                                    <li class="social-twitter"><a href="https://twitter.com/CymolThemes"><i
+                                    <li class="social-twitter"><a href="#"><i
                                                 class="ti ti-twitter-alt"></i></a></li>
-                                    <li class="social-pinterest"><a href="https://in.pinterest.com/cymolthemes/"><i
+                                    <li class="social-pinterest"><a href="#"><i
                                                 class="ti ti-pinterest"></i></a></li>
-                                    <li class="social-instagram"><a href="https://www.instagram.com/cymol_themes/"><i
+                                    <li class="social-instagram"><a href="#"><i
                                                 class="ti ti-instagram"></i></a></li>
                                 </ul>
                             </div>
@@ -93,23 +93,23 @@
                     <div class="featured-content">
                         <div class="team-position">Project Manager</div>
                         <div class="featured-title">
-                            <h3><a href="team-details.html">Natalia Zox</a></h3>
+                            <h3><a href="#">Natalia Zox</a></h3>
                         </div>
                         <div class="featured-view-more">
                             <a class="cmt-btn btn-inline cmt-btn-size-md cmt-btn-color-skincolor"
-                                href="team-details.html">more details</a>
+                                href="#">Project Manager</a>
                         </div>
                         <div class="featured-iconbox cmt-media-link">
                             <div class="media-block">
                                 <div class="media-btn"><i class="icon-plus"></i></div>
                                 <ul class="social-icons list-inline">
-                                    <li class="social-facebook"><a href="https://www.facebook.com/cymolthemes.191219"><i
+                                    <li class="social-facebook"><a href="#"><i
                                                 class="ti ti-facebook"></i></a></li>
-                                    <li class="social-twitter"><a href="https://twitter.com/CymolThemes"><i
+                                    <li class="social-twitter"><a href="#"><i
                                                 class="ti ti-twitter-alt"></i></a></li>
-                                    <li class="social-pinterest"><a href="https://in.pinterest.com/cymolthemes/"><i
+                                    <li class="social-pinterest"><a href="#"><i
                                                 class="ti ti-pinterest"></i></a></li>
-                                    <li class="social-instagram"><a href="https://www.instagram.com/cymol_themes/"><i
+                                    <li class="social-instagram"><a href="#"><i
                                                 class="ti ti-instagram"></i></a></li>
                                 </ul>
                             </div>
@@ -127,23 +127,23 @@
                     <div class="featured-content">
                         <div class="team-position">Consultant Officer</div>
                         <div class="featured-title">
-                            <h3><a href="team-details.html">Maria Gordian</a></h3>
+                            <h3><a href="#">Maria Gordian</a></h3>
                         </div>
                         <div class="featured-view-more">
                             <a class="cmt-btn btn-inline cmt-btn-size-md cmt-btn-color-skincolor"
-                                href="team-details.html">more details</a>
+                                href="#">Consultant Officer</a>
                         </div>
                         <div class="featured-iconbox cmt-media-link">
                             <div class="media-block">
                                 <div class="media-btn"><i class="icon-plus"></i></div>
                                 <ul class="social-icons list-inline">
-                                    <li class="social-facebook"><a href="https://www.facebook.com/cymolthemes.191219"><i
+                                    <li class="social-facebook"><a href="#"><i
                                                 class="ti ti-facebook"></i></a></li>
-                                    <li class="social-twitter"><a href="https://twitter.com/CymolThemes"><i
+                                    <li class="social-twitter"><a href="#"><i
                                                 class="ti ti-twitter-alt"></i></a></li>
-                                    <li class="social-pinterest"><a href="https://in.pinterest.com/cymolthemes/"><i
+                                    <li class="social-pinterest"><a href="#"><i
                                                 class="ti ti-pinterest"></i></a></li>
-                                    <li class="social-instagram"><a href="https://www.instagram.com/cymol_themes/"><i
+                                    <li class="social-instagram"><a href="#"><i
                                                 class="ti ti-instagram"></i></a></li>
                                 </ul>
                             </div>
