@@ -33,7 +33,7 @@
                         <span class="number"></span>
                         <div class="featured-thumbnail">
                             <img class="img-fluid auto_size" width="185" height="185"
-                                src="{{ asset('website/images/process-01.jpg') }}" alt="image">
+                                src="{{ $service->image ? asset('storage/' . $service->image) : asset('website/images/process-01.jpg') }}" alt="image">
                         </div>
                         <div class="featured-content">
                             <div class="featured-title">

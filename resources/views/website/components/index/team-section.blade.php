@@ -5,10 +5,10 @@
                 <!-- section title -->
                 <div class="section-title title-style-center_text">
                     <div class="title-header">
-                        <h3>Meet Our Team</h3>
-                        <h2 class="title">Excellent Team Of Experts BPO</h2>
+                        <h3>Meet Our Management Team</h3>
+                        <h2 class="title">Excellent Management Team Of Experts BPO</h2>
                     </div>
-                   
+
                 </div><!-- section title end -->
             </div>
         </div>
@@ -19,30 +19,26 @@
                 <!-- featured-imagebox-team -->
                 <div class="featured-imagebox featured-imagebox-team style1">
                     <div class="featured-thumbnail">
-                        <img width="370" height="346" class="img-fluid" src="{{ asset('website/images/team-member/team-img01.jpg') }}"
-                            alt="image">
+                        <img width="370" height="346" class="img-fluid"
+                            src="{{ asset('website/images/male.png') }}" alt="image">
                     </div>
                     <div class="featured-content">
-                        <div class="team-position">IT Service Officer</div>
+                        <div class="team-position">Founder & Chairman</div>
                         <div class="featured-title">
-                            <h3><a href="#">Garreth Mills</a></h3>
+                            <h3><a href="#">CA (Dr) M K Mahajan</a></h3>
                         </div>
                         <div class="featured-view-more">
-                            <a class="cmt-btn btn-inline cmt-btn-size-md cmt-btn-color-skincolor"
-                                href="#">IT Service Officer</a>
+                            <a class="cmt-btn btn-inline cmt-btn-size-md cmt-btn-color-skincolor" href="#">Founder &
+                                Chairman</a>
                         </div>
                         <div class="featured-iconbox cmt-media-link">
                             <div class="media-block">
                                 <div class="media-btn"><i class="icon-plus"></i></div>
                                 <ul class="social-icons list-inline">
-                                    <li class="social-facebook"><a href="#"><i
-                                                class="ti ti-facebook"></i></a></li>
-                                    <li class="social-twitter"><a href="#"><i
-                                                class="ti ti-twitter-alt"></i></a></li>
-                                    <li class="social-pinterest"><a href="#"><i
-                                                class="ti ti-pinterest"></i></a></li>
-                                    <li class="social-instagram"><a href="#"><i
-                                                class="ti ti-instagram"></i></a></li>
+                                    <li class="social-facebook"><a href="#"><i class="ti ti-facebook"></i></a></li>
+                                    <li class="social-twitter"><a href="#"><i class="ti ti-twitter-alt"></i></a></li>
+                                    <li class="social-pinterest"><a href="#"><i class="ti ti-pinterest"></i></a></li>
+                                    <li class="social-instagram"><a href="#"><i class="ti ti-instagram"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -53,30 +49,26 @@
                 <!-- featured-imagebox-team -->
                 <div class="featured-imagebox featured-imagebox-team style1">
                     <div class="featured-thumbnail">
-                        <img width="370" height="346" class="img-fluid" src="{{ asset('website/images/team-member/team-img02.jpg') }}"
-                            alt="image">
+                        <img width="370" height="346" class="img-fluid"
+                            src="{{ asset('website/images/male.png') }}" alt="image">
                     </div>
                     <div class="featured-content">
-                        <div class="team-position">Web Designer</div>
+                        <div class="team-position">Managing Director</div>
                         <div class="featured-title">
-                            <h3><a href="#">Ivan Hindshaw</a></h3>
+                            <h3><a href="#">Sameer Mahajan</a></h3>
                         </div>
                         <div class="featured-view-more">
-                            <a class="cmt-btn btn-inline cmt-btn-size-md cmt-btn-color-skincolor"
-                                href="#">Web Designer</a>
+                            <a class="cmt-btn btn-inline cmt-btn-size-md cmt-btn-color-skincolor" href="#">Managing
+                                Director</a>
                         </div>
                         <div class="featured-iconbox cmt-media-link">
                             <div class="media-block">
                                 <div class="media-btn"><i class="icon-plus"></i></div>
                                 <ul class="social-icons list-inline">
-                                    <li class="social-facebook"><a href="#"><i
-                                                class="ti ti-facebook"></i></a></li>
-                                    <li class="social-twitter"><a href="#"><i
-                                                class="ti ti-twitter-alt"></i></a></li>
-                                    <li class="social-pinterest"><a href="#"><i
-                                                class="ti ti-pinterest"></i></a></li>
-                                    <li class="social-instagram"><a href="#"><i
-                                                class="ti ti-instagram"></i></a></li>
+                                    <li class="social-facebook"><a href="#"><i class="ti ti-facebook"></i></a></li>
+                                    <li class="social-twitter"><a href="#"><i class="ti ti-twitter-alt"></i></a></li>
+                                    <li class="social-pinterest"><a href="#"><i class="ti ti-pinterest"></i></a></li>
+                                    <li class="social-instagram"><a href="#"><i class="ti ti-instagram"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -87,30 +79,28 @@
                 <!-- featured-imagebox-team -->
                 <div class="featured-imagebox featured-imagebox-team style1">
                     <div class="featured-thumbnail">
-                        <img width="370" height="346" class="img-fluid" src="{{ asset('website/images/team-member/team-img03.jpg') }}"
-                            alt="image">
+                        <img width="370" height="346" class="img-fluid"
+                            src="{{ asset('website/images/male.png') }}" alt="image">
                     </div>
                     <div class="featured-content">
-                        <div class="team-position">Project Manager</div>
+                        <div class="team-position">Sr. Vice President
+                        </div>
                         <div class="featured-title">
-                            <h3><a href="#">Natalia Zox</a></h3>
+                            <h3><a href="#">Naresh Dhuria</a></h3>
                         </div>
                         <div class="featured-view-more">
-                            <a class="cmt-btn btn-inline cmt-btn-size-md cmt-btn-color-skincolor"
-                                href="#">Project Manager</a>
+                            <a class="cmt-btn btn-inline cmt-btn-size-md cmt-btn-color-skincolor" href="#">Sr. Vice
+                                President
+                            </a>
                         </div>
                         <div class="featured-iconbox cmt-media-link">
                             <div class="media-block">
                                 <div class="media-btn"><i class="icon-plus"></i></div>
                                 <ul class="social-icons list-inline">
-                                    <li class="social-facebook"><a href="#"><i
-                                                class="ti ti-facebook"></i></a></li>
-                                    <li class="social-twitter"><a href="#"><i
-                                                class="ti ti-twitter-alt"></i></a></li>
-                                    <li class="social-pinterest"><a href="#"><i
-                                                class="ti ti-pinterest"></i></a></li>
-                                    <li class="social-instagram"><a href="#"><i
-                                                class="ti ti-instagram"></i></a></li>
+                                    <li class="social-facebook"><a href="#"><i class="ti ti-facebook"></i></a></li>
+                                    <li class="social-twitter"><a href="#"><i class="ti ti-twitter-alt"></i></a></li>
+                                    <li class="social-pinterest"><a href="#"><i class="ti ti-pinterest"></i></a></li>
+                                    <li class="social-instagram"><a href="#"><i class="ti ti-instagram"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -121,30 +111,28 @@
                 <!-- featured-imagebox-team -->
                 <div class="featured-imagebox featured-imagebox-team style1">
                     <div class="featured-thumbnail">
-                        <img width="370" height="346" class="img-fluid" src="{{ asset('website/images/team-member/team-img04.jpg') }}"
-                            alt="image">
+                        <img width="370" height="346" class="img-fluid"
+                            src="{{ asset('website/images/male.png') }}" alt="image">
                     </div>
                     <div class="featured-content">
-                        <div class="team-position">Consultant Officer</div>
+                        <div class="team-position">Sr. Vice President
+                        </div>
                         <div class="featured-title">
-                            <h3><a href="#">Maria Gordian</a></h3>
+                            <h3><a href="#">Deepak Verma
+                                </a></h3>
                         </div>
                         <div class="featured-view-more">
-                            <a class="cmt-btn btn-inline cmt-btn-size-md cmt-btn-color-skincolor"
-                                href="#">Consultant Officer</a>
+                            <a class="cmt-btn btn-inline cmt-btn-size-md cmt-btn-color-skincolor" href="#">Sr. Vice
+                                President</a>
                         </div>
                         <div class="featured-iconbox cmt-media-link">
                             <div class="media-block">
                                 <div class="media-btn"><i class="icon-plus"></i></div>
                                 <ul class="social-icons list-inline">
-                                    <li class="social-facebook"><a href="#"><i
-                                                class="ti ti-facebook"></i></a></li>
-                                    <li class="social-twitter"><a href="#"><i
-                                                class="ti ti-twitter-alt"></i></a></li>
-                                    <li class="social-pinterest"><a href="#"><i
-                                                class="ti ti-pinterest"></i></a></li>
-                                    <li class="social-instagram"><a href="#"><i
-                                                class="ti ti-instagram"></i></a></li>
+                                    <li class="social-facebook"><a href="#"><i class="ti ti-facebook"></i></a></li>
+                                    <li class="social-twitter"><a href="#"><i class="ti ti-twitter-alt"></i></a></li>
+                                    <li class="social-pinterest"><a href="#"><i class="ti ti-pinterest"></i></a></li>
+                                    <li class="social-instagram"><a href="#"><i class="ti ti-instagram"></i></a></li>
                                 </ul>
                             </div>
                         </div>
