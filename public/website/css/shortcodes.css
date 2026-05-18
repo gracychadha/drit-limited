@@ -47,7 +47,7 @@
     1.cmt-row
 ------------------------*/
 .cmt-row {
-    padding: 80px 0;
+    padding: 60px 0;
 }
 .cmt-row.padding_bottom_zero-section {
     padding: 80px 0 0;
@@ -356,6 +356,15 @@
     border-top: 1px solid #e6e9ef;
     display: block;
     position: relative;
+}
+@media(max-width: 991px){
+    .cmt-horizontal_sep {
+        display: none;
+    }
+    .about-counter{
+        margin-bottom: 10px;
+    }
+    
 }
 .bg-base-dark .cmt-horizontal_sep {
     border-top-color: rgba(255, 255, 255, 0.08);
@@ -2501,6 +2510,7 @@ div:hover > .cmt-box-view-content-inner:before {
 .featured-imagebox-procedure {
     padding: 30px 30px 0;
     border-radius: 5px;
+    height: 100%;
     text-align: center;
     background-color: #fff;
     -webkit-box-shadow: 0px 0px 7px 0px rgb(43 52 59 / 8%);

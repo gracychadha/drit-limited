@@ -249,14 +249,16 @@ ul {
 /** Typography Variable **/
 :root {
     --base-bodyfont: "Lato", sans-serif;
+    --base-light-theme:#fbd8d8;
     --base-bodyfont-Size: 15px;
     --base-bodyfont-color: #676b72;
-    --base-skin: #ff382f;
+    --base-skin: #b30000;
     --base-dark: #05255f;
     --base-grey: #f5f5f5;
     --base-white: #ffffff;
     --base-headingfont: "Lato", sans-serif;
-    --base-headingfont-color: #05255f;
+    --base-headingfont-color: #232323;
+    /* --base-headingfont-color: #05255f; */
 }
 
 /** Typo Colors **/
@@ -3754,4 +3756,313 @@ section.error-404 .page-content p {
     width: 100% !important;
     height: auto !important;
     display: block !important;
+}
+/* for slider */
+#rev_slider_2_1_wrapper,
+#rev_slider_2_1 {
+    height: 500px !important; /* adjust as needed */
+}
+
+#rev_slider_2_1_wrapper rs-module,
+#rev_slider_2_1_wrapper rs-slides,
+#rev_slider_2_1_wrapper rs-slide {
+    height: 500px !important;
+}
+
+#rev_slider_2_1_wrapper .rev-slidebg {
+    height: 100% !important;
+    object-fit: cover;
+}
+.about-counter {
+    border: 1px solid #fbd8d8;
+    padding: 10px 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 6px #fbd8d8;
+    transition: all 0.3s ease;
+    background: var(--base-headingfont-color);
+}
+.about-counter h4 {
+   color: #ff4d4d;
+}
+.about-counter p {
+    color: #fff;
+}
+/*==============================
+    Partners Section
+==============================*/
+.vt-partners-section{
+    padding: 60px 0;
+    background: #f8fafc;
+}
+
+.vt-partners-heading{
+    margin-bottom: 50px;
+}
+
+.vt-partners-subtitle{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #0d6efd;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.vt-partners-title{
+    font-size: 38px;
+    font-weight: 700;
+    color: #111827;
+    margin: 0;
+}
+
+/*==============================
+    Partner Card
+==============================*/
+.vt-partner-card{
+    background: #ffffff;
+    border-radius: 18px;
+    min-height: 140px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.4s ease;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.06);
+    border: 1px solid rgba(0,0,0,0.04);
+}
+
+.vt-partner-card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 18px 40px rgba(0,0,0,0.12);
+}
+
+.vt-partner-card img{
+    max-width: 100%;
+    max-height: 70px;
+    object-fit: contain;
+    transition: all 0.4s ease;
+    filter: grayscale(100%);
+}
+
+.vt-partner-card:hover img{
+    transform: scale(1.05);
+    filter: grayscale(0%);
+}
+
+.vt-partner-text{
+    font-size: 18px;
+    font-weight: 600;
+    color: #111827;
+    text-align: center;
+    line-height: 1.5;
+    padding: 10px;
+}
+
+/*==============================
+    Responsive
+==============================*/
+@media(max-width: 991px){
+    .vt-partners-section .partner-head-container{
+        margin-bottom: 40px;
+    }
+    .vt-partners-section{
+        padding: 60px 0;
+    }
+
+    .vt-partners-title{
+        font-size: 30px;
+    }
+
+    .vt-partner-card{
+        min-height: 120px;
+        padding: 20px;
+    }
+}
+
+@media(max-width: 575px){
+    .vt-partners-title{
+        font-size: 26px;
+    }
+
+    .vt-partner-card{
+        min-height: 100px;
+        border-radius: 14px;
+    }
+
+    .vt-partner-card img{
+        max-height: 55px;
+    }
+
+    .vt-partner-text{
+        font-size: 15px;
+    }
+}
+.partner-card-grid{
+    justify-content: center;
+    align-items: center;
+}
+/*=================================
+    CTA Section
+=================================*/
+.vt-cta-section{
+    padding: 60px 0;
+    background: #f8fafc;
+}
+
+.vt-cta-wrapper{
+    position: relative;
+    overflow: hidden;
+    border-radius: 24px;
+    padding: 60px 50px;
+    background: var(--base-skin);
+    box-shadow: 0 20px 50px var(--base-light-theme);
+    z-index: 1;
+}
+
+/* Decorative Shapes */
+.vt-cta-wrapper::before{
+    content: "";
+    position: absolute;
+    width: 260px;
+    height: 260px;
+    background: rgba(255,255,255,0.08);
+    border-radius: 50%;
+    top: -100px;
+    right: -80px;
+}
+
+.vt-cta-wrapper::after{
+    content: "";
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    background: rgba(255,255,255,0.06);
+    border-radius: 50%;
+    bottom: -80px;
+    left: -50px;
+}
+
+.vt-cta-content{
+    position: relative;
+    z-index: 2;
+}
+
+.vt-cta-subtitle{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgba(255,255,255,0.85);
+    margin-bottom: 14px;
+}
+
+.vt-cta-title{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #ffffff;
+    margin-bottom: 18px;
+}
+
+.vt-cta-text{
+    font-size: 16px;
+    line-height: 1.8;
+    color: rgba(255,255,255,0.85);
+    max-width: 650px;
+    margin: 0;
+}
+
+/* CTA Button */
+.vt-cta-btn-wrap{
+    position: relative;
+    z-index: 2;
+}
+
+.vt-cta-btn{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: #ffffff;
+    color: var(--base-skin);
+    padding: 16px 34px;
+    border-radius: 60px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    box-shadow: 0 10px 30px rgba(255,255,255,0.15);
+}
+
+.vt-cta-btn span{
+    transition: transform 0.3s ease;
+}
+
+.vt-cta-btn:hover{
+    background: #111827;
+    color: #ffffff;
+    transform: translateY(-5px);
+}
+
+.vt-cta-btn:hover span{
+    transform: translateX(5px);
+}
+
+/*=================================
+    Responsive
+=================================*/
+@media(max-width: 991px){
+
+    .vt-cta-wrapper{
+        padding: 50px 35px;
+        text-align: center;
+    }
+
+    .vt-cta-title{
+        font-size: 34px;
+    }
+
+    .vt-cta-btn-wrap{
+        margin-top: 30px;
+    }
+}
+
+@media(max-width: 767px){
+
+    .vt-cta-section{
+        padding: 60px 0;
+    }
+
+    .vt-cta-wrapper{
+        padding: 40px 25px;
+        border-radius: 18px;
+    }
+
+    .vt-cta-title{
+        font-size: 28px;
+    }
+
+    .vt-cta-text{
+        font-size: 15px;
+    }
+
+    .vt-cta-btn{
+        padding: 14px 28px;
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 575px){
+
+    .vt-cta-title{
+        font-size: 24px;
+    }
+
+    .vt-cta-btn{
+        width: 100%;
+        justify-content: center;
+    }
 }

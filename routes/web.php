@@ -22,6 +22,9 @@ use App\Http\Controllers\PartnerController;
 Route::get('/', function () {
     return view('website.pages.welcome');
 })->name('home');
+Route::get('/index', function () {
+    return view('website.pages.index'); //for diff layout
+})->name('index');
 Route::get('/about-us', function () {
     return view('website.pages.about-us');
 })->name('about-us');
