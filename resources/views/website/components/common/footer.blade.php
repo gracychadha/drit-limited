@@ -73,7 +73,7 @@
 
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 widget-area">
                     <div class="widget multi_widget clearfix">
-                        
+
                         <div class="widget_nav_menu clearfix">
                             <h3 class="widget-title">Quick links</h3>
                             <ul class="menu-footer-quick-links links-1">
@@ -113,6 +113,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 widget-area">
                     <div class="widget widget_cta clearfix">
+                        <h3 class="widget-title">Contact Us</h3>
                         <!-- <h4>{{ $websiteSetting->phone1 ?? '+0022 6544 9977' }}</h4> -->
                         <ul class="widget_contact_wrapper">
                             <li><i class="flaticon-envelope"></i><a

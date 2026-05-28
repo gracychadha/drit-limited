@@ -357,14 +357,13 @@
     display: block;
     position: relative;
 }
-@media(max-width: 991px){
+@media (max-width: 991px) {
     .cmt-horizontal_sep {
         display: none;
     }
-    .about-counter{
+    .about-counter {
         margin-bottom: 10px;
     }
-    
 }
 .bg-base-dark .cmt-horizontal_sep {
     border-top-color: rgba(255, 255, 255, 0.08);
@@ -2563,7 +2562,7 @@ div:hover > .cmt-box-view-content-inner:before {
 }
 .featured-imagebox-team.style1 .cmt-media-link {
     position: absolute;
-    right: 30px;
+    right: 10px;
     top: 0;
     z-index: 2;
     bottom: 0;
@@ -2585,14 +2584,14 @@ div:hover > .cmt-box-view-content-inner:before {
 .featured-imagebox-team.style1 .media-block .media-btn {
     display: block;
     text-align: center;
-    height: 40px;
-    width: 40px;
-    line-height: 40px;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
     color: #fff;
     background-color: var(--base-dark);
     border-radius: 50%;
     font-weight: 900;
-    font-size: 24px;
+    font-size: 20px;
     z-index: 4;
     cursor: pointer;
     position: relative;
