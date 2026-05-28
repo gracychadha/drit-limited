@@ -1,4 +1,156 @@
-<header id="masthead" class="header cmt-header-style-02">
+<!--header start-->
+<header id="masthead" class="header cmt-header-style-01">
+
+    <!-- topbar -->
+    <div class="top_bar bg-base-skin text-base-white clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="top_bar_inner bg-base-dark text-base-white">
+
+                        <!-- Phone -->
+                        <div class="top_bar_contact_item with-icon me-2">
+                            <div class="top_bar_icon">
+                                <i class="icon-phone"></i>
+                            </div>
+                            <a href="tel:+919876543210" class="text-base-white">
+                                +91 98765 43210
+                            </a>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="top_bar_contact_item with-icon">
+                            <div class="top_bar_icon">
+                                <i class="icon-mail"></i>
+                            </div>
+                            <a href="mailto:info@dritm.in" class="text-base-white">
+                                info@dritm.in
+                            </a>
+                        </div>
+
+                        <!-- Right Side Social -->
+                        <div class="top_bar_contact_item ms-auto d-flex align-items-center">
+                            <span class="me-3">Follow Us On :</span>
+
+                            <div class="social-icons d-flex align-items-center">
+                                <a href="#" class="me-2 text-base-white">
+                                    <i class="icon-facebook"></i>
+                                </a>
+
+                                <a href="#" class="me-2 text-base-white">
+                                    <i class="icon-twitter"></i>
+                                </a>
+
+                                <a href="#" class="me-2 text-base-white">
+                                    <i class="icon-instagram"></i>
+                                </a>
+
+                                <a href="#" class="text-base-white">
+                                    <i class="icon-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="side-menu-container">
+                        <div class="side-menu">
+                            <a href="#"><i class="icon-menu"></i></a>
+                        </div>
+
+                        <!-- Side Menu -->
+                        <div class="side-overlay">
+                            <div class="side bg-base-dark">
+                                <a href="#" class="close-side">
+                                    <i class="icon-close"></i>
+                                </a>
+
+                                <div class="d-flex align-items-center pb-30">
+                                    <div class="flotingbar-img">
+                                        <img class="img-fluid rounded-circle" src="images/flotingbar-img.png"
+                                            height="60" width="60" alt="flotingbar-img">
+                                    </div>
+
+                                    <div class="pl-20">
+                                        <h3 class="fs-18 mb-0">Alex william</h3>
+                                        <label class="text-base-skin">Support Expert</label>
+                                    </div>
+                                </div>
+
+                                <p>
+                                    An excellent service management in the area of IT providing
+                                    solutions. High level efficient solution to businesses growth.
+                                </p>
+
+                                <div class="cmt-detailss">
+                                    <ul>
+                                        <li>
+                                            <span class="cmt-li">Call us Now! :</span>
+                                            <span>+123-456-7890</span>
+                                        </li>
+
+                                        <li>
+                                            <span class="cmt-li">Email :</span>
+                                            <span class="cmt-li4">
+                                                <a href="mailto:example.supoort@gmail.com">
+                                                    example.supoort@gmail.com
+                                                </a>
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <aside class="widget_text clearfix">
+                                    <h3>Quick contact info</h3>
+
+                                    <p class="mb-25">
+                                        Our Solutions pride on world class customer service.
+                                    </p>
+
+                                    <form action="#" class="cta_form wrap-form clearfix" method="post">
+
+                                        <label>
+                                            <span class="text-input">
+                                                <input name="name" type="text" placeholder="Enter your name here..."
+                                                    required>
+                                            </span>
+                                        </label>
+
+                                        <label>
+                                            <span class="text-input">
+                                                <input name="email" type="text"
+                                                    placeholder="Enter your email address here..." required>
+                                            </span>
+                                        </label>
+
+                                        <label>
+                                            <span class="text-input">
+                                                <textarea name="message" rows="4" placeholder="Type your message here"
+                                                    required></textarea>
+                                            </span>
+                                        </label>
+
+                                        <button
+                                            class="submit cmt-btn btn-default cmt-icon-btn-left cmt-btn-size-md cmt-btn-color-white mt-15"
+                                            type="submit">
+                                            <i class="icon-right"></i>
+                                            <span>Send Message</span>
+                                        </button>
+
+                                    </form>
+                                </aside>
+
+                            </div>
+                        </div>
+                        <!-- Side Menu -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- topbar end -->
+
     <!-- site-header-menu -->
     <div id="site-header-menu" class="site-header-menu">
         <div class="site-header-menu-inner cmt-stickable-header">
@@ -8,7 +160,7 @@
                         $websiteSetting = App\Models\WebsiteSetting::where('is_active', true)->first();
                         $socialSetting = App\Models\SocialSetting::where('is_active', true)->first();
                     @endphp
-                    
+
                     <div class="col-lg-12">
                         <!--site-navigation -->
                         <div class="site-navigation d-flex align-items-center justify-content-between">
@@ -22,7 +174,7 @@
                                         ? asset('storage/' . $websiteSetting->logo_white)
                                         : asset('website/images/main-logo.png');
                                 @endphp
-                                <a class="home-link" href="{{ route('home') }}"  rel="home">
+                                <a class="home-link" href="{{ route('home') }}" rel="home">
                                     <img id="logo-img" height="48" width="147" class="img-fluid auto_size"
                                         src="{{ $logo }}" alt="logo-img">
                                 </a>
@@ -108,15 +260,27 @@
                             <div class="header_extra d-flex flex-row align-items-center">
                                 <div class="header_btn"><a
                                         class="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-skincolor"
-                                        href="{{ route('contact-us') }}">Need Help<i class="icon-right"></i></a></div>
+                                        href="{{ route('contact-us') }}">Need A Help<i class="icon-right"></i></a></div>
+                                <div class="header_search">
+                                    <a href="#" class="btn-default search_btn"><i class="icon-search-1"></i></a>
+                                    <div class="header_search_content">
+                                        <div class="header_search_content_inner">
+                                            <a href="#" class="close_btn"><i class="icon-cancel-2"></i></a>
+                                            <form id="searchbox" method="get" action="#">
+                                                <input class="search_query" type="text" id="search_query_top" name="s"
+                                                    placeholder="Type Your Search..." value="">
+                                                <button type="submit" class="btn close-search"><i
+                                                        class="icon-search-1"></i></button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
-                            </div><!-- header_extra end -->
                         </div><!-- site-navigation end-->
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- site-header-menu end-->
-
+        <!-- site-header-menu end-->
 </header><!--header end-->

@@ -16,78 +16,64 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container swiper myPartnerSwiper">
 
-        <div class="row g-4 partner-card-grid">
+        <div class=" partner-card-grid swiper-wrapper">
 
             <!-- Partner Card -->
-            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6">
+            <div class="col-xl-2 col-lg-3 swiper-slide col-md-4 col-sm-6 col-6">
                 <div class="vt-partner-card">
-                    <div class="vt-partner-text">
+                    <!-- <div class="vt-partner-text">
                         Airtel
-                    </div>
-                    <!-- <img src="images/partner1.png" alt="Partner"> -->
+                    </div> -->
+                    <img src="{{ asset('website/images/client/client-03.png') }}" alt="Partner">
                 </div>
             </div>
 
             <!-- Partner Card -->
-            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6">
+            <div class="col-xl-2 col-lg-3 swiper-slide col-md-4 col-sm-6 col-6">
                 <div class="vt-partner-card">
-                    <div class="vt-partner-text">
-                        AJIO
-                    </div>
+                    <img src="{{ asset('website/images/client/client-03.png') }}" alt="Partner">
                 </div>
             </div>
 
             <!-- Partner Card Without Image -->
-            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6">
+            <div class="col-xl-2 col-lg-3 swiper-slide col-md-4 col-sm-6 col-6">
                 <div class="vt-partner-card">
-                    <div class="vt-partner-text">
-                        Meesho
-                    </div>
+                    <img src="{{ asset('website/images/client/client-03.png') }}" alt="Partner">
                 </div>
             </div>
 
             <!-- Partner Card -->
-            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6">
+            <div class="col-xl-2 col-lg-3 swiper-slide col-md-4 col-sm-6 col-6">
                 <div class="vt-partner-card">
-                    <div class="vt-partner-text">
-                        OYO
-                    </div>
+                    <img src="{{ asset('website/images/client/client-03.png') }}" alt="Partner">
                 </div>
             </div>
 
             <!-- Partner Card -->
-            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6">
+            <div class="col-xl-2 col-lg-3 swiper-slide col-md-4 col-sm-6 col-6">
                 <div class="vt-partner-card">
-                    <div class="vt-partner-text">
-                        Cars 24
-                    </div>
+                    <img src="{{ asset('website/images/client/client-03.png') }}" alt="Partner">
                 </div>
             </div>
 
             <!-- Partner Card -->
-            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6">
+            <div class="col-xl-2 col-lg-3 swiper-slide col-md-4 col-sm-6 col-6">
                 <div class="vt-partner-card">
-                    <div class="vt-partner-text">
-                        Banking & NBFC
-                    </div>
+                    <img src="{{ asset('website/images/client/client-03.png') }}" alt="Partner">
                 </div>
             </div>
             <!-- Partner Card -->
-            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6">
+            <div class="col-xl-2 col-lg-3 swiper-slide col-md-4 col-sm-6 col-6">
                 <div class="vt-partner-card">
-                    <div class="vt-partner-text">
-                        Nurture Farms
-                    </div>
+                    <img src="{{ asset('website/images/client/client-03.png') }}" alt="Partner">
                 </div>
             </div>
             <!-- Partner Card -->
-            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6">
+            <div class="col-xl-2 col-lg-3 swiper-slide col-md-4 col-sm-6 col-6">
                 <div class="vt-partner-card">
-                    <div class="vt-partner-text">
-                        Cholamandalam
-                    </div>
+                    <img src="{{ asset('website/images/client/client-03.png') }}" alt="Partner">
                 </div>
             </div>
 

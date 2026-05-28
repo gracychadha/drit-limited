@@ -7,8 +7,9 @@
     <div class="second-footer">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 widget-area">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
                     <div class="widget widget_text clearfix">
+                        <h3 class="widget-title">About us</h3>
                         <div class="footer-logo">
                             @php
                                 $logo = optional($websiteSetting)->logo
@@ -69,43 +70,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 widget-area">
-                    <div class="widget widget_cta clearfix">
-                        <!-- <h4>{{ $websiteSetting->phone1 ?? '+0022 6544 9977' }}</h4> -->
-                        <ul class="widget_contact_wrapper">
-                            <li><i class="flaticon-envelope"></i><a
-                                    href="mailto:{{ $websiteSetting->email ?? 'info@drit.in' }}" target="_blank">{{
-                                    $websiteSetting->email ?? 'info@drit.in' }}</a>24 x 7
-                                Online Support
-                            </li>
-                            <li><i class="flaticon-pin"></i>{{ $websiteSetting->location ?? 'Mohali' }}</li>
-                        </ul>
-                        <div class="g-map">
-                            <iframe
-                                src="https://www.google.com/maps?q={{ urlencode($websiteSetting->location ?? 'Mohali,Punjab,India') }}&output=embed"
-                                width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy">
-                            </iframe>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 widget-area">
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 widget-area">
                     <div class="widget multi_widget clearfix">
-                        <!-- <div class="newsletter_widget clearfix">
-                            <h3 class="widget-title">Signup for our newsletter</h3>
-                            <p>Sign up to our newsletter to get the latest news.</p>
-                            <form id="subscribe-form" class="newsletter-form" action="#" data-mailchimp="true">
-                                <div class="mailchimp-inputbox clearfix" id="subscribe-content">
-                                    <p>
-                                        <input type="email" name="email" placeholder="Enter Your Email Address..."
-                                            required="">
-                                    </p>
-                                    <p><button
-                                            class="submit cmt-btn cmt-btn-size-md cmt-btn-shape-rounded cmt-btn-style-border cmt-btn-color-skincolor"
-                                            type="submit"><i class="icon-right"></i></button></p>
-                                </div>
-                                <div id="subscribe-msg"></div>
-                            </form>
-                        </div> -->
+                        
                         <div class="widget_nav_menu clearfix">
                             <h3 class="widget-title">Quick links</h3>
                             <ul class="menu-footer-quick-links links-1">
@@ -125,7 +93,7 @@
                         @endphp
                         <div class="widget_nav_menu clearfix">
                             <h3 class="widget-title">Services</h3>
-                            <ul class="menu-footer-quick-links links-2">
+                            <ul class="menu-footer-quick-links links-1">
                                 @forelse($serviceHeader as $service)
                                     <li>
                                         <a href="{{ url('service-details/' . $service->slug) }}">
@@ -140,6 +108,25 @@
 
                                 <li><a href="https://dritimt.in/" target="_blank">Education </a></li>
                             </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 widget-area">
+                    <div class="widget widget_cta clearfix">
+                        <!-- <h4>{{ $websiteSetting->phone1 ?? '+0022 6544 9977' }}</h4> -->
+                        <ul class="widget_contact_wrapper">
+                            <li><i class="flaticon-envelope"></i><a
+                                    href="mailto:{{ $websiteSetting->email ?? 'info@drit.in' }}" target="_blank">{{
+                                    $websiteSetting->email ?? 'info@drit.in' }}</a>24 x 7
+                                Online Support
+                            </li>
+                            <li><i class="flaticon-pin"></i>{{ $websiteSetting->location ?? 'Mohali' }}</li>
+                        </ul>
+                        <div class="g-map">
+                            <iframe
+                                src="https://www.google.com/maps?q={{ urlencode($websiteSetting->location ?? 'Mohali,Punjab,India') }}&output=embed"
+                                width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy">
+                            </iframe>
                         </div>
                     </div>
                 </div>

@@ -22,6 +22,8 @@
 
     <!-- REVOLUTION LAYERS STYLES -->
     <link rel='stylesheet' id='rs-plugin-settings-css' href="{{ asset('website/revolution/css/rs6.css') }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+
 </head>
 
 
@@ -78,6 +80,50 @@
     <script src="{{ asset('website/revolution/js/slider.js') }}"></script>
     <!-- Javascript end-->
     @stack('scripts')
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".myPartnerSwiper", {
+            slidesPerView: 6,
+            spaceBetween: 10,
+            loop: true,
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+            },
+            speed: 1000,
+
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+
+            breakpoints: {
+                0: {
+                    slidesPerView: 2,
+                    spaceBetween: 5,
+                },
+                576: {
+                    slidesPerView: 3,
+                    spaceBetween: 10,
+                },
+                768: {
+                    slidesPerView: 4,
+                    spaceBetween: 10,
+                },
+                992: {
+                    slidesPerView: 5,
+                    spaceBetween: 10,
+                },
+                1200: {
+                    slidesPerView: 6,
+                    spaceBetween: 10,
+                },
+            },
+        });
+    </script>
 
 </body>
 
