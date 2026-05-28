@@ -1,4 +1,7 @@
-<!--header start-->
+@php
+    $websiteSetting = App\Models\WebsiteSetting::where('is_active', true)->first();
+    $social = App\Models\SocialSetting::where('is_active', true)->first();
+@endphp
 <header id="masthead" class="header cmt-header-style-01">
 
     <!-- topbar -->
@@ -23,8 +26,11 @@
                             <div class="top_bar_icon">
                                 <i class="icon-mail me-2"></i>
                             </div>
-                            <a href="mailto:info@dritm.in" class="text-base-white">
-                                info@dritm.in
+                            <a href="mailto:{{
+                                    $websiteSetting->email ?? 'info@drit.in' }}" target="_blank"
+                                class="text-base-white">
+                                {{
+                                $websiteSetting->email ?? 'info@drit.in' }}
                             </a>
                         </div>
 
@@ -33,21 +39,42 @@
                             <span class="me-3">Follow Us On :</span>
 
                             <div class="social-icons d-flex align-items-center">
-                                <a href="#" class="me-2 text-base-white">
-                                    <i class="icon-facebook"></i>
-                                </a>
+                                @if(!empty($social->facebook_url))
+                                    <li>
+                                        <a href="{{ $social->facebook_url }}" target="_blank" rel="noopener"
+                                            aria-label="facebook">
+                                            <i class="icon-facebook"></i>
+                                        </a>
+                                    </li>
+                                @endif
 
-                                <a href="#" class="me-2 text-base-white">
-                                    <i class="icon-twitter"></i>
-                                </a>
+                                @if(!empty($social->twitter_url))
+                                    <li>
+                                        <a href="{{ $social->twitter_url }}" target="_blank" rel="noopener"
+                                            aria-label="twitter">
+                                            <i class="icon-twitter"></i>
+                                        </a>
+                                    </li>
+                                @endif
 
-                                <a href="#" class="me-2 text-base-white">
-                                    <i class="icon-instagram"></i>
-                                </a>
+                                @if(!empty($social->linkedin_url))
+                                    <li>
+                                        <a href="{{ $social->linkedin_url }}" target="_blank" rel="noopener"
+                                            aria-label="linkedin">
+                                            <i class="icon-linkedin"></i>
+                                        </a>
+                                    </li>
+                                @endif
 
-                                <a href="#" class="text-base-white">
-                                    <i class="icon-linkedin"></i>
-                                </a>
+                                @if(!empty($social->instagram_url))
+                                    <li>
+                                        <a href="{{ $social->instagram_url }}" target="_blank" rel="noopener"
+                                            aria-label="instagram">
+                                            <i class="icon-instagram"></i>
+                                        </a>
+                                    </li>
+                                @endif
+
                             </div>
                         </div>
 
