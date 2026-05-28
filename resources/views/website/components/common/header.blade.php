@@ -9,7 +9,7 @@
                     <div class="top_bar_inner bg-base-dark text-base-white">
 
                         <!-- Phone -->
-                        <div class="top_bar_contact_item with-icon me-2">
+                        <div class="top_bar_contact_item with-icon me-4">
                             <div class="top_bar_icon">
                                 <i class="icon-phone"></i>
                             </div>
@@ -21,7 +21,7 @@
                         <!-- Email -->
                         <div class="top_bar_contact_item with-icon">
                             <div class="top_bar_icon">
-                                <i class="icon-mail"></i>
+                                <i class="icon-mail me-2"></i>
                             </div>
                             <a href="mailto:info@dritm.in" class="text-base-white">
                                 info@dritm.in
