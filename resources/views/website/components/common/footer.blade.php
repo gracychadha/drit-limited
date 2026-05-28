@@ -78,7 +78,7 @@
                             <h3 class="widget-title">Quick links</h3>
                             <ul class="menu-footer-quick-links links-1">
                                 <li><a href="{{ route('about-us') }}">About Us</a></li>
-                                <li><a href="{{ route('eea') }}">EEA</a></li>
+                                <!-- <li><a href="{{ route('eea') }}">EEA</a></li> -->
                                 <li><a href="{{ route('our-blogs') }}">Our Blogs</a></li>
                                 <li><a href="{{ route('our-clients') }}">Our Clients</a></li>
                                 <li><a href="{{ route('contact-us') }}">Contact us</a></li>
