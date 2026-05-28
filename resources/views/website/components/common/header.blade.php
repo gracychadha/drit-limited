@@ -6,7 +6,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="top_bar_inner bg-base-dark text-base-white">
+                    <div class="top_bar_inner bg-base-skin text-base-white">
 
                         <!-- Phone -->
                         <div class="top_bar_contact_item with-icon me-4">
@@ -53,7 +53,7 @@
 
                     </div>
 
-                    <div class="side-menu-container">
+                    <div class="side-menu-container d-none">
                         <div class="side-menu">
                             <a href="#"><i class="icon-menu"></i></a>
                         </div>

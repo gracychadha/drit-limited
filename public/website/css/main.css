@@ -2169,13 +2169,13 @@ ul.social-icons {
     z-index: 3;
 }
 .top_bar_inner {
-    margin-top: 15px;
+    /* margin-top: 15px; */
     padding: 0px 29px 0 26px;
-    margin-bottom: -23px;
+    /* margin-bottom: -23px; */
     z-index: 2;
     display: flex;
     position: relative;
-    border-radius: 5px;
+    /* border-radius: 5px; */
 }
 .top_bar_icon {
     display: table-cell;
@@ -2186,7 +2186,7 @@ ul.social-icons {
 }
 .top_bar_contact_item .top_bar_icon i,
 .top_bar_contact_item span {
-    color: #f93838;
+    color: #ffffff;
     font-weight: 700;
 }
 .top_bar_contact_item {
