@@ -8,25 +8,23 @@
                     data-anim="ei:d;eo:d;s:d;r:0;t:fade;sl:d;">
 
                     <img src="{{ asset('website/images/upload/main-banner-1.png') }}" title="slider-img-01.jpg"
-                        width="1920" height="750" class="rev-slidebg tp-rs-img" data-no-retina=""><!--
-                                    --><rs-layer id="slider-1-slide-1-layer-0" data-type="text" data-color="#ff382f"
-                        data-rsp_ch="on" data-xy="x:l,l,c,c;xo:-100px,35px,0,0;yo:191px,185px,83px,80px;"
+                        width="1920" height="750" class="rev-slidebg tp-rs-img" data-no-retina="">
+                    <rs-layer id="slider-1-slide-1-layer-0" data-type="text" data-color="#ff382f" data-rsp_ch="on"
+                        data-xy="x:l,l,c,c;xo:-100px,35px,0,0;yo:191px,185px,83px,80px;"
                         data-text="w:normal;s:16,16,16,14;l:26,26,26,24;fw:700;" data-frame_0="y:-100%;"
                         data-frame_0_mask="u:t;" data-frame_1="st:190;sp:1200;sR:190;" data-frame_1_mask="u:t;"
                         data-frame_999="o:0;st:w;sR:7610;"
                         style="z-index:8;font-family:'Lato', sans-serif;">Customer-Centric Approach
-                    </rs-layer><!--
-
-                                    --><rs-layer id="slider-1-slide-1-layer-1" data-type="text" data-color="#fff"
-                        data-rsp_ch="on" data-xy="x:l,l,c,c;xo:-100px,35px,0,0;yo:231px,226px,116px,108px;"
+                    </rs-layer>
+                    <rs-layer id="slider-1-slide-1-layer-1" data-type="text" data-color="#fff" data-rsp_ch="on"
+                        data-xy="x:l,l,c,c;xo:-100px,35px,0,0;yo:231px,226px,116px,108px;"
                         data-text="w:normal;s:54,54,44,30;l:64,64,54,40;fw:400;" data-frame_0="y:-100%;"
                         data-frame_0_mask="u:t;" data-frame_1="st:310;sp:1200;sR:310;" data-frame_1_mask="u:t;"
                         data-frame_999="o:0;st:w;sR:7490;" style="z-index:9;font-family:'Lato', sans-serif;">Focused on
                         What
 
-                    </rs-layer><!--
-
-                                    --><rs-layer id="slider-1-slide-1-layer-2" data-type="text" data-color="#fff"
+                    </rs-layer>
+                    <rs-layer id="slider-1-slide-1-layer-2" data-type="text" data-color="#fff"
                         data-rsp_ch="on" data-xy="x:l,l,c,c;xo:-100px,35px,0,1px;yo:296px,291px,169px,151px;"
                         data-text="w:normal;s:54,54,44,30;l:64,64,54,40;fw:700;" data-frame_0="y:-100%;"
                         data-frame_0_mask="u:t;" data-frame_1="st:440;sp:1200;sR:440;" data-frame_1_mask="u:t;"
@@ -82,27 +80,24 @@
                         data-frame_999="o:0;st:w;sR:7610;"
                         style="z-index:8;font-family:'Lato', sans-serif;">Value-Driven Excellence
 
-                    </rs-layer><!--
-
-                                    --><rs-layer id="slider-1-slide-4-layer-1" data-type="text" data-color="#fff"
-                        data-rsp_ch="on" data-xy="x:l,l,c,c;xo:-100px,35px,0,0;yo:231px,226px,116px,108px;"
+                    </rs-layer>
+                    <rs-layer id="slider-1-slide-4-layer-1" data-type="text" data-color="#fff" data-rsp_ch="on"
+                        data-xy="x:l,l,c,c;xo:-100px,35px,0,0;yo:231px,226px,116px,108px;"
                         data-text="w:normal;s:54,54,44,30;l:64,64,54,40;fw:400;" data-frame_0="y:-100%;"
                         data-frame_0_mask="u:t;" data-frame_1="st:310;sp:1200;sR:310;" data-frame_1_mask="u:t;"
                         data-frame_999="o:0;st:w;sR:7490;" style="z-index:9;font-family:'Lato', sans-serif;">Delivering
                         Quality
 
-                    </rs-layer><!--
-
-                                    --><rs-layer id="slider-1-slide-4-layer-2" data-type="text" data-color="#fff"
-                        data-rsp_ch="on" data-xy="x:l,l,c,c;xo:-100px,35px,0,1px;yo:296px,291px,169px,151px;"
+                    </rs-layer>
+                    <rs-layer id="slider-1-slide-4-layer-2" data-type="text" data-color="#fff" data-rsp_ch="on"
+                        data-xy="x:l,l,c,c;xo:-100px,35px,0,1px;yo:296px,291px,169px,151px;"
                         data-text="w:normal;s:54,54,44,30;l:64,64,54,40;fw:400;" data-frame_0="y:-100%;"
                         data-frame_0_mask="u:t;" data-frame_1="st:440;sp:1200;sR:440;" data-frame_1_mask="u:t;"
                         data-frame_999="o:0;st:w;sR:7360;" style="z-index:10;font-family:'Lato', sans-serif;"> You Can
                         <span class="text-base-skin fw-700">Trust</span>
-                    </rs-layer><!--
-
-                                    --><rs-layer id="slider-1-slide-4-layer-3" data-type="text" data-color="#ffffffb3"
-                        data-rsp_ch="on" data-xy="x:l,l,c,c;xo:-100px,35px,0,666px;yo:381px,376px,237px,240px;"
+                    </rs-layer>
+                    <rs-layer id="slider-1-slide-4-layer-3" data-type="text" data-color="#ffffffb3" data-rsp_ch="on"
+                        data-xy="x:l,l,c,c;xo:-100px,35px,0,666px;yo:381px,376px,237px,240px;"
                         data-text="w:normal;s:15;l:25;a:left,left,center,center" data-vbility="t,t,t,f"
                         data-frame_0="y:-100%;" data-frame_0_mask="u:t;" data-frame_1="st:680;sp:1200;sR:680;"
                         data-frame_1_mask="u:t;" data-frame_999="o:0;st:w;sR:7120;"

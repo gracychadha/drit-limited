@@ -3773,13 +3773,13 @@ section.error-404 .page-content p {
 /* for slider */
 #rev_slider_2_1_wrapper,
 #rev_slider_2_1 {
-    height: 500px !important; /* adjust as needed */
+    height: 450px !important; /* adjust as needed */
 }
 
 #rev_slider_2_1_wrapper rs-module,
 #rev_slider_2_1_wrapper rs-slides,
 #rev_slider_2_1_wrapper rs-slide {
-    height: 500px !important;
+    height: 450px !important;
 }
 
 #rev_slider_2_1_wrapper .rev-slidebg {
