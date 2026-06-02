@@ -12,7 +12,7 @@
                     <div class="top_bar_inner bg-base-skin text-base-white">
 
                         <!-- Phone -->
-                        <div class="top_bar_contact_item with-icon me-4">
+                        <div class="top_bar_contact_item top_bar_contact_item1 with-icon me-4">
                             <div class="top_bar_icon">
                                 <i class="icon-phone"></i>
                             </div>
@@ -22,7 +22,7 @@
                         </div>
 
                         <!-- Email -->
-                        <div class="top_bar_contact_item with-icon">
+                        <div class="top_bar_contact_item top_bar_contact_item1 with-icon me-4">
                             <div class="top_bar_icon">
                                 <i class="icon-mail me-2"></i>
                             </div>
@@ -33,44 +33,54 @@
                                 $websiteSetting->email ?? 'info@drit.in' }}
                             </a>
                         </div>
+                        <!-- Email -->
+                        <div class="top_bar_contact_item  with-icon">
+                            <div class="top_bar_icon">
+                                <i class="flaticon flaticon-pin me-2"></i>
+                            </div>
+                            <a href="javascript:void(0)" class="text-base-white">
+                                {{ ($websiteSetting->location ?? 'Chandigarh , India') }}
+                            </a>
+
+                        </div>
 
                         <!-- Right Side Social -->
-                        <div class="top_bar_contact_item ms-auto d-flex align-items-center">
+                        <div class="top_bar_contact_item  ms-auto d-flex align-items-center">
                             <span class="me-3">Follow Us On :</span>
 
                             <div class="social-icons d-flex align-items-center">
                                 @if(!empty($social->facebook_url))
                                     <li>
-                                        <a href="{{ $social->facebook_url }}" target="_blank" rel="noopener"
-                                            aria-label="facebook">
+                                        <a class="top_bar_contact_item1" href="{{ $social->facebook_url }}" target="_blank"
+                                            rel="noopener" aria-label="facebook">
                                             <i class="icon-facebook"></i>
+                                        </a>
+                                    </li>
+                                @endif
+                                @if(!empty($social->instagram_url))
+                                    <li>
+                                        <a class="top_bar_contact_item1" href="{{ $social->instagram_url }}" target="_blank"
+                                            rel="noopener" aria-label="instagram">
+                                            <i class="icon-instagram"></i>
+                                        </a>
+                                    </li>
+                                @endif
+
+
+                                @if(!empty($social->linkedin_url))
+                                    <li>
+                                        <a class="top_bar_contact_item1" href="{{ $social->linkedin_url }}" target="_blank"
+                                            rel="noopener" aria-label="linkedin">
+                                            <i class="icon-linkedin"></i>
                                         </a>
                                     </li>
                                 @endif
 
                                 @if(!empty($social->twitter_url))
                                     <li>
-                                        <a href="{{ $social->twitter_url }}" target="_blank" rel="noopener"
-                                            aria-label="twitter">
+                                        <a class="top_bar_contact_item1" href="{{ $social->twitter_url }}" target="_blank"
+                                            rel="noopener" aria-label="twitter">
                                             <i class="icon-twitter"></i>
-                                        </a>
-                                    </li>
-                                @endif
-
-                                @if(!empty($social->linkedin_url))
-                                    <li>
-                                        <a href="{{ $social->linkedin_url }}" target="_blank" rel="noopener"
-                                            aria-label="linkedin">
-                                            <i class="icon-linkedin"></i>
-                                        </a>
-                                    </li>
-                                @endif
-
-                                @if(!empty($social->instagram_url))
-                                    <li>
-                                        <a href="{{ $social->instagram_url }}" target="_blank" rel="noopener"
-                                            aria-label="instagram">
-                                            <i class="icon-instagram"></i>
                                         </a>
                                     </li>
                                 @endif
@@ -287,7 +297,7 @@
                             <div class="header_extra d-flex flex-row align-items-center">
                                 <div class="header_btn"><a
                                         class="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-skincolor"
-                                        href="{{ route('contact-us') }}">Need A Help<i class="icon-right"></i></a></div>
+                                        href="{{ route('contact-us') }}">Contact Us<i class="icon-right"></i></a></div>
                                 <div class="header_search">
                                     <a href="#" class="btn-default search_btn"><i class="icon-search-1"></i></a>
                                     <div class="header_search_content">

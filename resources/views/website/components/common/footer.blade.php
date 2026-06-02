@@ -40,11 +40,11 @@
                                     </li>
                                 @endif
 
-                                @if(!empty($social->twitter_url))
+                                @if(!empty($social->instagram_url))
                                     <li>
-                                        <a href="{{ $social->twitter_url }}" target="_blank" rel="noopener"
-                                            aria-label="twitter">
-                                            <i class="icon-twitter"></i>
+                                        <a href="{{ $social->instagram_url }}" target="_blank" rel="noopener"
+                                            aria-label="instagram">
+                                            <i class="icon-instagram"></i>
                                         </a>
                                     </li>
                                 @endif
@@ -57,15 +57,15 @@
                                         </a>
                                     </li>
                                 @endif
-
-                                @if(!empty($social->instagram_url))
+                                @if(!empty($social->twitter_url))
                                     <li>
-                                        <a href="{{ $social->instagram_url }}" target="_blank" rel="noopener"
-                                            aria-label="instagram">
-                                            <i class="icon-instagram"></i>
+                                        <a href="{{ $social->twitter_url }}" target="_blank" rel="noopener"
+                                            aria-label="twitter">
+                                            <i class="icon-twitter"></i>
                                         </a>
                                     </li>
                                 @endif
+
                             </ul>
                         </div>
                     </div>

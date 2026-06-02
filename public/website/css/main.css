@@ -2196,6 +2196,10 @@ ul.social-icons {
     position: relative;
     display: table;
 }
+.top_bar_contact_item1:not(:last-child) {
+    border-right: 1px solid #fff;
+    padding-right: 20px;
+}
 .top_bar_contact_item:not(.with-icon) {
     padding-left: 18px;
     margin-left: 18px;

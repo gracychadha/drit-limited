@@ -86,9 +86,9 @@
 
 
 
-                    <div class="admin-signup-text">
+                    <!-- <div class="admin-signup-text">
                         Don't have an account? <a href="{{ route('register') }}">Register Now</a>
-                    </div>
+                    </div> -->
 
                 </form>
 

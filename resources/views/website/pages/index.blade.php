@@ -7,7 +7,6 @@
     @include('website.components.index.services-section')
     @include('website.components.index.team-section')
     @include('website.components.index.cta')
-    @include('website.components.index.partner-section')
 
 
 @endsection
