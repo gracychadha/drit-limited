@@ -5,8 +5,8 @@
                 <!-- section title -->
                 <div class="section-title title-style-center_text">
                     <div class="title-header">
-                        <h3>Meet Our Management Team</h3>
-                        <h2 class="title">Excellent Management Team Of Experts BPO</h2>
+                        <h3>Meet Our Leadership Team</h3>
+                        <h2 class="title">Experienced Leaders Driving Excellence and Innovation</h2>
                     </div>
 
                 </div><!-- section title end -->
@@ -19,8 +19,8 @@
                 <!-- featured-imagebox-team -->
                 <div class="featured-imagebox featured-imagebox-team style1">
                     <div class="featured-thumbnail">
-                        <img width="370" height="346" class="img-fluid"
-                            src="{{ asset('website/images/male.png') }}" alt="image">
+                        <img width="370" height="346" class="img-fluid" src="{{ asset('website/images/male.png') }}"
+                            alt="image">
                     </div>
                     <div class="featured-content">
                         <div class="team-position">Founder & Chairman</div>
@@ -49,8 +49,8 @@
                 <!-- featured-imagebox-team -->
                 <div class="featured-imagebox featured-imagebox-team style1">
                     <div class="featured-thumbnail">
-                        <img width="370" height="346" class="img-fluid"
-                            src="{{ asset('website/images/male.png') }}" alt="image">
+                        <img width="370" height="346" class="img-fluid" src="{{ asset('website/images/male.png') }}"
+                            alt="image">
                     </div>
                     <div class="featured-content">
                         <div class="team-position">Managing Director</div>
@@ -79,8 +79,8 @@
                 <!-- featured-imagebox-team -->
                 <div class="featured-imagebox featured-imagebox-team style1">
                     <div class="featured-thumbnail">
-                        <img width="370" height="346" class="img-fluid"
-                            src="{{ asset('website/images/male.png') }}" alt="image">
+                        <img width="370" height="346" class="img-fluid" src="{{ asset('website/images/male.png') }}"
+                            alt="image">
                     </div>
                     <div class="featured-content">
                         <div class="team-position">Sr. Vice President
@@ -111,8 +111,8 @@
                 <!-- featured-imagebox-team -->
                 <div class="featured-imagebox featured-imagebox-team style1">
                     <div class="featured-thumbnail">
-                        <img width="370" height="346" class="img-fluid"
-                            src="{{ asset('website/images/male.png') }}" alt="image">
+                        <img width="370" height="346" class="img-fluid" src="{{ asset('website/images/male.png') }}"
+                            alt="image">
                     </div>
                     <div class="featured-content">
                         <div class="team-position">Sr. Vice President

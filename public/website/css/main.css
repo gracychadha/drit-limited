@@ -3308,6 +3308,10 @@ footer .g-map iframe {
 }
 .cmt-team-member-detail .cmt-short-desc {
     margin: 12px 0 11px;
+    text-align:justify;
+}
+.cmt-team-member-detail .cmt-team-data {
+    text-align:justify;
 }
 .cmt-team-member-detail ul {
     margin: 0;
