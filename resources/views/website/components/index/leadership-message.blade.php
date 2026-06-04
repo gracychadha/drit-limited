@@ -24,29 +24,36 @@
                                                 <h2 class="cmt-team-member-single-title">Message From Our CEO</h2>
                                                 <h5 class="cmt-team-member-single-position">Chief Executive Officer</h5>
 
-                                               
+
                                                 <div class="cmt-short-desc">
-                                                    Welcome to our organization. Since our inception, our mission has
-                                                    been to deliver exceptional value, innovative solutions, and
-                                                    outstanding service to our clients. We believe that success is built
-                                                    on trust, integrity, and a commitment to excellence.
+                                                    CA (Dr.) M. K. Mahajan is the visionary Founder & Chairman of Dr ITM
+                                                    Group, leading the organization with a legacy of excellence,
+                                                    innovation, and strategic leadership. With over 56 years of
+                                                    extensive experience across Finance, Education, Banking, Capital
+                                                    Markets, and Consulting, he has been instrumental in driving
+                                                    sustainable growth and organizational success.
+
+
                                                 </div>
 
                                                 <div class="cmt-team-data">
                                                     <div class="cmt-team-details-wrapper">
                                                         <p>
-                                                            Our journey has been driven by a passionate team dedicated
-                                                            to creating meaningful experiences and sustainable growth.
-                                                            As we continue to evolve, we remain focused on embracing
-                                                            innovation, strengthening relationships, and exceeding
-                                                            expectations.
+                                                            A distinguished Chartered Accountant and Doctorate holder in
+                                                            Humanities, Dr. Mahajan brings deep industry expertise and a
+                                                            forward-thinking approach to business. His commitment to
+                                                            quality,
+                                                            integrity, and continuous improvement has established Dr ITM
+                                                            Group
+                                                            as a trusted name across diverse sectors.
+
                                                         </p>
 
                                                         <p>
-                                                            I would like to extend my sincere gratitude to our clients,
-                                                            partners, and team members for their continued trust and
-                                                            support. Together, we will continue to achieve new
-                                                            milestones and create a brighter future.
+                                                            Under his leadership, the Group continues to empower
+                                                            businesses,
+                                                            foster talent, and create lasting value through innovation,
+                                                            operational excellence, and customer-centric solutions.
                                                         </p>
 
                                                         <p>
@@ -54,13 +61,14 @@
                                                         </p>
 
                                                         <div class="mt-4">
-                                                            <strong>[CEO Name]</strong><br>
+                                                            <strong>CA (Dr.) M. K. Mahajan
+                                                            </strong><br>
                                                             Chief Executive Officer
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                           
+
 
                                         </div>
 
