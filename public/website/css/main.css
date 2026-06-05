@@ -4415,3 +4415,27 @@ section.error-404 .page-content p {
     margin:0;
     color:#666;
 }
+.career-link,
+.career-icon {
+    animation: careerFlicker 1.5s infinite;
+}
+
+@keyframes careerFlicker {
+    0%, 100% {
+        opacity: 1;
+        text-shadow: 0 0 5px rgba(255,255,255,0.8);
+    }
+    25% {
+        opacity: 0.4;
+    }
+    50% {
+        opacity: 1;
+        text-shadow: 0 0 12px rgba(255,255,255,1);
+    }
+    75% {
+        opacity: 0.6;
+    }
+}
+#resume{
+padding: 8px 25px;
+}

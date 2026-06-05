@@ -31,6 +31,9 @@ Route::get('/about-us', function () {
 Route::get('/eea', function () {
     return view('website.pages.eea');
 })->name('eea');
+Route::get('/career', function () {
+    return view('website.pages.career');
+})->name('career');
 Route::get('/contact-us', function () {
     return view('website.pages.contact-us');
 })->name('contact-us');
@@ -46,6 +49,9 @@ Route::get('/privacy-policy', function () {
 Route::get('/terms-conditions', function () {
     return view('website.pages.terms-conditions');
 })->name('terms-conditions');
+Route::get('/mission-vision', function () {
+    return view('website.pages.mission-vision');
+})->name('mission-vision');
 Route::get('/our-blogs', function () {
     return view('website.pages.our-blogs');
 })->name('our-blogs');

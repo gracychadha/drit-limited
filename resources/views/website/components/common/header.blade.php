@@ -34,7 +34,7 @@
                             </a>
                         </div>
                         <!-- Email -->
-                        <div class="top_bar_contact_item  with-icon">
+                        <div class="top_bar_contact_item top_bar_contact_item1  with-icon me-4">
                             <div class="top_bar_icon">
                                 <i class="flaticon flaticon-pin me-2"></i>
                             </div>
@@ -42,6 +42,14 @@
                                 {{ ($websiteSetting->location ?? 'Chandigarh , India') }}
                             </a>
 
+                        </div>
+                        <div class="top_bar_contact_item with-icon">
+                            <div class="top_bar_icon">
+                                <i class="flaticon flaticon-briefcase me-2 career-icon"></i>
+                            </div>
+                            <a href="{{ route('career') }}" class="text-base-white career-link">
+                                Career
+                            </a>
                         </div>
 
                         <!-- Right Side Social -->
@@ -234,6 +242,9 @@
                                                 <a href="{{ route('about-us') }}">About Us</a>
                                             </li>
                                             <li class="mega-menu-item">
+                                                <a href="{{ route('mission-vision') }}">Mission & Vision</a>
+                                            </li>
+                                            <li class="mega-menu-item">
                                                 <a href="{{ route('eea') }}">EEA</a>
                                             </li>
 
@@ -286,7 +297,7 @@
                                         </ul>
                                     </li>
                                     <li class="mega-menu-item">
-                                        <a href="{{ route('our-clients') }}">Our Clients</a>
+                                        <a href="{{ route('our-clients') }}">Our Offices</a>
                                     </li>
                                     <li class="mega-menu-item">
                                         <a href="{{ route('our-presence') }}">Our Presence</a>
