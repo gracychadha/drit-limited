@@ -21,13 +21,14 @@
                             <h2 class="title">Where Customer Experience Meets Operational Excellence</h2>
                         </div>
                         <div class="title-desc">
-                            <p align="justify">At Dr ITM, we offer highly professional services that are focused on
-                                value and quality, always following the top standards of professionalism. We are
-                                dedicated to providing our global clients with exceptional results while fostering a
-                                world-class environment where our employees can thrive. With complete hard work and
-                                innovations from our workforce, we are committed to achieving tremendous success for
-                                every partner we serve. Our mission is to provide cost-effective, scalable services that
-                                enhance customer experiences and drive superior business outcomes.</p>
+                            <p align="justify">Dr ITM CX is a trusted BPO and IT-enabled services partner with over 26
+                                years of experience in delivering exceptional customer experiences and operational
+                                excellence. We combine skilled professionals, advanced technology, and customized
+                                solutions across customer support, telesales, collections, and back-office operations to
+                                help businesses improve efficiency and drive growth. Backed by the legacy of Dr ITM
+                                Group, we are committed to innovation, quality, and creating measurable value for our
+                                clients.
+                            </p>
                         </div>
                     </div><!-- section title end -->
                     <div class="row pt-15 res-991-pt-0">

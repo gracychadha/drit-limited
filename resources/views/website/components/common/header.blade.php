@@ -54,7 +54,7 @@
                                 <i class="flaticon flaticon-briefcase me-2 career-icon"></i>
                             </div>
                             <a href="{{ route('career') }}" class="text-base-white career-link">
-                                Career
+                                Careers
                             </a>
                         </div>
 

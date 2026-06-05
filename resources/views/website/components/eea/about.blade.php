@@ -18,11 +18,11 @@
                                 ?</h2>
                         </div>
                         <div class="title-desc">
-                            <p align="justify">Employee engagement is a key part of our workplace culture at Dr ITM. We
-                                create an environment where every team member is empowered to perform at their best
-                                while staying aligned with our values and organizational goals. We believe that a
-                                motivated and supported workforce drives better performance, higher productivity, and
-                                improved service delivery for our clients.
+                            <p align="justify">We foster a positive and engaging workplace culture through team-building
+                                activities, recognition programs, wellness initiatives, training sessions, and
+                                celebrations. By investing in our people, we enhance employee satisfaction, encourage
+                                continuous growth, and build a motivated workforce committed to delivering excellence.
+
 
 
                             </p>
@@ -37,5 +37,5 @@
     </div>
 </section>
 <section class="cmt-row about-section clearfix">
-    
+
 </section>

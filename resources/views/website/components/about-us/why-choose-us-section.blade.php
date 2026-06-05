@@ -14,7 +14,8 @@
                                 <div class="section-title">
                                     <div class="title-header">
                                         <h3>why choose us</h3>
-                                        <h2 class="title">Empowering Businesses Through Technology</h2>
+                                        <h2 class="title">Scalable Solutions. Exceptional Results.
+                                        </h2>
                                     </div>
                                 </div><!-- section title end -->
                                 <div class="pt-5">
@@ -29,12 +30,13 @@
                                         </div>
                                         <div class="featured-content">
                                             <div class="featured-title">
-                                                <h3>Value-Driven, Customer-Centric Approach</h3>
+                                                <h3>25+ Years of Expertise
+                                                </h3>
                                             </div>
                                             <div class="featured-desc">
-                                                <p>High-quality, cost-effective solutions tailored to your business
-                                                    needs, ensuring enhanced efficiency, better customer experiences,
-                                                    and measurable results.
+                                                <p>Delivering reliable customer support, telesales, collections, and
+                                                    back-office solutions with proven industry experience.
+
                                                 </p>
                                             </div>
                                         </div>
@@ -50,12 +52,11 @@
                                         </div>
                                         <div class="featured-content">
                                             <div class="featured-title">
-                                                <h3>Scalable Solutions with Proven Expertise</h3>
+                                                <h3>Scalable & Secure Operations</h3>
                                             </div>
                                             <div class="featured-desc">
-                                                <p>With strong experience in IT, BPO, and data services, we provide
-                                                    flexible and reliable solutions that adapt to your growth and
-                                                    consistently deliver successful outcomes.
+                                                <p>Self-owned infrastructure and strategically located centers ensure
+                                                    seamless service delivery, business continuity, and excellence.
                                                 </p>
                                             </div>
                                         </div>

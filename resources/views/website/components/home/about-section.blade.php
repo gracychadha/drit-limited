@@ -15,25 +15,25 @@
                         <div class="title-header">
                             <h3>About Us</h3>
                             <h2 class="title">
-                                Where Customer Experience Meets Operational Excellence
+                                Empowering Businesses Through Exceptional Customer Experiences 
                             </h2>
                         </div>
                         <div class="title-desc">
                             <p align="justify">
-                                At Dr ITM, we offer highly professional services that are focused on value and quality,
-                                always following the top standards of professionalism. We are dedicated to providing our
-                                global clients with exceptional results while fostering a world-class environment where
-                                our employees can thrive. With complete hard work and innovations from our workforce, we
-                                are committed to achieving tremendous success for every partner we serve. Our mission is
-                                to provide cost-effective, scalable services that enhance customer experiences and drive
-                                superior business outcomes.
+                                Dr ITM CX is a trusted BPO and IT-enabled services partner with over 26 years of
+                                experience in delivering exceptional customer experiences and operational excellence. We
+                                combine skilled professionals, advanced technology, and customized solutions across
+                                customer support, telesales, collections, and back-office operations to help businesses
+                                improve efficiency and drive growth. Backed by the legacy of Dr ITM Group, we are
+                                committed to innovation, quality, and creating measurable value for our clients.
+
 
 
                             </p>
                         </div>
                     </div>
                     <!-- section title end -->
-                    
+
                     <div class="cmt-horizontal_sep mt-40 res-991-mt-30 mb-25 res-991-mb-30"></div>
                     <div class="row">
                         <div class="col-lg-4 col-md-3 col-sm-12">

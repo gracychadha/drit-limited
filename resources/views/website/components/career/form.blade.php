@@ -17,7 +17,7 @@
                         </div>
                     </div><!-- section title end -->
                     <form id="contact-form" action="{{ route('career.application.store') }}" method="POST"
-                        class="query_form wrap-form clearfix"  enctype="multipart/form-data">
+                        class="query_form wrap-form clearfix" enctype="multipart/form-data">
                         <div class="row">
                             <div class="col-md-6">
                                 <label>
@@ -97,15 +97,19 @@
 
                             <!-- recaptcha hidden input -->
                             <input type="hidden" name="g-recaptcha-response" id="recaptcha-token">
-
-                            <div class="col-md-12">
+                            <div class="w-50">
+                                <button class="submit new-button " type="submit">
+                                    Submit
+                                </button>
+                            </div>
+                            <!-- <div class="col-md-12">
                                 <button
                                     class="submit cmt-btn btn-default cmt-icon-btn-left cmt-btn-size-md cmt-btn-color-dark mt-5"
                                     type="submit">
                                     <i class="icon-right"></i>
                                     <span>Apply Now</span>
                                 </button>
-                            </div>
+                            </div> -->
                         </div>
                     </form>
                 </div>

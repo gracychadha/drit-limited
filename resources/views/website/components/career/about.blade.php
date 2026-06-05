@@ -12,17 +12,19 @@
                     <!-- section title -->
                     <div class="section-title">
                         <div class="title-header">
-                            <h3>Nurturing Talent for Collective Success
+                            <h3>Build Your Future with Dr ITM CX
+
                             </h3>
-                            <h2 class="title">Employee Engagement Activities at Dr ITM
-                                ?</h2>
+                            <h2 class="title">Build Your Future with Dr ITM CX
+
+                                </h2>
                         </div>
                         <div class="title-desc">
-                            <p align="justify">Employee engagement is a key part of our workplace culture at Dr ITM. We
-                                create an environment where every team member is empowered to perform at their best
-                                while staying aligned with our values and organizational goals. We believe that a
-                                motivated and supported workforce drives better performance, higher productivity, and
-                                improved service delivery for our clients.
+                            <p align="justify">At Dr ITM CX, we offer a dynamic and growth-oriented workplace where
+                                talent is valued, skills are developed, and careers thrive. Through continuous learning,
+                                career advancement opportunities, and a collaborative culture, we empower individuals to
+                                achieve their professional goals while contributing to organizational success.
+
 
 
                             </p>
