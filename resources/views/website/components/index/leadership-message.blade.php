@@ -4,14 +4,14 @@
             <div class="col-lg-12">
                 <div class="cmt-team-member-single-content">
                     <div class="cmt-team-member-single-content-area">
-                        <div class="cmt-bg cmt-col-bgcolor-yes bg-base-grey border-rad_10 spacing-5 overflow-visible">
+                        <div class="cmt-bg cmt-col-bgcolor-yes bg-base-skin border-rad_10  overflow-visible">
                             <div class="cmt-col-wrapper-bg-layer cmt-bg-layer border-rad_10"></div>
                             <div class="layer-content">
                                 <div class="row g-0">
                                     <div class="col-lg-5">
                                         <!-- cmt-featured-wrapper -->
                                         <div class="cmt-featured-wrapper">
-                                            <div class="featured-thumbnail mt_100 ml_100 res-991-mt-0 res-991-ml-0">
+                                            <div class="featured-thumbnail   res-991-mt-0 res-991-ml-0">
                                                 <img width="535" height="500" class="img-fluid"
                                                     src="{{ asset('website/images/team-member/team-img01.jpg') }}"
                                                     alt="image">
@@ -56,15 +56,14 @@
                                                             operational excellence, and customer-centric solutions.
                                                         </p>
 
-                                                        <p>
-                                                            Thank you for being a part of our journey.
-                                                        </p>
+                                                     
 
-                                                        <div class="mt-4">
+                                                        <div class="mt-2">
                                                             <strong>CA (Dr.) M. K. Mahajan
                                                             </strong><br>
                                                             Chief Executive Officer
                                                         </div>
+                                                        <br>
                                                     </div>
                                                 </div>
                                             </div>

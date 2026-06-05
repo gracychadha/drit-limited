@@ -20,7 +20,7 @@ use App\Http\Controllers\TechnologyController;
 use App\Http\Controllers\PartnerController;
 
 Route::get('/', function () {
-    return view('website.pages.welcome');
+    return view('website.pages.index');
 })->name('home');
 Route::get('/index', function () {
     return view('website.pages.index'); //for diff layout
@@ -37,6 +37,9 @@ Route::get('/contact-us', function () {
 Route::get('/our-clients', function () {
     return view('website.pages.our-clients');
 })->name('our-clients');
+Route::get('/our-presence', function () {
+    return view('website.pages.our-presence');
+})->name('our-presence');
 Route::get('/privacy-policy', function () {
     return view('website.pages.privacy-policy');
 })->name('privacy-policy');

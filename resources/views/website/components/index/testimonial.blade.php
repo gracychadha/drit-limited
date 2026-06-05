@@ -15,11 +15,11 @@
                                     <div class="testimonial-quote-icon">
                                         <i class="icon-quote-right-alt"></i>
                                     </div>
-                                    <blockquote class="testimonial-text">We are still not sure how we got here, but
-                                        we’re excited about where we’re going. Their innovators & engineer makes things
-                                        easy and in a timely matter.</blockquote>
+                                    <blockquote class="testimonial-text">Trusted by businesses for delivering reliable
+                                        solutions, exceptional customer experiences, and measurable results.
+                                    </blockquote>
                                     <div class="testimonial-caption">
-                                        <h3>Victor Wilson</h3>
+                                        <h3>Rajesh Sharma</h3>
                                         <label>Web Developer</label>
                                     </div>
                                 </div>
@@ -30,11 +30,12 @@
                                     <div class="testimonial-quote-icon">
                                         <i class="icon-quote-right-alt"></i>
                                     </div>
-                                    <blockquote class="testimonial-text">An excellent and hard working. Thanks to them,
-                                        we were able to achieve our goal on time, and we look forward to continue
-                                        working with them in the future.</blockquote>
+                                    <blockquote class="testimonial-text">Dr ITM CX has been a dependable outsourcing
+                                        partner for our business. Their professional team, streamlined processes, and
+                                        commitment to quality have significantly improved our customer engagement and
+                                        operational efficiency.</blockquote>
                                     <div class="testimonial-caption">
-                                        <h3>Aenna Bell</h3>
+                                        <h3>Priya Mehta</h3>
                                         <label>IT Manager</label>
                                     </div>
                                 </div>
@@ -45,17 +46,18 @@
                                     <div class="testimonial-quote-icon">
                                         <i class="icon-quote-right-alt"></i>
                                     </div>
-                                    <blockquote class="testimonial-text">An excellent and hard working. Thanks to them,
-                                        we were able to achieve our goal on time, and we look forward to continue
-                                        working with them in the future.</blockquote>
+                                    <blockquote class="testimonial-text">The team consistently delivers excellent
+                                        support and maintains high service standards. Their ability to understand our
+                                        requirements and provide customized solutions has helped us enhance both
+                                        productivity and customer satisfaction.</blockquote>
                                     <div class="testimonial-caption">
-                                        <h3>Er. john Martin</h3>
+                                        <h3>Amit Verma</h3>
                                         <label>WordPress Expert</label>
                                     </div>
                                 </div>
                             </div><!-- testimonials end -->
                         </div>
-                       
+
                     </div>
                 </div><!-- col-img-bg-img-two end-->
             </div>
