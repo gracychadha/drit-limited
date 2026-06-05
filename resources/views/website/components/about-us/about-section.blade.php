@@ -5,7 +5,7 @@
             <div class="col-xl-6 col-md-12 col-sm-12">
                 <div class="ttm_single_image-wrapper d-table border-rad_5 overflow-hidden">
                     <img width="1140" height="1300" class="img-fluid"
-                        src="{{ asset('website/images/upload/about.png') }}" alt="single-01">
+                        src="{{ asset('website/images/upload/about-about.png') }}" alt="single-01">
                 </div>
 
             </div>

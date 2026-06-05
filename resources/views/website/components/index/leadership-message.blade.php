@@ -13,7 +13,7 @@
                                         <div class="cmt-featured-wrapper">
                                             <div class="featured-thumbnail   res-991-mt-0 res-991-ml-0">
                                                 <img width="535" height="500" class="img-fluid"
-                                                    src="{{ asset('website/images/team-member/team-img01.jpg') }}"
+                                                    src="{{ asset('website/images/upload/mk-mahajan.png') }}"
                                                     alt="image">
                                             </div>
                                         </div><!-- cmt-featured-wrapper end-->

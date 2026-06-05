@@ -74,7 +74,7 @@
                             </div>
                         </div><!-- col-img-bg-img-one end-->
                         <img class="img-fluid cmt-equal-height-image w-100"
-                            src="{{ asset('website/images/bg-image/col-bgimage-1.jpg') }}" alt="bg-image">
+                            src="{{ asset('website/images/upload/whychoose.png') }}" alt="bg-image">
                     </div>
                 </div><!-- row end -->
             </div>

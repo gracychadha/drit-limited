@@ -220,7 +220,7 @@
     display: none;
 }
 .col-bg-img-one.cmt-col-bgimage-yes > .cmt-col-wrapper-bg-layer {
-    background-image: url(../images/bg-image/col-bgimage-1.jpg);
+    background-image: url(../images/upload/whychoose.png);
     background-position: -40px 0;
     background-size: cover;
 }

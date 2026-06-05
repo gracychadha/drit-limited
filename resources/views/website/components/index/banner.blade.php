@@ -1,10 +1,10 @@
 <rs-module-wrap id="rev_slider_2_1_wrapper" data-source="gallery">
     <rs-module id="rev_slider_2_1" data-version="6.5.9">
         <rs-slides>
-            <rs-slide data-key="rs-1" data-title="Slide" data-thumb="images/slides/slider-mainbg-003.jpg"
+            <rs-slide data-key="rs-1" data-title="Slide" data-thumb="website/images/upload/banner-01.png"
                 data-anim="ei:d;eo:d;s:d;r:0;t:fade;sl:d;">
 
-                <img src="{{ asset('website/images/slides/slider-mainbg-003.jpg') }}" title="slider-img-03.jpg"
+                <img src="{{ asset('website/images/upload/banner-01.png') }}" title="slider-img-03.jpg"
                     width="1920" height="693" class="rev-slidebg tp-rs-img" data-no-retina="">
 
                 <rs-layer id="slider-1-slide-1-layer-0" data-type="text" data-color="#fff" data-rsp_ch="on"
@@ -43,10 +43,10 @@
                     solutions <br> that build trust and long-term value.
                 </rs-layer>
             </rs-slide>
-            <rs-slide data-key="rs-4" data-title="Slide" data-thumb="images/slides/slider-mainbg-004.jpg"
+            <rs-slide data-key="rs-4" data-title="Slide" data-thumb="website/images/upload/banner-02.png"
                 data-anim="ei:d;eo:d;s:d;r:0;t:fade;sl:d;">
 
-                <img src="{{ asset('website/images/slides/slider-mainbg-004.jpg') }}" title="slider-img-02.jpg"
+                <img src="{{ asset('website/images/upload/banner-02.png') }}" title="slider-img-02.jpg"
                     width="1920" height="693" class="rev-slidebg tp-rs-img" data-no-retina="">
 
 
