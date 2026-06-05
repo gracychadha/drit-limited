@@ -39,47 +39,51 @@
                                                 <input type="checkbox" id="selectAll">
                                             </th>
                                             <th>Name</th>
-                                            <th>Phone</th>
                                             <th>Email</th>
+                                            <th>Specialization</th>
+                                            <th>Experience</th>
+                                            <th>Applied On</th>
                                             <th class="no-sort">Actions</th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        @forelse ($leads as $lead)
+                                        @forelse ($applications as $application)
                                             <tr>
                                                 <td>
-                                                    <input type="checkbox" class="checkItem" value="{{ $lead->id }}">
+                                                    <input type="checkbox" class="checkItem" value="{{ $application->id }}">
                                                     {{ $loop->iteration }}
                                                 </td>
-                                                <td>{{ $lead->name }}</td>
-                                                <td>{{ $lead->phone }}</td>
-                                                <td>{{ $lead->email }}</td>
+                                                <td>{{ $application->name }}</td>
+                                                <td>{{ $application->email }}</td>
+                                                <td>{{ $application->specialization }}</td>
+                                                <td>{{ $application->experience }}</td>
+                                                <td>{{ $application->created_at->format('d M Y') }}</td>
 
                                                 <td class="d-flex align-items-center">
                                                     @can('view leads')
                                                         <a class="btn-action-icon me-2" href="javascript:void(0);"
-                                                            data-bs-toggle="modal" data-bs-target="#view_lead{{ $lead->id }}">
+                                                            data-bs-toggle="modal" data-bs-target="#view_lead{{ $application->id }}">
                                                             <i class="fe fe-eye"></i>
                                                         </a>
                                                     @endcan
                                                     @can('delete leads')
-                                                    <form action="{{ route('admin-leads.destroy', $lead->id) }}" method="POST"
-                                                        class="d-inline delete-form">
-                                                        @csrf
-                                                        @method('DELETE')
+                                                        <form action="{{ route('admin-career-applications.destroy', $application->id) }}" method="POST"
+                                                            class="d-inline delete-form">
+                                                            @csrf
+                                                            @method('DELETE')
 
-                                                        <button type="button"
-                                                            class="btn-action-icon border-0 bg-transparent delete-btn">
-                                                            <i class="fe fe-trash-2"></i>
-                                                        </button>
-                                                    </form>
+                                                            <button type="button"
+                                                                class="btn-action-icon border-0 bg-transparent delete-btn">
+                                                                <i class="fe fe-trash-2"></i>
+                                                            </button>
+                                                        </form>
                                                     @endcan
                                                 </td>
                                             </tr>
                                         @empty
                                             <tr>
                                                 <td></td>
-                                                <td class="text-center">No leads found.</td>
+                                                <td class="text-center">No career applications found.</td>
                                                 <td></td>
                                                 <td></td>
                                                 <td></td>
@@ -95,14 +99,14 @@
         </div>
     </div>
 
-    @foreach($leads as $item)
+    @foreach($applications as $item)
         <div class="modal custom-modal fade" id="view_lead{{ $item->id }}" role="dialog">
             <div class="modal-dialog modal-dialog-centered modal-lg">
                 <div class="modal-content">
 
                     <div class="modal-header border-0 pb-0">
                         <div class="form-header modal-header-title text-start mb-0">
-                            <h4 class="mb-0">View Lead</h4>
+                            <h4 class="mb-0">View Career Application</h4>
                         </div>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
@@ -123,23 +127,42 @@
                                 <th>Phone :</th>
                                 <td>{{ $item->phone }}</td>
 
-                                <th>Enquiry For :</th>
-                                <td>{{ $item->enquiry_for }}</td>
+                                <th>Specialization  :</th>
+                                <td>{{ $item->specialization }}</td>
                             </tr>
-                            <tr>
-                                <th>Created At :</th>
-                                <td>{{ $item->created_at->format('d M Y, h:i A') }}</td>
 
-                                <th>Updated At :</th>
-                                <td>{{ $item->updated_at->format('d M Y, h:i A') }}</td>
+                            <tr>
+                                <th>Experience :</th>
+                                <td>{{ $item->experience }}</td>
+
+                                <th>Resume :</th>
+                                <td>
+                                    @if($item->resume)
+                                        <a href="{{ asset('storage/' . $item->resume) }}" target="_blank"
+                                            class="btn btn-sm btn-primary">
+                                            View Resume
+                                        </a>
+                                    @else
+                                        N/A
+                                    @endif
+                                </td>
                             </tr>
+
+                            <tr>
+                                <th>Applied On :</th>
+                                <td colspan="3">{{ $item->created_at->format('d M Y, h:i A') }}</td>
+
+                                
+                            </tr>
+
                             <tr>
                                 <th>Message :</th>
-                                <td colspan="3">{{ $item->message }}</td>
+                                <td colspan="3">
+                                    {{ $item->message ?? 'N/A' }}
+                                </td>
                             </tr>
 
                         </table>
-
                     </div>
 
                     <div class="modal-footer">
@@ -166,8 +189,8 @@
                 var form = $(this).closest('form');
 
                 Swal.fire({
-                    title: 'Delete Lead?',
-                    text: "This lead will be permanently deleted!",
+                    title: 'Delete Application?',
+                    text: "This application will be permanently deleted!",
                     icon: 'warning',
                     showCancelButton: true,
                     confirmButtonColor: '#d33',
@@ -210,13 +233,13 @@
             });
 
             if (selected.length === 0) {
-                Swal.fire("Oops!", "Please select at least one contact.", "warning");
+                Swal.fire("Oops!", "Please select at least one application.", "warning");
                 return;
             }
 
             Swal.fire({
                 title: "Are you sure?",
-                text: "Selected Lead will be deleted permanently!",
+                text: "Selected application will be deleted permanently!",
                 icon: "warning",
                 showCancelButton: true,
                 confirmButtonColor: "#d33",
@@ -227,7 +250,7 @@
                 if (result.isConfirmed) {
 
                     $.ajax({
-                        url: "/leads/delete-selected",
+                        url: "/career-applications/delete-selected",
 
                         type: "POST",
                         data: {
@@ -235,7 +258,7 @@
                             _token: "{{ csrf_token() }}"
                         },
                         success: function (response) {
-                            Swal.fire("Deleted!", "Selected Lead removed.", "success");
+                            Swal.fire("Deleted!", "Selected application removed.", "success");
 
                             selected.forEach(id => {
                                 $(`input[value='${id}']`).closest("tr").fadeOut(500, function () {

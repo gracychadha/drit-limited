@@ -17,6 +17,14 @@
                 @endcan
                 @can('view leads')
                     <li class="submenu">
+                        <a href="#"><i class="fe fe-grid"></i> <span>Career Applications</span></a>
+                        <ul>
+                            <li><a href="{{ route('admin-career-applications') }}">All Applications</a></li>
+                        </ul>
+                    </li>
+                @endcan
+                @can('view leads')
+                    <li class="submenu">
                         <a href="#"><i class="fe fe-grid"></i> <span>Leads</span></a>
                         <ul>
                             <li><a href="{{ route('admin-leads') }}">Contact Leads</a></li>

@@ -18,6 +18,7 @@ use App\Http\Controllers\UserController;
 use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\TechnologyController;
 use App\Http\Controllers\PartnerController;
+use App\Http\Controllers\CareerApplicationController;
 
 Route::get('/', function () {
     return view('website.pages.index');
@@ -79,6 +80,9 @@ Route::get('/service-details/{slug}', function ($slug) {
 // contact leads store
 Route::post('/contact-us/store', [ContactLeadController::class, 'store'])->name('contact-us.store');
 
+Route::post('/career-application', [CareerApplicationController::class, 'store'])
+    ->name('career.application.store');
+
 Route::get('/dashboard', function () {
     $totalLeads = App\Models\ContactLead::count();
     $blogs = App\Models\Blog::count();
@@ -117,6 +121,11 @@ Route::middleware('auth')->group(function () {
     Route::get('/admin-leads', [ContactLeadController::class, 'index'])->name('admin-leads');
     Route::delete('/admin-leads/{lead}', [ContactLeadController::class, 'destroy'])->name('admin-leads.destroy');
     Route::post('/leads/delete-selected', [ContactLeadController::class, 'deleteSelected']);
+
+
+    Route::get('/admin-career-applications', [CareerApplicationController::class, 'index'])->name('admin-career-applications');
+    Route::delete('/admin-career-applications/{application}', [CareerApplicationController::class, 'destroy'])->name('admin-career-applications.destroy');
+    Route::post('/career-applications/delete-selected', [CareerApplicationController::class, 'deleteSelected']);
     // ************************************************************************************
     // ************************************************************************************
     // Event categories page CMS

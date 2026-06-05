@@ -12,12 +12,12 @@
                     <!-- section title -->
                     <div class="section-title">
                         <div class="title-header">
-                            <h3>Looking for Expert IT Solutions?</h3>
-                            <h2 class="title">Connect With Us to Discuss Your Requirements.</h2>
+                            <h3>Join Our Growing Team</h3>
+                            <h2 class="title">Explore Exciting Career Opportunities and Build Your Future With Us.</h2>
                         </div>
                     </div><!-- section title end -->
-                    <form id="contact-form" action="{{ route('contact-us.store') }}" method="POST"
-                        class="query_form wrap-form clearfix">
+                    <form id="contact-form" action="{{ route('career.application.store') }}" method="POST"
+                        class="query_form wrap-form clearfix"  enctype="multipart/form-data">
                         <div class="row">
                             <div class="col-md-6">
                                 <label>
@@ -47,7 +47,7 @@
                             <div class="col-md-6">
                                 <label>
                                     <span class="text-input select-option">
-                                        <select name="position" required>
+                                        <select name="specialization" required>
                                             <option value="">Specialization</option>
                                             <option value="Customer Support Executive">Customer Support Executive
                                             </option>
