@@ -38,8 +38,14 @@
                             <div class="top_bar_icon">
                                 <i class="flaticon flaticon-pin me-2"></i>
                             </div>
+                            @php
+                                $parts = explode(',', $websiteSetting->location);
+                                $city = trim($parts[count($parts) - 2] ?? '');
+                                $state = preg_replace('/\d+/', '', trim($parts[count($parts) - 1] ?? ''));
+                            @endphp
+
                             <a href="javascript:void(0)" class="text-base-white">
-                                {{ ($websiteSetting->location ?? 'Chandigarh , India') }}
+                                {{ $city . ', ' . trim($state) }}
                             </a>
 
                         </div>
