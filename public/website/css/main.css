@@ -2461,7 +2461,7 @@ ul.social-icons {
 /** SiteNavigation(Menu) **/
 .site-navigation {
     position: relative;
-    z-index: 1;
+    z-index: 2;
 }
 nav.main-menu ul {
     position: relative;
