@@ -30,7 +30,7 @@
                 </div>
                 <div class="col-lg-8 my-auto">
                     <div class="top_bar_inner bg-base-skin text-base-white">
-                        
+
                         <!-- Phone -->
                         <!-- <div class="top_bar_contact_item top_bar_contact_item1 with-icon me-4">
                             <div class="top_bar_icon">
@@ -324,7 +324,12 @@
                                         </ul>
                                     </li>
                                     <li class="mega-menu-item">
-                                        <a href="{{ route('our-clients') }}">Our Gallery</a>
+                                        <a href="#" class="mega-menu-link">Our Gallery</a>
+                                        <ul class="mega-submenu">
+                                            <li class="mega-menu-item">
+                                                <a href="{{ route('eea') }}">EEA</a>
+                                            </li>
+                                        </ul>
                                     </li>
                                     <li class="mega-menu-item">
                                         <a href="{{ route('our-presence') }}">Our Presence</a>

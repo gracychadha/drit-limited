@@ -15,6 +15,8 @@
     @include('website.components.about-us.why-choose-us-section')
     @include('website.components.index.cta')
     @include('website.components.index.testimonial')
+    
+    @include('website.components.index.industries-serve')
 @endsection
 @push('scripts')
     <script>
