@@ -8,33 +8,43 @@
     <div class="top_bar bg-base-skin text-base-white clearfix">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="top_bar_inner bg-base-skin text-base-white">
+                <div class="col-lg-4 my-auto top_bar_contact_item1">
+                    <div class="sector-marquee">
+                        <div class="sector-track">
+                            <span>BPO</span>
+                            <span>Financial Services</span>
+                            <span>Education</span>
+                            <span>Real Estate</span>
+                            <span>Skill Development</span>
+                            <span>Co-Working Space</span>
 
+                            <!-- Duplicate for seamless loop -->
+                            <span>BPO</span>
+                            <span>Financial Services</span>
+                            <span>Education</span>
+                            <span>Real Estate</span>
+                            <span>Skill Development</span>
+                            <span>Co-Working Space</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 my-auto">
+                    <div class="top_bar_inner bg-base-skin text-base-white">
+                        
                         <!-- Phone -->
-                        <div class="top_bar_contact_item top_bar_contact_item1 with-icon me-4">
+                        <!-- <div class="top_bar_contact_item top_bar_contact_item1 with-icon me-4">
                             <div class="top_bar_icon">
                                 <i class="icon-phone"></i>
                             </div>
                             <a href="tel:+919876543210" class="text-base-white">
                                 +91 98765 43210
                             </a>
-                        </div>
+                        </div> -->
 
                         <!-- Email -->
-                        <div class="top_bar_contact_item top_bar_contact_item1 with-icon me-4">
-                            <div class="top_bar_icon">
-                                <i class="icon-mail me-2"></i>
-                            </div>
-                            <a href="mailto:{{
-                                    $websiteSetting->email ?? 'info@drit.in' }}" target="_blank"
-                                class="text-base-white">
-                                {{
-                                $websiteSetting->email ?? 'info@drit.in' }}
-                            </a>
-                        </div>
+
                         <!-- Email -->
-                        <div class="top_bar_contact_item top_bar_contact_item1  with-icon me-4">
+                        <!-- <div class="top_bar_contact_item top_bar_contact_item1  with-icon me-4">
                             <div class="top_bar_icon">
                                 <i class="flaticon flaticon-pin me-2"></i>
                             </div>
@@ -48,12 +58,23 @@
                                 {{ $city . ', ' . trim($state) }}
                             </a>
 
+                        </div> -->
+                        <div class="top_bar_contact_item  with-icon me-4">
+                            <div class="top_bar_icon">
+                                <i class="icon-mail me-2"></i>
+                            </div>
+                            <a href="mailto:{{
+                                    $websiteSetting->email ?? 'info@drit.in' }}" target="_blank"
+                                class="text-base-white">
+                                {{
+                                $websiteSetting->email ?? 'info@drit.in' }}
+                            </a>
                         </div>
                         <div class="top_bar_contact_item with-icon">
                             <div class="top_bar_icon">
                                 <i class="flaticon flaticon-briefcase me-2 career-icon"></i>
                             </div>
-                            <a href="{{ route('career') }}" class="text-base-white career-link">
+                            <a href="{{ route('career') }}" class=" career-link">
                                 Careers
                             </a>
                         </div>
@@ -303,7 +324,7 @@
                                         </ul>
                                     </li>
                                     <li class="mega-menu-item">
-                                        <a href="{{ route('our-clients') }}">Our Offices</a>
+                                        <a href="{{ route('our-clients') }}">Our Gallery</a>
                                     </li>
                                     <li class="mega-menu-item">
                                         <a href="{{ route('our-presence') }}">Our Presence</a>

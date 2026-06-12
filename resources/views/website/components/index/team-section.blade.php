@@ -18,10 +18,10 @@
             <div class="cmt-box-col-wrapper col-lg-3">
                 <!-- featured-imagebox-team -->
                 <div class="featured-imagebox featured-imagebox-team style1">
-                    <div class="featured-thumbnail">
+                    <!-- <div class="featured-thumbnail">
                         <img width="370" height="346" class="img-fluid" src="{{ asset('website/images/male.png') }}"
                             alt="image">
-                    </div>
+                    </div> -->
                     <div class="featured-content">
                         <div class="team-position">Founder & Chairman</div>
                         <div class="featured-title">
@@ -31,7 +31,7 @@
                             <a class="cmt-btn btn-inline cmt-btn-size-md cmt-btn-color-skincolor" href="#">Founder &
                                 Chairman</a>
                         </div>
-                        <div class="featured-iconbox cmt-media-link">
+                        <!-- <div class="featured-iconbox cmt-media-link">
                             <div class="media-block">
                                 <div class="media-btn"><i class="icon-plus"></i></div>
                                 <ul class="social-icons list-inline">
@@ -41,17 +41,17 @@
                                     <li class="social-instagram"><a href="#"><i class="ti ti-instagram"></i></a></li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div><!-- featured-imagebox-team end-->
             </div>
             <div class="cmt-box-col-wrapper col-lg-3">
                 <!-- featured-imagebox-team -->
                 <div class="featured-imagebox featured-imagebox-team style1">
-                    <div class="featured-thumbnail">
+                    <!-- <div class="featured-thumbnail">
                         <img width="370" height="346" class="img-fluid" src="{{ asset('website/images/male.png') }}"
                             alt="image">
-                    </div>
+                    </div> -->
                     <div class="featured-content">
                         <div class="team-position">Managing Director</div>
                         <div class="featured-title">
@@ -61,7 +61,7 @@
                             <a class="cmt-btn btn-inline cmt-btn-size-md cmt-btn-color-skincolor" href="#">Managing
                                 Director</a>
                         </div>
-                        <div class="featured-iconbox cmt-media-link">
+                        <!-- <div class="featured-iconbox cmt-media-link">
                             <div class="media-block">
                                 <div class="media-btn"><i class="icon-plus"></i></div>
                                 <ul class="social-icons list-inline">
@@ -71,29 +71,29 @@
                                     <li class="social-instagram"><a href="#"><i class="ti ti-instagram"></i></a></li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div><!-- featured-imagebox-team end-->
             </div>
             <div class="cmt-box-col-wrapper col-lg-3">
                 <!-- featured-imagebox-team -->
                 <div class="featured-imagebox featured-imagebox-team style1">
-                    <div class="featured-thumbnail">
+                    <!-- <div class="featured-thumbnail">
                         <img width="370" height="346" class="img-fluid" src="{{ asset('website/images/male.png') }}"
                             alt="image">
-                    </div>
+                    </div> -->
                     <div class="featured-content">
                         <div class="team-position">Sr. Vice President
                         </div>
                         <div class="featured-title">
-                            <h3><a href="#">Naresh Dhuria</a></h3>
+                            <h3><a href="#">Deepti Mahajan</a></h3>
                         </div>
                         <div class="featured-view-more">
                             <a class="cmt-btn btn-inline cmt-btn-size-md cmt-btn-color-skincolor" href="#">Sr. Vice
                                 President
                             </a>
                         </div>
-                        <div class="featured-iconbox cmt-media-link">
+                        <!-- <div class="featured-iconbox cmt-media-link">
                             <div class="media-block">
                                 <div class="media-btn"><i class="icon-plus"></i></div>
                                 <ul class="social-icons list-inline">
@@ -103,29 +103,29 @@
                                     <li class="social-instagram"><a href="#"><i class="ti ti-instagram"></i></a></li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div><!-- featured-imagebox-team end-->
             </div>
             <div class="cmt-box-col-wrapper col-lg-3">
                 <!-- featured-imagebox-team -->
                 <div class="featured-imagebox featured-imagebox-team style1">
-                    <div class="featured-thumbnail">
+                    <!-- <div class="featured-thumbnail">
                         <img width="370" height="346" class="img-fluid" src="{{ asset('website/images/male.png') }}"
                             alt="image">
-                    </div>
+                    </div> -->
                     <div class="featured-content">
                         <div class="team-position">Sr. Vice President
                         </div>
                         <div class="featured-title">
-                            <h3><a href="#">Deepak Verma
+                            <h3><a href="#">Shilpa Mahajan
                                 </a></h3>
                         </div>
                         <div class="featured-view-more">
                             <a class="cmt-btn btn-inline cmt-btn-size-md cmt-btn-color-skincolor" href="#">Sr. Vice
                                 President</a>
                         </div>
-                        <div class="featured-iconbox cmt-media-link">
+                        <!-- <div class="featured-iconbox cmt-media-link">
                             <div class="media-block">
                                 <div class="media-btn"><i class="icon-plus"></i></div>
                                 <ul class="social-icons list-inline">
@@ -135,7 +135,7 @@
                                     <li class="social-instagram"><a href="#"><i class="ti ti-instagram"></i></a></li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div><!-- featured-imagebox-team end-->
             </div>

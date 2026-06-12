@@ -50,7 +50,7 @@
                     <div class="featured-content">
                         <div class="featured-title">
                             <h2 class="fs-15 fw-normal bodyfont-color mb-0">Any Questions? Email us</h2>
-                            <h3 class="fs-15 fw-500 mb-0">{{ $websiteSetting->email ?? 'info@drit.in' }}</h3>
+                            <h3 class="fs-15 fw-500 mb-0">{{ $websiteSetting->email ?? 'info@drit.in' }} | hr@drit.in </h3>
                         </div>
                     </div>
                 </div><!-- featured-icon-box end -->

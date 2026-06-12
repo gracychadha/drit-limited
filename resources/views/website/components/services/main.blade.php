@@ -5,10 +5,14 @@
             <p align="justify">{{ $service->description ?? 'No Description Found Yet !!' }}</p>
             <!-- post-featured-wrapper -->
             <div class="cmt-post-featured-wrapper cmt-featured-wrapper">
-                <div class="cmt-post-featured">
-                    <img width="1200" height="800" class="img-fluid"
+                <div class="cmt-post-featured row">
+                    <div class="col-lg-6"> <img width="1200" height="800" class="img-fluid"
                         src="{{ $service->image ? asset('storage/' . $service->image) : asset('website/images/blog/blog-01-1200x800.jpg') }}"
-                        alt="">
+                        alt=""></div>
+                    <div class="col-lg-6"> <img width="1200" height="800" class="img-fluid"
+                        src="{{ $service->image_2 ? asset('storage/' . $service->image_2) : asset('website/images/blog/blog-01-1200x800.jpg') }}"
+                        alt=""></div>
+                   
                 </div>
             </div>
 

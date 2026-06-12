@@ -46,7 +46,7 @@
                             <div class="cmt-horizontal_sep width-100 mt-25 pb-20"></div>
                             <div class="about-counter">
                                 <h4 class="cmt-fid-inner">
-                                    <span data-appear-animation="animateDigits" data-from="1" data-to="7000"
+                                    <span data-appear-animation="animateDigits" data-from="1" data-to="8000"
                                         data-interval="1" data-before="" data-before-style="sup" data-after="+"
                                         data-after-style="sub" class="numinate">0
                                     </span>

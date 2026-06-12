@@ -1,7 +1,7 @@
 <section class="ditm-network-zone py-5">
     <div class="container">
 
-        
+
         <div class="section-title text-center">
             <div class="title-header">
                 <h3>Our Growth Network
@@ -18,7 +18,7 @@
                 <div class="ditm-map-wrapper">
                     <img src="{{ asset('website/images/inida.png') }}" alt="India Presence" class="img-fluid">
 
-                    <div class="ditm-location-card card-one">
+                    <!-- <div class="ditm-location-card card-one">
                         <h6>Chandigarh</h6>
                         <span>Head Office</span>
                     </div>
@@ -36,7 +36,7 @@
                     <div class="ditm-location-card card-four">
                         <h6>Chennai</h6>
                         <span>Expansion Zone</span>
-                    </div>
+                    </div> -->
                 </div>
             </div>
 
@@ -46,32 +46,67 @@
 
                     <div class="ditm-feature-box">
                         <i class="fas fa-building"></i>
-                        <h5>Self-Owned Infrastructure</h5>
+                        <h5>Self-Owned Sites</h5>
                     </div>
 
                     <div class="ditm-feature-box">
-                        <i class="fas fa-users"></i>
-                        <h5>7000+ Workforce</h5>
+                        <i class="fas fa-building"></i>
+                        <h5>State of the Art Infrastructure</h5>
                     </div>
 
                     <div class="ditm-feature-box">
-                        <i class="fas fa-laptop-house"></i>
-                        <h5>Modern Workspaces</h5>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h5>Prime Location</h5>
                     </div>
 
                     <div class="ditm-feature-box">
-                        <i class="fas fa-headset"></i>
-                        <h5>24×7 BPO Operations</h5>
+                        <i class="fas fa-user-md"></i>
+                        <h5>In-office Medical Care</h5>
+                    </div>
+
+                    <div class="ditm-feature-box">
+                        <i class="fas fa-parking"></i>
+                        <h5>Basement Parking</h5>
+                    </div>
+
+                    <div class="ditm-feature-box">
+                        <i class="fas fa-gamepad"></i>
+                        <h5>Recreation Facilities</h5>
+                    </div>
+
+                    <div class="ditm-feature-box">
+                        <i class="fas fa-wheelchair"></i>
+                        <h5>Ergonomics for the Specially-abled</h5>
+                    </div>
+
+                    <div class="ditm-feature-box">
+                        <i class="fas fa-comments"></i>
+                        <h5>Onsite Grievances Team</h5>
+                    </div>
+
+                    <div class="ditm-feature-box">
+                        <i class="fas fa-bus"></i>
+                        <h5>Access to Public Transport</h5>
+                    </div>
+
+                    <div class="ditm-feature-box">
+                        <i class="fas fa-bolt"></i>
+                        <h5>100% Power Backup</h5>
+                    </div>
+
+                    <div class="ditm-feature-box">
+                        <i class="fas fa-home"></i>
+                        <h5>Accommodation Support</h5>
+                    </div>
+
+                    <div class="ditm-feature-box">
+                        <i class="fas fa-utensils"></i>
+                        <h5>In-House Cafeteria</h5>
                     </div>
 
                     <div class="ditm-feature-box">
                         <i class="fas fa-graduation-cap"></i>
-                        <h5>Skill Development Programs</h5>
-                    </div>
-
-                    <div class="ditm-feature-box">
-                        <i class="fas fa-chart-line"></i>
-                        <h5>Scalable Delivery Model</h5>
+                        <h5>Further Education Options</h5>
                     </div>
 
                 </div>
