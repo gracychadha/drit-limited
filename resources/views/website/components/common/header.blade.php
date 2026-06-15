@@ -247,7 +247,7 @@
                                         : asset('website/images/main-logo.png');
                                 @endphp
                                 <a class="home-link" href="{{ route('home') }}" rel="home">
-                                    <img id="logo-img" height="48" width="147" class="img-fluid auto_size"
+                                    <img id="logo-img"  class="img-fluid auto_size"
                                         src="{{ $logo }}" alt="logo-img">
                                 </a>
                             </div><!-- site-branding end -->
