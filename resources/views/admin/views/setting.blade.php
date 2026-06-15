@@ -61,7 +61,7 @@
                                     <!-- LOGO -->
                                     <div class="profile-picture col-6">
                                         <div class="upload-profile me-2">
-                                            <div class="profile-img">
+                                            <div class="profile-img bg-dark">
                                                 <img id="logoWhitePreview"
                                                     src="{{ $websiteSetting->logo_white ? asset('storage/' . $websiteSetting->logo_white) : asset('admin/assets/img/profiles/avatar-10.jpg') }}"
                                                     class="" width="100">
