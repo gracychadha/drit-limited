@@ -11,7 +11,6 @@
     @include('website.components.index.services-section')
     @include('website.components.home.work-section')
 
-   @include('website.components.index.review-section')
 
     @include('website.components.about-us.why-choose-us-section')
     @include('website.components.index.cta')
