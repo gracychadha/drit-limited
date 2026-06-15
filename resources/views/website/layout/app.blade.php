@@ -123,6 +123,34 @@
                 },
             },
         });
+
+        var reviewSwiper = new Swiper(".ts-review-swiper", {
+            slidesPerView: 2,
+            spaceBetween: 25,
+            loop: true,
+
+            pagination: {
+                el: ".ts-review-pagination",
+                clickable: true,
+            },
+
+            autoplay: {
+                delay: 3000,
+            },
+
+            breakpoints: {
+                0: {
+                    slidesPerView: 1
+                },
+                768: {
+                    slidesPerView: 1
+                },
+                992: {
+                    slidesPerView: 2
+                }
+            }
+        });
+
     </script>
 
 </body>
