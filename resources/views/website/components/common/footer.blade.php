@@ -19,7 +19,7 @@
                                     ? asset('storage/' . $websiteSetting->logo_white)
                                     : asset('website/images/main-logo.png');
                             @endphp
-                            <img id="footer-logo-img" class="img-fluid auto_size" height="42" width="132"
+                            <img id="footer-logo-img" class="img-fluid auto_size" 
                                 src="{{ $logoWhite }}" alt="image">
 
                         </div>

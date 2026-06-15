@@ -57,7 +57,7 @@
                             <div class="row">
                                 <div class="profile-picture">
                                     <div class="upload-profile me-2">
-                                        <div class="profile-img">
+                                        <div class="profile-img bg-dark">
                                             <img id="blah" class="avatar" src="assets/img/profiles/avatar-10.jpg"
                                                 alt="profile-img">
                                         </div>
