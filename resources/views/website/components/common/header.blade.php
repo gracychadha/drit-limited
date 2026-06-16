@@ -271,9 +271,7 @@
                                             <li class="mega-menu-item">
                                                 <a href="{{ route('mission-vision') }}">Mission & Vision</a>
                                             </li>
-                                            <li class="mega-menu-item">
-                                                <a href="{{ route('eea') }}">EEA</a>
-                                            </li>
+                                           
 
                                         </ul>
                                     </li>
