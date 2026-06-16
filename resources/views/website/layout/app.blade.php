@@ -78,6 +78,10 @@
     <script src='{{ asset('website/revolution/js/revolution.tools.min.js') }}'></script>
     <script src='{{ asset('website/revolution/js/rs6.min.js') }}'></script>
     <script src="{{ asset('website/revolution/js/slider.js') }}"></script>
+    <div id="fb-root"></div>
+
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v23.0">
+    </script>
     <!-- Javascript end-->
     @stack('scripts')
     <!-- Swiper JS -->

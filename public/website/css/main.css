@@ -2227,6 +2227,7 @@ ul.social-icons {
     justify-content: center;
 }
 
+
 /**  side-menu **/
 .side-menu-container {
     position: absolute;
@@ -4999,4 +5000,92 @@ section.error-404 .page-content p {
     border-radius: 20px;
     padding: 30px;
     height: 100%;
+}
+/* ===== Social Media Section ===== */
+
+.govSocialSection {
+    background: linear-gradient(45deg, #fbdada, #fbf8eb);
+    /* background: #12317d; */
+    padding: 50px 20px;
+}
+
+.govSocialContainer {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.govSocialCard {
+    background: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 18px;
+    min-height: 500px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+}
+
+.govSocialCard:hover {
+    transform: translateY(-5px);
+}
+
+.govSocialTitle {
+    font-size: 28px;
+    font-weight: 600;
+    color: #1a2f70;
+    margin-bottom: 15px;
+}
+
+.govSocialFrame {
+    height: 430px;
+    overflow: hidden;
+    border-radius: 6px;
+    border: 1px solid #e5e5e5;
+}
+
+.govSocialFrame iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+}
+
+/* ===== Tablet ===== */
+
+@media (max-width: 1199px) {
+    .govSocialContainer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .govSocialCard {
+        min-height: 480px;
+    }
+}
+
+/* ===== Mobile ===== */
+
+@media (max-width: 767px) {
+    .govSocialSection {
+        padding: 30px 15px;
+    }
+
+    .govSocialContainer {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .govSocialCard {
+        padding: 15px;
+        min-height: auto;
+    }
+
+    .govSocialTitle {
+        font-size: 22px;
+        margin-bottom: 12px;
+    }
+
+    .govSocialFrame {
+        height: 400px;
+    }
 }
