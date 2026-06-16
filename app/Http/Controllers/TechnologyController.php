@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 
 class TechnologyController extends Controller
 {
-     public function index()
+    public function index()
     {
         $technology = Technology::latest()->get();
         return view('admin.views.admin-technology', compact('technology'));
@@ -19,14 +19,19 @@ class TechnologyController extends Controller
             'name' => 'required|string|max:255',
             'slug' => 'required|string|max:255|unique:college_states',
             'image' => 'required|image|mimes:png,jpg,jpeg,webp|max:5048',
+            'image_2' => 'required|image|mimes:png,jpg,jpeg,webp|max:5048',
             'description' => 'required|string',
             'overview' => 'required|string',
             'status' => 'required|in:active,inactive'
         ]);
 
         $imagePath = null;
+        $imagePath_2 = null;
         if ($request->hasFile('image')) {
             $imagePath = $request->file('image')->store('technology-images', 'public');
+        }
+        if ($request->hasFile('image_2')) {
+            $imagePath_2 = $request->file('image_2')->store('technology-images', 'public');
         }
 
 
@@ -34,6 +39,7 @@ class TechnologyController extends Controller
             'name' => $request->name,
             'slug' => $request->slug,
             'image' => $imagePath,
+            'image_2' => $imagePath_2,
             'description' => $request->description,
             'overview' => $request->overview,
             'status' => $request->status
@@ -47,6 +53,7 @@ class TechnologyController extends Controller
             'name' => 'required|string|max:255',
             'slug' => 'required|string|max:255|unique:college_states,slug,' . $item->id,
             'image' => 'nullable|image|mimes:png,jpg,jpeg,webp|max:5048',
+            'image_2' => 'nullable|image|mimes:png,jpg,jpeg,webp|max:5048',
             'description' => 'required|string',
             'overview' => 'required|string',
             'status' => 'required|in:active,inactive'
@@ -54,9 +61,13 @@ class TechnologyController extends Controller
         ]);
 
         $imagePath = $item->image;
+        $imagePath_2 = $item->image_2;
 
         if ($request->hasFile('image')) {
             $imagePath = $request->file('image')->store('technology-images', 'public');
+        }
+        if ($request->hasFile('image_2')) {
+            $imagePath_2 = $request->file('image_2')->store('technology-images', 'public');
         }
 
 
@@ -65,6 +76,7 @@ class TechnologyController extends Controller
             'name' => $request->name,
             'slug' => $request->slug,
             'image' => $imagePath,
+            'image_2' => $imagePath_2,
             'description' => $request->description,
             'overview' => $request->overview,
             'status' => $request->status
@@ -76,6 +88,9 @@ class TechnologyController extends Controller
     {
         if ($item->image) {
             Storage::disk('public')->delete($item->image);
+        }
+        if ($item->image_2) {
+            Storage::disk('public')->delete($item->image_2);
         }
 
 

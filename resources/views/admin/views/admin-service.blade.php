@@ -132,6 +132,11 @@
                                 <input type="file" name="image" class="form-control" required>
                                 <span class="form-text text-muted">Size : 770 * 515(max size : 5MB)</span>
                             </div>
+                            <div class="col-lg-6 mb-3">
+                                <label>service Image  2<span class="text-danger">*</span></label>
+                                <input type="file" name="image_2" class="form-control" required>
+                                <span class="form-text text-muted">Size : 770 * 515(max size : 5MB)</span>
+                            </div>
 
 
 
@@ -216,6 +221,16 @@
 
 
                             </tr>
+                            <tr>
+                                <th>service Image 2 :</th>
+                                <td colspan="3">
+                                    @if($service->image_2)
+                                        <img src="{{ asset('storage/' . $service->image_2) }}" width="120">
+                                    @endif
+                                </td>
+
+
+                            </tr>
 
 
 
@@ -291,6 +306,14 @@
 
                                     @if($service->image)
                                         <img src="{{ asset('storage/' . $service->image) }}" width="80" class="mt-2">
+                                    @endif
+                                </div>
+                                <div class="col-lg-6">
+                                    <label>service Image 2</label>
+                                    <input type="file" name="image_2" class="form-control">
+
+                                    @if($service->image_2)
+                                        <img src="{{ asset('storage/' . $service->image_2) }}" width="80" class="mt-2">
                                     @endif
                                 </div>
 

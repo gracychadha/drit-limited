@@ -11,6 +11,7 @@ class Technology extends Model
         'name',
         'slug',
         'image',
+        'image_2',
         'description',
         'overview',
         'status'

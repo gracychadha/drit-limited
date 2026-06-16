@@ -9,13 +9,13 @@
                     <h5>Technology </h5>
                     <div class="list-btn">
                         <ul class="filter-list">
-                          
-                                <li>
-                                    <a class="btn btn-primary" href="javascript:void(0);" data-bs-toggle="modal"
-                                        data-bs-target="#add_category"><i class="fa fa-plus-circle me-2"
-                                            aria-hidden="true"></i>Add Technology</a>
-                                </li>
-                           
+
+                            <li>
+                                <a class="btn btn-primary" href="javascript:void(0);" data-bs-toggle="modal"
+                                    data-bs-target="#add_category"><i class="fa fa-plus-circle me-2"
+                                        aria-hidden="true"></i>Add Technology</a>
+                            </li>
+
                         </ul>
                     </div>
                 </div>
@@ -64,8 +64,8 @@
                                                                 class="fe fe-edit"></i></a>
                                                     @endcan
                                                     @can('delete course')
-                                                        <form action="{{ route('admin-technology.destroy', $item->id) }}" method="POST"
-                                                            class="d-inline delete-form">
+                                                        <form action="{{ route('admin-technology.destroy', $item->id) }}"
+                                                            method="POST" class="d-inline delete-form">
                                                             @csrf
                                                             @method('DELETE')
 
@@ -131,6 +131,11 @@
                             <div class="col-lg-6 mb-3">
                                 <label>Technology Image <span class="text-danger">*</span></label>
                                 <input type="file" name="image" class="form-control" required>
+                                <span class="form-text text-muted">Allowed JPG, GIF or PNG. Max size of 2MB (680x560)</span>
+                            </div>
+                            <div class="col-lg-6 mb-3">
+                                <label>Technology Image 2<span class="text-danger">*</span></label>
+                                <input type="file" name="image_2" class="form-control" required>
                                 <span class="form-text text-muted">Allowed JPG, GIF or PNG. Max size of 2MB (680x560)</span>
                             </div>
 
@@ -211,6 +216,16 @@
 
 
                             </tr>
+                            <tr>
+                                <th> Image 2:</th>
+                                <td>
+                                    @if($item->image_2)
+                                        <img src="{{ asset('storage/' . $item->image_2) }}" width="120">
+                                    @endif
+                                </td>
+
+
+                            </tr>
 
 
 
@@ -261,7 +276,8 @@
 
                         </button>
                     </div>
-                    <form action="{{ route('admin-technology.update', $item->id) }}" method="POST" enctype="multipart/form-data">
+                    <form action="{{ route('admin-technology.update', $item->id) }}" method="POST"
+                        enctype="multipart/form-data">
                         @csrf
                         @method('PUT')
 
@@ -285,6 +301,14 @@
 
                                     @if($item->image)
                                         <img src="{{ asset('storage/' . $item->image) }}" width="80" class="mt-2">
+                                    @endif
+                                </div>
+                                <div class="col-lg-6">
+                                    <label> Image 2</label>
+                                    <input type="file" name="image_2" class="form-control">
+
+                                    @if($item->image_2)
+                                        <img src="{{ asset('storage/' . $item->image_2) }}" width="80" class="mt-2">
                                     @endif
                                 </div>
 

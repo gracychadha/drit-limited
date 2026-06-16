@@ -18,16 +18,20 @@ class ServiceController extends Controller
             'title' => 'required|string|max:255',
             'slug' => 'required|string|max:255|unique:service',
             'image' => 'required|image|mimes:png,jpg,jpeg,webp|max:5048',
+            'image_2' => 'required|image|mimes:png,jpg,jpeg,webp|max:5048',
             'description' => 'required|string',
             'overview' => 'required|string',
             'status' => 'required|in:active,inactive'
         ]);
 
         $imagePath = null;
-      
+        $imagePath_2 = null;
 
         if ($request->hasFile('image')) {
             $imagePath = $request->file('image')->store('Service-images', 'public');
+        }
+        if ($request->hasFile('image_2')) {
+            $imagePath_2 = $request->file('image_2')->store('Service-images', 'public');
         }
 
 
@@ -36,6 +40,7 @@ class ServiceController extends Controller
             'title' => $request->title,
             'slug' => $request->slug,
             'image' => $imagePath,
+            'image_2' => $imagePath_2,
             'description' => $request->description,
             'overview' => $request->overview,
             'status' => $request->status
@@ -49,15 +54,20 @@ class ServiceController extends Controller
             'title' => 'required|string|max:255',
             'slug' => 'required|string|max:255|unique:service,slug,' . $Service->id,
             'image' => 'nullable|image|mimes:png,jpg,jpeg,webp|max:5048',
+            'image_2' => 'nullable|image|mimes:png,jpg,jpeg,webp|max:5048',
             'description' => 'required|string',
             'overview' => 'required|string',
             'status' => 'required|in:active,inactive'
         ]);
 
         $imagePath = $Service->image;
+        $imagePath_2 = $Service->image_2;
 
         if ($request->hasFile('image')) {
             $imagePath = $request->file('image')->store('Service-images', 'public');
+        }
+        if ($request->hasFile('image_2')) {
+            $imagePath_2 = $request->file('image_2')->store('Service-images', 'public');
         }
 
 
@@ -66,6 +76,7 @@ class ServiceController extends Controller
             'title' => $request->title,
             'slug' => $request->slug,
             'image' => $imagePath,
+            'image_2' => $imagePath_2,
             'description' => $request->description,
             'overview' => $request->overview,
             'status' => $request->status
@@ -77,6 +88,10 @@ class ServiceController extends Controller
     {
         if ($Service->image) {
             Storage::disk('public')->delete($Service->image);
+        }
+
+        if ($Service->image_2) {
+            Storage::disk('public')->delete($Service->image_2);
         }
 
 
