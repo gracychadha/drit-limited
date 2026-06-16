@@ -11,7 +11,7 @@
                 <!-- section title -->
                 <div class="section-title title-style-center_text res-991-mb_20">
                     <div class="title-header">
-                        <h3>Our Services</h3>
+                        <h3 class="text-white" style="color:#fff !important;">Our Services</h3>
                         <h2 class="title">Our Specialized BPO Services.</h2>
                     </div>
 

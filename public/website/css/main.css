@@ -250,7 +250,7 @@ ul {
     --base-bodyfont-Size: 15px;
     --base-bodyfont-color: #5b5e62;
     --base-skin: #b30000;
-    --base-dark: #1c1a06;
+    --base-dark: #6b6969;
     /* --base-dark: #05255f; */
     --base-grey: #f5f5f5;
     --base-white: #ffffff;
@@ -2944,7 +2944,8 @@ nav.main-menu ul {
     background-attachment: scroll;
 }
 .footer > .cmt-bg-layer {
-    background-color: #000a20;
+    background-color: var(--base-dark);
+    /* background-color: #000a20; */
     opacity: 0.25;
 }
 .footer.text-base-white,

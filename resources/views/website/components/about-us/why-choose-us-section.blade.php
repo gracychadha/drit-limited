@@ -13,7 +13,7 @@
                                 <!-- section title -->
                                 <div class="section-title">
                                     <div class="title-header">
-                                        <h3>why choose us</h3>
+                                        <h3 style="color:#fff !important;">why choose us</h3>
                                         <h2 class="title">Scalable Solutions. Exceptional Results.
                                         </h2>
                                     </div>
