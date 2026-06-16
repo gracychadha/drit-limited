@@ -30,7 +30,7 @@
                                         </div>
                                         <div class="featured-content">
                                             <div class="featured-title">
-                                                <h3>25+ Years of Expertise
+                                                <h3>26+ Years of Expertise
                                                 </h3>
                                             </div>
                                             <div class="featured-desc">

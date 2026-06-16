@@ -1,11 +1,10 @@
 @extends('website.layout.app')
 @section('title', 'Home | Dr. ITM Private Limited')
 @section('content')
-    @include('website.components.index.banner')
+    @include('website.components.index.slider')
     @include('website.components.index.certification-marquee')
     @include('website.components.index.about-us')
 
-    @include('website.components.index.leadership-message')
     @include('website.components.index.team-section')
 
     @include('website.components.index.services-section')

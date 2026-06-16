@@ -2227,7 +2227,6 @@ ul.social-icons {
     justify-content: center;
 }
 
-
 /**  side-menu **/
 .side-menu-container {
     position: absolute;
@@ -3296,10 +3295,10 @@ footer .g-map iframe {
 }
 @media (max-width: 768px) {
     .cmt-team-member-single-content .cmt-featured-wrapper .featured-thumbnail {
-        padding:20px;
+        padding: 20px;
     }
-    .cmt-team-member-detail{
-        padding:20px !important;
+    .cmt-team-member-detail {
+        padding: 20px !important;
     }
 }
 .cmt-team-member-detail {
@@ -5087,5 +5086,109 @@ section.error-404 .page-content p {
 
     .govSocialFrame {
         height: 400px;
+    }
+}
+
+.drit-hero-slider {
+    position: relative;
+}
+
+.dritSwiper {
+    height: 550px;
+}
+
+.drit-slide {
+    position: relative;
+}
+
+.drit-slide-image {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.drit-slide-content {
+    position: absolute;
+    top: 50%;
+    right: 80px;
+    transform: translateY(-50%);
+    max-width: 650px;
+}
+
+.drit-slide-badge {
+    display: inline-block;
+    background: #b30000;
+    color: #fff;
+    padding: 8px 18px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.drit-slide-title {
+    font-size: 72px;
+    line-height: 1.2;
+    color: #05255f;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.drit-slide-title strong {
+    font-weight: 700;
+}
+
+.drit-slide-title span {
+    color: #b30000;
+}
+
+.drit-slide-description {
+    font-size: 18px;
+    line-height: 30px;
+    color: #676b72;
+}
+
+.drit-next,
+.drit-prev {
+    color: #ffffff;
+}
+
+.drit-pagination .swiper-pagination-bullet-active {
+    background: #b30000;
+}
+@media (max-width: 768px) {
+    .dritSwiper,
+    .drit-slide-image {
+        height: 350px;
+    }
+    .drit-slide-image {
+       
+        object-position: 17% center;
+    }
+    .drit-slide-content {
+        left: 20px;
+        right: 20px;
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .drit-slide-badge {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+
+    .drit-slide-title {
+        font-size: 34px;
+        line-height: 1.3;
+    }
+
+    .drit-slide-description {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .drit-next,
+    .drit-prev {
+        display: none;
     }
 }

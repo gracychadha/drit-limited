@@ -15,15 +15,15 @@
                             <h3>Build Your Future with Dr ITM CX
 
                             </h3>
-                            <h2 class="title">Build Your Future with Dr ITM CX
+                            <h2 class="title">Grow, Learn, and Succeed with Us
 
-                                </h2>
+                            </h2>
                         </div>
                         <div class="title-desc">
-                            <p align="justify">At Dr ITM CX, we offer a dynamic and growth-oriented workplace where
-                                talent is valued, skills are developed, and careers thrive. Through continuous learning,
-                                career advancement opportunities, and a collaborative culture, we empower individuals to
-                                achieve their professional goals while contributing to organizational success.
+                            <p align="justify">At Dr ITM CX, we believe that our people are the driving force behind our
+                                success. We are committed to creating a dynamic, inclusive, and growth-focused work
+                                environment where talent is recognized, innovation is encouraged, and every individual
+                                has the opportunity to excel.
 
 
 

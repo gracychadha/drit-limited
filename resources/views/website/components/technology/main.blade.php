@@ -26,8 +26,7 @@
 
                     <blockquote class="cmt-bgcolor-grey cmt-textcolor-darkgrey">
                         <div class="qoute-text">
-                            <p>An excellent service management in the area of IT providing solutions. High level
-                                efficient solution to businesses growth</p>
+                            <p>An excellent service management in the area of IT providing solutions. Highly efficient solutions for business growth.</p>
 
                         </div>
                     </blockquote>

@@ -36,7 +36,7 @@
 
                 <rs-layer id="slider-1-slide-1-layer-3" data-type="text" data-color="#676b72" data-rsp_ch="on"
                     data-xy="x:r,r,c,c;xo:34px,34px,0,666px;yo:300px, 280px,200px,230px;"
-                    data-text="w:normal;s:18,18,18,15;l:26,26,26,25;" data-vbility="t,t,f,f" data-frame_0="y:-100%;"
+                    data-text="w:normal;s:18,18,18,15;l:26,26,26,25;" data-vbility="t,t,t,t" data-frame_0="y:-100%;"
                     data-frame_0_mask="u:t;" data-frame_1="st:680;sp:1200;sR:680;" data-frame_1_mask="u:t;"
                     data-frame_999="o:0;st:w;sR:7120;" style="z-index:12;font-family: 'Lato', sans-serif;">We put
                     clients first—delivering tailored

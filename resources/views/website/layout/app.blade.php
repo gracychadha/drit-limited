@@ -89,6 +89,24 @@
 
     <!-- Initialize Swiper -->
     <script>
+        const dritSwiper = new Swiper(".dritSwiper", {
+            loop: true,
+
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+            },
+
+            pagination: {
+                el: ".drit-pagination",
+                clickable: true,
+            },
+
+            navigation: {
+                nextEl: ".drit-next",
+                prevEl: ".drit-prev",
+            },
+        });
         var swiper = new Swiper(".myPartnerSwiper", {
             slidesPerView: 6,
             spaceBetween: 10,
