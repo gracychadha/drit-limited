@@ -10,7 +10,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
                     <div class="widget widget_text clearfix">
                         <h3 class="widget-title">About us</h3>
-                        <div class="footer-logo">
+                        <!-- <div class="footer-logo">
                             @php
                                 $logo = optional($websiteSetting)->logo
                                     ? asset('storage/' . $websiteSetting->logo)
@@ -22,7 +22,7 @@
                             <img id="footer-logo-img" class="img-fluid auto_size" 
                                 src="{{ $logoWhite }}" alt="image">
 
-                        </div>
+                        </div> -->
                         <div class="textwidget widget-text">
                             <p align="justify">
                                 {{ $websiteSetting->description ?? 'At Dr ITM, we bridge the gap between complex technology and seamless business operations. Our commitment to Value-Driven Excellence ensures scalable, cost-effective solutions that drive superior outcomes for our global partners. ' }}
@@ -126,7 +126,7 @@
                         <div class="g-map">
                             <iframe
                                 src="https://www.google.com/maps?q={{ urlencode($websiteSetting->location ?? 'Mohali,Punjab,India') }}&output=embed"
-                                width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy">
+                                width="100%" height="150" style="border:0;" >
                             </iframe>
                         </div>
                         <a href="https://www.google.com/search?q=dr+itm+google+my+business&oq=dr+itm+google+my+bs&gs_lcrp=EgZjaHJvbWUqCQgBECEYChigATIGCAAQRRg5MgkIARAhGAoYoAEyCQgCECEYChigATIJCAMQIRgKGKABMgcIBBAhGI8CMgcIBRAhGI8C0gEKMTQ1ODU0ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8" target="_blank"><button class=" mt-2 footer-button">Visit Now !</button></a>

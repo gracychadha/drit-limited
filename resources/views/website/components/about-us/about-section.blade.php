@@ -14,14 +14,14 @@
                     <!-- section title -->
                     <div class="section-title">
                         <div class="title-header">
-                            <h3>About Dr ITM Private Limited
+                            <h3>About Dr ITM CX
                             </h3>
                             <h2 class="title">Delivering Value. Driving Excellence.
 
                             </h2>
                         </div>
                         <div class="title-desc">
-                            <p align="justify">Dr ITM Private Limited is a dynamic BPO and ITES organization committed
+                            <p align="justify">Dr ITM CX is a dynamic BPO and ITES organization committed
                                 to delivering end-to-end process management solutions that empower businesses to operate
                                 efficiently and grow sustainably. As a forward-thinking company, Dr ITM bridges the gap
                                 between complex technology and seamless business operations. Guided by strong principles

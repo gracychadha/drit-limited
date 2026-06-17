@@ -7,10 +7,7 @@
                     <img width="1140" height="1300" class="img-fluid"
                         src="{{ asset('website/images/upload/about-home.png') }}" alt="single-01">
                 </div>
-                <div
-                    class="d-table bg-base-skin text-base-white position-relative mt_20 ml-30 pl-30 pr-30 pt-10 pb-10 border-rad_5">
-
-                </div>
+               
             </div>
             <div class="col-xl-6">
                 <div class="res-1199-pt-40">
@@ -30,8 +27,57 @@
                                 clients.
                             </p>
                         </div>
-                    </div><!-- section title end -->
-                    <div class="row pt-15 res-991-pt-0">
+                    </div>
+                    <!-- section title end -->
+                    <div class="counter-stats-about">
+                        <div class="counter-stat-card">
+                            <div class="count-up">
+                                <div class="counter-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M3 17l6-6 4 4 8-8"></path>
+                                        <path d="M14 7h7v7"></path>
+                                    </svg>
+                                </div>
+
+                                <h3 class="counter-number">
+                                    <span class="numinate" data-to="26">0</span>+
+                                </h3>
+                            </div>
+
+                            <p class="counter-title">Years of Experience</p>
+                        </div>
+
+                        <div class="counter-stat-card">
+                            <div class="count-up">
+                                <div class="counter-icon">
+                                    <i class="fas fa-users"></i>
+                                </div>
+
+                                <h3 class="counter-number">
+                                    <span class="numinate" data-to="8">0</span>K+
+                                </h3>
+                            </div>
+
+                            <p class="counter-title">Employees</p>
+                        </div>
+
+                        <div class="counter-stat-card">
+                            <div class="count-up">
+                                <div class="counter-icon">
+                                    <i class="fas fa-network-wired"></i>
+                                </div>
+
+                                <h3 class="counter-number">
+                                    PAN
+                                </h3>
+                            </div>
+
+                            <p class="counter-title">India Presence</p>
+                        </div>
+                    </div>
+                    <!-- <div class="row pt-15 res-991-pt-0">
                         <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="about-counter">
                                 <h4 class="cmt-fid-inner">
@@ -55,31 +101,23 @@
                                 <p>Employees</p>
                             </div>
                         </div>
+
                         <div class="col-lg-6 col-md-6 col-sm-12">
+
+
                             <div class="about-counter">
                                 <h4 class="cmt-fid-inner">
-                                    <span data-appear-animation="animateDigits" data-from="1" data-to="100"
+                                    <span data-appear-animation="animateDigits" data-from="1" data-to="26"
                                         data-interval="1" data-before="" data-before-style="sup" data-after="+"
                                         data-after-style="sub" class="numinate">0
                                     </span>
-                                    <span>%</span>
-                                </h4>
-                                <p>Power Backup</p>
-                            </div>
-                            <div class="cmt-horizontal_sep width-100 mt-25 pb-20"></div>
-                            <div class="about-counter">
-                                <h4 class="cmt-fid-inner">
-                                    <!-- <span data-appear-animation="animateDigits" data-from="1" data-to="26"
-                                        data-interval="1" data-before="" data-before-style="sup" data-after="+"
-                                        data-after-style="sub" class="numinate">0
-                                    </span> -->
                                     <span>PAN</span>
                                 </h4>
                                 <p>India Presence</p>
                             </div>
                         </div>
 
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div><!-- row end -->

@@ -88,7 +88,7 @@
                                     <li>
                                         <a class="top_bar_contact_item1" href="{{ $social->facebook_url }}" target="_blank"
                                             rel="noopener" aria-label="facebook">
-                                            <i class="icon-facebook"></i>
+                                            <i id="fb" class="icon-facebook"></i>
                                         </a>
                                     </li>
                                 @endif
@@ -96,7 +96,7 @@
                                     <li>
                                         <a class="top_bar_contact_item1" href="{{ $social->instagram_url }}" target="_blank"
                                             rel="noopener" aria-label="instagram">
-                                            <i class="icon-instagram"></i>
+                                            <i id="insta" class="icon-instagram"></i>
                                         </a>
                                     </li>
                                 @endif
@@ -106,7 +106,7 @@
                                     <li>
                                         <a class="top_bar_contact_item1" href="{{ $social->linkedin_url }}" target="_blank"
                                             rel="noopener" aria-label="linkedin">
-                                            <i class="icon-linkedin"></i>
+                                            <i id="linkedin" class="icon-linkedin"></i>
                                         </a>
                                     </li>
                                 @endif
@@ -115,7 +115,7 @@
                                     <li>
                                         <a class="top_bar_contact_item1" href="{{ $social->twitter_url }}" target="_blank"
                                             rel="noopener" aria-label="twitter">
-                                            <i class="icon-twitter"></i>
+                                            <i id="twitter" class="icon-twitter"></i>
                                         </a>
                                     </li>
                                 @endif
@@ -247,8 +247,7 @@
                                         : asset('website/images/main-logo.png');
                                 @endphp
                                 <a class="home-link" href="{{ route('home') }}" rel="home">
-                                    <img id="logo-img"  class="img-fluid auto_size"
-                                        src="{{ $logo }}" alt="logo-img">
+                                    <img id="logo-img" class="img-fluid auto_size" src="{{ $logo }}" alt="logo-img">
                                 </a>
                             </div><!-- site-branding end -->
                             <div class="btn-show-menu-mobile menubar menubar--squeeze">
@@ -272,6 +271,10 @@
                                                 <a href="{{ route('mission-vision') }}">Mission & Vision</a>
                                             </li>
                                            
+                                                <li class="mega-menu-item">
+                                                    <a href="{{ route('eea') }}">EEA</a>
+                                                </li>
+                                            
 
                                         </ul>
                                     </li>
@@ -322,12 +325,8 @@
                                         </ul>
                                     </li>
                                     <li class="mega-menu-item">
-                                        <a href="#" class="mega-menu-link">Our Gallery</a>
-                                        <ul class="mega-submenu">
-                                            <li class="mega-menu-item">
-                                                <a href="{{ route('eea') }}">EEA</a>
-                                            </li>
-                                        </ul>
+                                        <a href="{{ route('our-gallery') }}" >Our Gallery</a>
+
                                     </li>
                                     <li class="mega-menu-item">
                                         <a href="{{ route('our-presence') }}">Our Presence</a>

@@ -56,6 +56,9 @@ Route::get('/mission-vision', function () {
 Route::get('/our-blogs', function () {
     return view('website.pages.our-blogs');
 })->name('our-blogs');
+Route::get('/our-gallery', function () {
+    return view('website.pages.our-gallery');
+})->name('our-gallery');
 
 Route::get('/blog-details/{slug}', function ($slug) {
     $blogs = Blog::where('slug', $slug)->firstOrFail();

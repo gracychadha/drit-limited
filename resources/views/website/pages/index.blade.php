@@ -17,7 +17,7 @@
                 <div class="section-title title-style-center_text">
                     <div class="title-header">
                         <h3>Connect With Us</h3>
-                        <h2 class="title">Stay Updated Through Our Social Channels</h2> 
+                        <h2 class="title">Stay Updated Through Our Social Channels</h2>
                     </div>
                 </div><!-- section title end -->
             </div>
@@ -171,11 +171,53 @@
     @include('website.components.about-us.why-choose-us-section')
     @include('website.components.index.cta')
     @include('website.components.index.testimonial')
-
+    @include('website.components.index.presence')
     @include('website.components.index.industries-serve')
 @endsection
 @push('scripts')
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
 
+            const counters = document.querySelectorAll(".numinate");
+
+            const startCounter = (counter) => {
+                const target = parseInt(counter.getAttribute("data-to"));
+                const duration = 2000; // 2 seconds
+                const increment = target / (duration / 16);
+
+                let current = 0;
+
+                const updateCounter = () => {
+                    current += increment;
+
+                    if (current < target) {
+                        counter.textContent = Math.floor(current);
+                        requestAnimationFrame(updateCounter);
+                    } else {
+                        counter.textContent = target;
+                    }
+                };
+
+                updateCounter();
+            };
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        startCounter(entry.target);
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, {
+                threshold: 0.5
+            });
+
+            counters.forEach(counter => {
+                observer.observe(counter);
+            });
+
+        });
+    </script>
     <script>
 
 

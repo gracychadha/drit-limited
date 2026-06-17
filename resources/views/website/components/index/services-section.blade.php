@@ -4,14 +4,14 @@
         ->orderBy('id', 'desc')
         ->get();
 @endphp
-<section class="cmt-row bg-base-dark clearfix">
+<section class="cmt-row  clearfix" style="background: linear-gradient(45deg, #fbdada, #fbf8eb);">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
                 <!-- section title -->
                 <div class="section-title title-style-center_text res-991-mb_20">
                     <div class="title-header">
-                        <h3 class="text-white" style="color:#fff !important;">Our Services</h3>
+                        <h3 class="">Our Services</h3>
                         <h2 class="title">Our Specialized BPO Services.</h2>
                     </div>
 
