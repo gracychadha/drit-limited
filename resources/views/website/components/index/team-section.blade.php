@@ -14,38 +14,9 @@
         </div>
         <!-- row -->
         <div class="row slick_slider"
-            data-slick='{"slidesToShow": 4, "slidesToScroll": 1, "arrows":false, "dots":false, "autoplay":true, "infinite":true, "responsive": [{"breakpoint":992,"settings":{"slidesToShow": 3}}, {"breakpoint":778,"settings":{"slidesToShow": 2}}, {"breakpoint":575,"settings":{"slidesToShow": 1}}]}'>
-            <div class="cmt-box-col-wrapper col-lg-3">
-                <!-- featured-imagebox-team -->
-                <div class="featured-imagebox featured-imagebox-team style1">
-                    <!-- <div class="featured-thumbnail">
-                        <img width="370" height="346" class="img-fluid" src="{{ asset('website/images/male.png') }}"
-                            alt="image">
-                    </div> -->
-                    <div class="featured-content">
-                        <div class="team-position">Founder & Chairman</div>
-                        <div class="featured-title">
-                            <h3><a href="#">CA (Dr) M K Mahajan</a></h3>
-                        </div>
-                        <div class="featured-view-more">
-                            <a class="cmt-btn btn-inline cmt-btn-size-md cmt-btn-color-skincolor" href="#">Founder &
-                                Chairman</a>
-                        </div>
-                        <!-- <div class="featured-iconbox cmt-media-link">
-                            <div class="media-block">
-                                <div class="media-btn"><i class="icon-plus"></i></div>
-                                <ul class="social-icons list-inline">
-                                    <li class="social-facebook"><a href="#"><i class="ti ti-facebook"></i></a></li>
-                                    <li class="social-twitter"><a href="#"><i class="ti ti-twitter-alt"></i></a></li>
-                                    <li class="social-pinterest"><a href="#"><i class="ti ti-pinterest"></i></a></li>
-                                    <li class="social-instagram"><a href="#"><i class="ti ti-instagram"></i></a></li>
-                                </ul>
-                            </div>
-                        </div> -->
-                    </div>
-                </div><!-- featured-imagebox-team end-->
-            </div>
-            <div class="cmt-box-col-wrapper col-lg-3">
+            data-slick='{"slidesToShow": 3, "slidesToScroll": 1, "arrows":false, "dots":false, "autoplay":true, "infinite":true, "responsive": [{"breakpoint":992,"settings":{"slidesToShow": 3}}, {"breakpoint":778,"settings":{"slidesToShow": 2}}, {"breakpoint":575,"settings":{"slidesToShow": 1}}]}'>
+            
+            <div class="cmt-box-col-wrapper col-lg-4">
                 <!-- featured-imagebox-team -->
                 <div class="featured-imagebox featured-imagebox-team style1">
                     <!-- <div class="featured-thumbnail">
@@ -75,7 +46,7 @@
                     </div>
                 </div><!-- featured-imagebox-team end-->
             </div>
-            <div class="cmt-box-col-wrapper col-lg-3">
+             <div class="cmt-box-col-wrapper col-lg-4">
                 <!-- featured-imagebox-team -->
                 <div class="featured-imagebox featured-imagebox-team style1">
                     <!-- <div class="featured-thumbnail">
@@ -83,14 +54,44 @@
                             alt="image">
                     </div> -->
                     <div class="featured-content">
-                        <div class="team-position">Sr. Vice President
+                        <div class="team-position">Director
+                        </div>
+                        <div class="featured-title">
+                            <h3><a href="#">Shilpa Mahajan
+                                </a></h3>
+                        </div>
+                        <div class="featured-view-more">
+                            <a class="cmt-btn btn-inline cmt-btn-size-md cmt-btn-color-skincolor" href="#">Director</a>
+                        </div>
+                        <!-- <div class="featured-iconbox cmt-media-link">
+                            <div class="media-block">
+                                <div class="media-btn"><i class="icon-plus"></i></div>
+                                <ul class="social-icons list-inline">
+                                    <li class="social-facebook"><a href="#"><i class="ti ti-facebook"></i></a></li>
+                                    <li class="social-twitter"><a href="#"><i class="ti ti-twitter-alt"></i></a></li>
+                                    <li class="social-pinterest"><a href="#"><i class="ti ti-pinterest"></i></a></li>
+                                    <li class="social-instagram"><a href="#"><i class="ti ti-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div> -->
+                    </div>
+                </div><!-- featured-imagebox-team end-->
+            </div>
+            <div class="cmt-box-col-wrapper col-lg-4">
+                <!-- featured-imagebox-team -->
+                <div class="featured-imagebox featured-imagebox-team style1">
+                    <!-- <div class="featured-thumbnail">
+                        <img width="370" height="346" class="img-fluid" src="{{ asset('website/images/male.png') }}"
+                            alt="image">
+                    </div> -->
+                    <div class="featured-content">
+                        <div class="team-position">Director
                         </div>
                         <div class="featured-title">
                             <h3><a href="#">Deepti Mahajan</a></h3>
                         </div>
                         <div class="featured-view-more">
-                            <a class="cmt-btn btn-inline cmt-btn-size-md cmt-btn-color-skincolor" href="#">Sr. Vice
-                                President
+                            <a class="cmt-btn btn-inline cmt-btn-size-md cmt-btn-color-skincolor" href="#">Director
                             </a>
                         </div>
                         <!-- <div class="featured-iconbox cmt-media-link">
@@ -107,38 +108,7 @@
                     </div>
                 </div><!-- featured-imagebox-team end-->
             </div>
-            <div class="cmt-box-col-wrapper col-lg-3">
-                <!-- featured-imagebox-team -->
-                <div class="featured-imagebox featured-imagebox-team style1">
-                    <!-- <div class="featured-thumbnail">
-                        <img width="370" height="346" class="img-fluid" src="{{ asset('website/images/male.png') }}"
-                            alt="image">
-                    </div> -->
-                    <div class="featured-content">
-                        <div class="team-position">Sr. Vice President
-                        </div>
-                        <div class="featured-title">
-                            <h3><a href="#">Shilpa Mahajan
-                                </a></h3>
-                        </div>
-                        <div class="featured-view-more">
-                            <a class="cmt-btn btn-inline cmt-btn-size-md cmt-btn-color-skincolor" href="#">Sr. Vice
-                                President</a>
-                        </div>
-                        <!-- <div class="featured-iconbox cmt-media-link">
-                            <div class="media-block">
-                                <div class="media-btn"><i class="icon-plus"></i></div>
-                                <ul class="social-icons list-inline">
-                                    <li class="social-facebook"><a href="#"><i class="ti ti-facebook"></i></a></li>
-                                    <li class="social-twitter"><a href="#"><i class="ti ti-twitter-alt"></i></a></li>
-                                    <li class="social-pinterest"><a href="#"><i class="ti ti-pinterest"></i></a></li>
-                                    <li class="social-instagram"><a href="#"><i class="ti ti-instagram"></i></a></li>
-                                </ul>
-                            </div>
-                        </div> -->
-                    </div>
-                </div><!-- featured-imagebox-team end-->
-            </div>
+           
         </div><!-- row end -->
     </div>
 </section>
