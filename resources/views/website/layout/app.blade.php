@@ -16,7 +16,7 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('website/css/slick.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('website/css/prettyPhoto.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('website/css/shortcodes.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('website/css/main.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('website/css/main.css?v=12345') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('website/css/megamenu.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('website/css/responsive.css') }}">
 
