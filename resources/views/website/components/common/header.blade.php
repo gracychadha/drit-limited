@@ -31,34 +31,7 @@
                 <div class="col-lg-8 my-auto">
                     <div class="top_bar_inner bg-base-skin text-base-white">
 
-                        <!-- Phone -->
-                        <!-- <div class="top_bar_contact_item top_bar_contact_item1 with-icon me-4">
-                            <div class="top_bar_icon">
-                                <i class="icon-phone"></i>
-                            </div>
-                            <a href="tel:+919876543210" class="text-base-white">
-                                +91 98765 43210
-                            </a>
-                        </div> -->
-
-                        <!-- Email -->
-
-                        <!-- Email -->
-                        <!-- <div class="top_bar_contact_item top_bar_contact_item1  with-icon me-4">
-                            <div class="top_bar_icon">
-                                <i class="flaticon flaticon-pin me-2"></i>
-                            </div>
-                            @php
-                                $parts = explode(',', $websiteSetting->location);
-                                $city = trim($parts[count($parts) - 2] ?? '');
-                                $state = preg_replace('/\d+/', '', trim($parts[count($parts) - 1] ?? ''));
-                            @endphp
-
-                            <a href="javascript:void(0)" class="text-base-white">
-                                {{ $city . ', ' . trim($state) }}
-                            </a>
-
-                        </div> -->
+                       
                         <div class="top_bar_contact_item  with-icon me-4">
                             <div class="top_bar_icon">
                                 <i class="icon-mail me-2"></i>
