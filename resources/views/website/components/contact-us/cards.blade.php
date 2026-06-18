@@ -69,9 +69,10 @@
                     <div class="featured-content">
                         <div class="featured-title">
                             <h2 class="fs-15 fw-500 mb-0"><b>Mohali
-                                    :</b>{{ ($websiteSetting->location ?? 'SCO 61, Madhya Marg, Sector 26,Chandigarh') }}
+                                    :</b> Dr ITM Pvt Ltd  1099, Sector 67, SAS Nagar, Punjab 160062
                                 <br>
-                                <b>Noida :</b>C 56A/10&11, sector 62
+                                <b>Noida :</b>
+                               Dr ITM Pvt Ltd  C 56A/10&11, sector 62
                                 Noida - 201301
                             </h2>
                         </div>

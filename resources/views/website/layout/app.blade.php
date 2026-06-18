@@ -174,6 +174,34 @@
         });
 
     </script>
+    <script>
+      new Swiper(".industrySlider", {
+    slidesPerView: "auto",
+    spaceBetween: 0,
+    loop: true,
+    grabCursor: true,
+    freeMode: true,
+
+    autoplay: {
+        delay: 0,
+        disableOnInteraction: false,
+    },
+
+    speed: 5000,
+
+    breakpoints: {
+        0: {
+            slidesPerView: 1.2
+        },
+        768: {
+            slidesPerView: 3
+        },
+        1200: {
+            slidesPerView: 4
+        }
+    }
+});
+    </script>
 
 </body>
 

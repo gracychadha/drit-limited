@@ -175,6 +175,7 @@
     @include('website.components.index.industries-serve')
 @endsection
 @push('scripts')
+
     <script>
         document.addEventListener("DOMContentLoaded", function () {
 
@@ -239,5 +240,5 @@
             document.getElementById('landingPopup').style.display = 'none';
         });
     </script>
-
+   
 @endpush

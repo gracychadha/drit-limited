@@ -119,7 +119,7 @@
                                     $websiteSetting->email ?? 'info@drit.in' }}</a>24 x 7
                                 Online Support
                             </li>
-                            <li><i class="flaticon-pin"></i>{{ $websiteSetting->location ?? 'Mohali' }}</li>
+                            <li><i class="flaticon-pin"></i>Dr ITM Pvt Ltd 1099, Sector 67, SAS Nagar, Punjab 160062</li>
                         </ul>
                         <div class="g-map">
                             <iframe
