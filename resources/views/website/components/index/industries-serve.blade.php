@@ -13,4 +13,8 @@
         <i class="fas fa-landmark"></i>
         <h4>Government Projects</h4>
     </div>
+    <div class="industry-item">
+        <i class="fas fa-building"></i> 
+        <h4>Real Estate</h4>
+    </div>
 </section>

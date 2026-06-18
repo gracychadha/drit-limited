@@ -4845,7 +4845,7 @@ section.error-404 .page-content p {
 
 .industry-item h4 {
     color: #c70000;
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 700;
     text-transform: uppercase;
     margin: 0;
@@ -5340,3 +5340,91 @@ section.error-404 .page-content p {
         flex-wrap: wrap;
     }
 }
+/* .estate-purpose-section {
+    padding: 100px 0;
+    background: #f8f8f8;
+}
+
+.estate-purpose-card {
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 30px;
+    min-height: 380px;
+    color: #fff;
+    transition: .4s ease;
+    z-index: 1;
+}
+
+.estate-purpose-card:hover {
+    transform: translateY(-12px);
+}
+
+.estate-mission-card {
+    background: linear-gradient(135deg, #bb0c17 0%, #e63946 100%);
+}
+
+.estate-vision-card {
+    background: linear-gradient(135deg, #1f2937 0%, #111827 100%);
+}
+
+.estate-purpose-icon {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.estate-purpose-icon i {
+    font-size: 36px;
+    color: #fff;
+}
+
+.estate-purpose-card h3 {
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.estate-purpose-card p {
+    font-size: 17px;
+    line-height: 1.9;
+    opacity: .95;
+    margin: 0;
+    text-align: justify;
+}
+
+.estate-purpose-bg-icon {
+    position: absolute;
+    right: -20px;
+    bottom: -40px;
+    font-size: 180px;
+    color: rgba(255,255,255,0.08);
+    z-index: -1;
+    transition: .4s ease;
+}
+
+.estate-purpose-card:hover .estate-purpose-bg-icon {
+    transform: scale(1.1) rotate(-10deg);
+}
+
+@media(max-width:991px) {
+    .estate-purpose-card {
+        min-height: auto;
+        padding: 50px 30px;
+    }
+
+    .estate-purpose-card h3 {
+        font-size: 28px;
+    }
+
+    .estate-purpose-bg-icon {
+        font-size: 130px;
+    }
+} */
