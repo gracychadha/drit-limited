@@ -1,5 +1,5 @@
 @extends('website.layout.app')
-@section('title', 'Career | Dr. ITM Private Limited')
+@section('title', 'Career | Dr. IT Group')
 @section('content')
     @include('website.components.career.banner')
     @include('website.components.career.about')
@@ -7,7 +7,7 @@
 
 @endsection
 @push('scripts')
-   
+
     <script src="https://www.google.com/recaptcha/api.js?render={{ config('services.recaptcha.site_key') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>

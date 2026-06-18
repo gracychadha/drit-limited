@@ -1,5 +1,5 @@
 @extends('website.layout.app')
-@section('title', 'Contact Us | Dr. ITM Private Limited')
+@section('title', 'Contact Us | Dr. IT Group')
 @section('content')
     @include('website.components.contact-us.banner')
     @include('website.components.contact-us.cards')
@@ -10,7 +10,7 @@
     <script src="https://www.google.com/recaptcha/api.js?render={{ config('services.recaptcha.site_key') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-    
+
     <script>
         document.addEventListener('DOMContentLoaded', function () {
 

@@ -1,5 +1,5 @@
 @extends('website.layout.app')
-@section('title', 'Home | Dr. ITM Private Limited')
+@section('title', 'Home | Dr. IT Group')
 @section('content')
     @include('website.components.index.slider')
     @include('website.components.index.certification-marquee')

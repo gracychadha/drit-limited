@@ -50,7 +50,7 @@
                                     <h2 class="title">Let's help you with technology needs</h2>
                                 </div>
                                 <div class="title-desc">
-                                    <p>Dr. ITM Private Limited provides complete IT solutions to turn an organizational
+                                    <p>Dr. IT Group provides complete IT solutions to turn an organizational
                                         needs,
                                         process and technology changes into powerful business</p>
                                 </div>

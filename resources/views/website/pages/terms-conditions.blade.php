@@ -1,5 +1,5 @@
 @extends('website.layout.app')
-@section('title', 'Terms and Condition | Dr. ITM Private Limited')
+@section('title', 'Terms and Condition | Dr. IT Group')
 @section('content')
 
     @include('website.components.terms-conditions.banner')

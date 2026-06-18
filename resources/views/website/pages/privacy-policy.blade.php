@@ -1,5 +1,5 @@
 @extends('website.layout.app')
-@section('title', 'Privacy Policy | Dr. ITM Private Limited')
+@section('title', 'Privacy Policy | Dr. IT Group')
 @section('content')
 
     @include('website.components.privacy-policy.banner')
