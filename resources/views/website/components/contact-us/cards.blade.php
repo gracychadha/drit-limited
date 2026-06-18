@@ -50,7 +50,8 @@
                     <div class="featured-content">
                         <div class="featured-title">
                             <h2 class="fs-15 fw-normal bodyfont-color mb-0">Any Questions? Email us</h2>
-                            <h3 class="fs-15 fw-500 mb-0">{{ $websiteSetting->email ?? 'info@drit.in' }} | hr@drit.in </h3>
+                            <h3 class="fs-15 fw-500 mb-0">{{ $websiteSetting->email ?? 'info@drit.in' }} | hr@drit.in |
+                                Hr.noida@drit.in </h3>
                         </div>
                     </div>
                 </div><!-- featured-icon-box end -->
@@ -67,8 +68,11 @@
                     </div>
                     <div class="featured-content">
                         <div class="featured-title">
-                            <h2 class="fs-15 fw-500 mb-0">{{ ($websiteSetting->location ?? 'SCO 61, Madhya Marg, Sector 26,Chandigarh') }}
-
+                            <h2 class="fs-15 fw-500 mb-0"><b>Mohali
+                                    :</b>{{ ($websiteSetting->location ?? 'SCO 61, Madhya Marg, Sector 26,Chandigarh') }}
+                                <br>
+                                <b>Noida :</b>C 56A/10&11, sector 62
+                                Noida - 201301
                             </h2>
                         </div>
                     </div>
@@ -76,8 +80,8 @@
             </div>
             <div class="col-lg-12">
                 <div class="mt-20 text-center">
-                    <p><span class="fs-20 fw-600 text-base-dark"> </span>A Trusted Growth Partner for  <span
-                            class="text-base-skin fs-18"><strong><i>38k+</i></strong></span>  Brands</p>
+                    <p><span class="fs-20 fw-600 text-base-dark"> </span>A Trusted Growth Partner for <span
+                            class="text-base-skin fs-18"><strong><i>38k+</i></strong></span> Brands</p>
                 </div>
             </div>
         </div>
