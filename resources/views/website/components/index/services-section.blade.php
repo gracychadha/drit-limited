@@ -33,7 +33,8 @@
                         <span class="number"></span>
                         <div class="featured-thumbnail">
                             <img class="img-fluid auto_size" width="185" height="185"
-                                src="{{ $service->image ? asset('storage/' . $service->image) : asset('website/images/process-01.jpg') }}" alt="image">
+                                src="{{ $service->image ? asset('storage/' . $service->image) : asset('website/images/process-01.jpg') }}"
+                                alt="image">
                         </div>
                         <div class="featured-content">
                             <div class="featured-title">
@@ -46,8 +47,9 @@
                                 </p>
                             </div>
                             <a class="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-skincolor"
-                                href="{{ url('service-details/' . $service->slug) }}">view more<i class="icon-right"></i></a>
-                           
+                                href="{{ url('service-details/' . $service->slug) }}">view more<i
+                                    class="icon-right"></i></a>
+
                         </div>
                     </div><!-- featured-imagebox end-->
 
@@ -59,9 +61,10 @@
                     <div class="featured-imagebox featured-imagebox-procedure">
                         <span class="number"></span>
                         <div class="featured-thumbnail">
-                            <img class="img-fluid auto_size" width="185" height="185"
-                                src="{{ $service->image ? asset('storage/' . $service->image) : asset('website/images/process-01.jpg') }}"
-                                alt="image">
+                            <div class="featured-thumbnail">
+                                <img class="img-fluid auto_size" width="185" height="185"
+                                    src="{{ asset('website/images/process-01.jpg') }}" alt="image">
+                            </div>
                         </div>
                         <div class="featured-content">
                             <div class="featured-title">
