@@ -4,7 +4,7 @@
 
             <!-- Slide 1 -->
             <div class="swiper-slide drit-slide">
-                <img src="{{ asset('website/images/popup-banner.png') }}" alt="Banner" class="drit-slide-image">
+                <img src="{{ asset('website/images/upload/main-01.jpeg') }}" alt="Banner" class="drit-slide-image">
 
                 <div class="drit-slide-content">
                     <!-- <span class="drit-slide-badge">
@@ -50,7 +50,7 @@
                 </div>
             </div> -->
             <div class="swiper-slide drit-slide">
-                <img src="{{ asset('website/images/upload/banner-04.png') }}" alt="Banner" class="drit-slide-image">
+                <img src="{{ asset('website/images/upload/main-02.jpeg') }}" alt="Banner" class="drit-slide-image">
 
                 <!-- <div class="drit-slide-content">
                     <span class="drit-slide-badge">
