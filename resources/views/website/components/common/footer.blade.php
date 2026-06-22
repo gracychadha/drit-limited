@@ -114,20 +114,25 @@
                         <h3 class="widget-title">Contact Us</h3>
                         <!-- <h4>{{ $websiteSetting->phone1 ?? '+0022 6544 9977' }}</h4> -->
                         <ul class="widget_contact_wrapper">
-                            <li><i class="flaticon-envelope"></i><a
-                                    href="mailto:{{ $websiteSetting->email ?? 'info@drit.in' }}" target="_blank">{{
-                                    $websiteSetting->email ?? 'info@drit.in' }}</a>24 x 7
+                            <li><i class="flaticon-envelope"></i>
+                            <a href="mailto:{{ $websiteSetting->email ?? 'info@drit.in' }}" target="_blank">{{
+                                    $websiteSetting->email ?? 'info@drit.in' }}</a> 
+                            <a href="mailto: Hr.noida@drit.in" target="_blank"> Hr.noida@drit.in</a>
+                                    24 x 7
                                 Online Support
                             </li>
                             <li><i class="flaticon-pin"></i>Dr IT Group, Plot No: 4, IT Park, Sector-67 Mohali</li>
+                            <li><i class="flaticon-pin"></i> Dr IT Group, C 56A/10&11, sector 62
+                                Noida - 201301</li>
                         </ul>
                         <div class="g-map">
                             <iframe
                                 src="https://www.google.com/maps?q={{ urlencode($websiteSetting->location ?? 'Mohali,Punjab,India') }}&output=embed"
-                                width="100%" height="150" style="border:0;" >
+                                width="100%" height="150" style="border:0;">
                             </iframe>
                         </div>
-                        <a href="https://www.google.com/search?q=dr+itm+google+my+business&oq=dr+itm+google+my+bs&gs_lcrp=EgZjaHJvbWUqCQgBECEYChigATIGCAAQRRg5MgkIARAhGAoYoAEyCQgCECEYChigATIJCAMQIRgKGKABMgcIBBAhGI8CMgcIBRAhGI8C0gEKMTQ1ODU0ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8" target="_blank"><button class=" mt-2 footer-button">Visit Now !</button></a>
+                        <a href="https://www.google.com/search?q=dr+itm+google+my+business&oq=dr+itm+google+my+bs&gs_lcrp=EgZjaHJvbWUqCQgBECEYChigATIGCAAQRRg5MgkIARAhGAoYoAEyCQgCECEYChigATIJCAMQIRgKGKABMgcIBBAhGI8CMgcIBRAhGI8C0gEKMTQ1ODU0ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8"
+                            target="_blank"><button class=" mt-2 footer-button">Visit Now !</button></a>
                     </div>
                 </div>
             </div>
@@ -137,8 +142,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <span class="cpy-text">&copy; <?= date('Y') ?> <a href="{{ route('home') }}">Dr. IT Group</a>  |  Designed and Developed by <span class=""><a href="http://vibrantick.in/"
-                                target="_blank"> Vibrantick Infotech Solutions
+                    <span class="cpy-text">&copy; <?= date('Y') ?> <a href="{{ route('home') }}">Dr. IT Group</a> |
+                        Designed and Developed by <span class=""><a href="http://vibrantick.in/" target="_blank">
+                                Vibrantick Infotech Solutions
                             </a></span>
                 </div>
             </div>
