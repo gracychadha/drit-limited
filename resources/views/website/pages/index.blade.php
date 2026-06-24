@@ -1,5 +1,5 @@
 @extends('website.layout.app')
-@section('title', 'Home | Dr. IT Group')
+@section('title', 'Home | Dr IT Group')
 @section('content')
     @include('website.components.index.slider')
     @include('website.components.index.certification-marquee')
@@ -33,14 +33,14 @@
                 <div class="govSocialFrame">
                     <div id="fb-root"></div>
                     <div class="fb-page"
-                        data-href="https://www.facebook.com/Dr.ITMCX?rdid=w76S1SHxEZHCyahh&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1Cq7giw8cP%2F#"
+                        data-href="https://www.facebook.com/DrITMCX?rdid=w76S1SHxEZHCyahh&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1Cq7giw8cP%2F#"
                         data-tabs="timeline" data-width="500" data-height="700" data-small-header="false"
                         data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
                         <blockquote
-                            cite="https://www.facebook.com/Dr.ITMCX?rdid=w76S1SHxEZHCyahh&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1Cq7giw8cP%2F#"
+                            cite="https://www.facebook.com/DrITMCX?rdid=w76S1SHxEZHCyahh&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1Cq7giw8cP%2F#"
                             class="fb-xfbml-parse-ignore">
                             <a
-                                href="https://www.facebook.com/Dr.ITMCX?rdid=w76S1SHxEZHCyahh&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1Cq7giw8cP%2F#">
+                                href="https://www.facebook.com/DrITMCX?rdid=w76S1SHxEZHCyahh&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1Cq7giw8cP%2F#">
                                 Facebook Page
                             </a>
                         </blockquote>
@@ -139,7 +139,7 @@
                                 style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
                                 <a href="https://www.instagram.com/p/DYPAFPZk5b8/?utm_source=ig_embed&amp;utm_campaign=loading"
                                     style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;"
-                                    target="_blank">A post shared by Dr ITM Limited (@dr.itmcx)</a>
+                                    target="_blank">A post shared by Dr ITM Limited (@Dritmcx)</a>
                             </p>
                         </div>
                     </blockquote>
@@ -240,5 +240,5 @@
             document.getElementById('landingPopup').style.display = 'none';
         });
     </script>
-   
+
 @endpush

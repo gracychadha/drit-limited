@@ -115,10 +115,10 @@
                         <!-- <h4>{{ $websiteSetting->phone1 ?? '+0022 6544 9977' }}</h4> -->
                         <ul class="widget_contact_wrapper">
                             <li><i class="flaticon-envelope"></i>
-                            <a href="mailto:{{ $websiteSetting->email ?? 'info@drit.in' }}" target="_blank">{{
-                                    $websiteSetting->email ?? 'info@drit.in' }}</a> 
-                            <a href="mailto: Hr.noida@drit.in" target="_blank"> Hr.noida@drit.in</a>
-                                    24 x 7
+                                <a href="mailto:{{ $websiteSetting->email ?? 'info@drit.in' }}" target="_blank">{{
+                                    $websiteSetting->email ?? 'info@drit.in' }}</a>
+                                <a href="mailto: Hr.noida@drit.in" target="_blank"> Hr.noida@drit.in</a>
+                                24 x 7
                                 Online Support
                             </li>
                             <li><i class="flaticon-pin"></i>Dr IT Group, Plot No: 4, IT Park, Sector-67 Mohali</li>
@@ -142,7 +142,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <span class="cpy-text">&copy; <?= date('Y') ?> <a href="{{ route('home') }}">Dr. IT Group</a> |
+                    <span class="cpy-text">&copy; <?= date('Y') ?> <a href="{{ route('home') }}">Dr IT Group</a> |
                         Designed and Developed by <span class=""><a href="http://vibrantick.in/" target="_blank">
                                 Vibrantick Infotech Solutions
                             </a></span>

@@ -30,7 +30,7 @@
                                     <div class="testimonial-quote-icon">
                                         <i class="icon-quote-right-alt"></i>
                                     </div>
-                                    <blockquote class="testimonial-text">Dr ITM CX has been a dependable outsourcing
+                                    <blockquote class="testimonial-text">Dr IT Group has been a dependable outsourcing
                                         partner for our business. Their professional team, streamlined processes, and
                                         commitment to quality have significantly improved our customer engagement and
                                         operational efficiency.</blockquote>

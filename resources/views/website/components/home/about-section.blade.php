@@ -15,12 +15,12 @@
                         <div class="title-header">
                             <h3>About Us</h3>
                             <h2 class="title">
-                                Empowering Businesses Through Exceptional Customer Experiences 
+                                Empowering Businesses Through Exceptional Customer Experiences
                             </h2>
                         </div>
                         <div class="title-desc">
                             <p align="justify">
-                                Dr ITM CX is a trusted BPO and IT-enabled services partner with over 26 years of
+                                Dr IT Group is a trusted BPO and IT-enabled services partner with over 26 years of
                                 experience in delivering exceptional customer experiences and operational excellence. We
                                 combine skilled professionals, advanced technology, and customized solutions across
                                 customer support, telesales, collections, and back-office operations to help businesses

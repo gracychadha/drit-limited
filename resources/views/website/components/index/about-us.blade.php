@@ -7,7 +7,7 @@
                     <img width="1140" height="1300" class="img-fluid"
                         src="{{ asset('website/images/upload/about-home.png') }}" alt="single-01">
                 </div>
-               
+
             </div>
             <div class="col-xl-6">
                 <div class="res-1199-pt-40">
@@ -18,7 +18,7 @@
                             <h2 class="title">Where Customer Experience Meets Operational Excellence</h2>
                         </div>
                         <div class="title-desc">
-                            <p align="justify">Dr ITM CX is a trusted BPO and IT-enabled services partner with over 26
+                            <p align="justify">Dr IT Group is a trusted BPO and IT-enabled services partner with over 26
                                 years of experience in delivering exceptional customer experiences and operational
                                 excellence. We combine skilled professionals, advanced technology, and customized
                                 solutions across customer support, telesales, collections, and back-office operations to

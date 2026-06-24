@@ -12,7 +12,7 @@
                     <!-- section title -->
                     <div class="section-title">
                         <div class="title-header">
-                            <h3>Build Your Future with Dr ITM CX
+                            <h3>Build Your Future with Dr IT Group
 
                             </h3>
                             <h2 class="title">Grow, Learn, and Succeed with Us
@@ -20,7 +20,8 @@
                             </h2>
                         </div>
                         <div class="title-desc">
-                            <p align="justify">At Dr ITM CX, we believe that our people are the driving force behind our
+                            <p align="justify">At Dr IT Group, we believe that our people are the driving force behind
+                                our
                                 success. We are committed to creating a dynamic, inclusive, and growth-focused work
                                 environment where talent is recognized, innovation is encouraged, and every individual
                                 has the opportunity to excel.

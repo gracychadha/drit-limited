@@ -2556,6 +2556,7 @@ div:hover > .cmt-box-view-content-inner:before {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     border-bottom: 2px solid var(--base-dark);
+    min-height: 430px;
 }
 .featured-imagebox-team.style1:hover .featured-content {
     border-bottom: 2px solid var(--base-skin);

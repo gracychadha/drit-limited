@@ -55,7 +55,7 @@
                         solutions. We aspire to set new benchmarks in service delivery by combining technology, talent,
                         and strategic expertise to create sustainable value for our clients.
                         We envision a future where organizations across industries achieve greater efficiency, stronger
-                        customer relationships, and accelerated growth, with Dr ITM CX serving as a trusted partner in
+                        customer relationships, and accelerated growth, with Dr IT Group serving as a trusted partner in
                         their success journey.
                     </p>
                 </div>
@@ -90,7 +90,7 @@
                         solutions. We aspire to set new benchmarks in service delivery by combining technology, talent,
                         and strategic expertise to create sustainable value for our clients.
                         We envision a future where organizations across industries achieve greater efficiency, stronger
-                        customer relationships, and accelerated growth, with Dr ITM CX serving as a trusted partner in
+                        customer relationships, and accelerated growth, with Dr IT Group serving as a trusted partner in
                         their success journey.
 
                     </p>

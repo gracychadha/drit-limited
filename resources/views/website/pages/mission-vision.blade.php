@@ -1,5 +1,5 @@
 @extends('website.layout.app')
-@section('title', 'Mission Vision | Dr. IT Group')
+@section('title', 'Mission Vision | Dr IT Group')
 @section('content')
 
     @include('website.components.mission-vision.banner')

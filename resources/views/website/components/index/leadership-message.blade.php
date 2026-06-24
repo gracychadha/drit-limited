@@ -26,7 +26,7 @@
 
 
                                                 <div class="cmt-short-desc">
-                                                    CA (Dr.) M. K. Mahajan is the visionary Founder & Chairman of Dr ITM
+                                                    CA (Dr) M. K. Mahajan is the visionary Founder & Chairman of Dr ITM
                                                     Group, leading the organization with a legacy of excellence,
                                                     innovation, and strategic leadership. With over 56 years of
                                                     extensive experience across Finance, Education, Banking, Capital
@@ -40,7 +40,7 @@
                                                     <div class="cmt-team-details-wrapper">
                                                         <p>
                                                             A distinguished Chartered Accountant and Doctorate holder in
-                                                            Humanities, Dr. Mahajan brings deep industry expertise and a
+                                                            Humanities, Dr Mahajan brings deep industry expertise and a
                                                             forward-thinking approach to business. His commitment to
                                                             quality,
                                                             integrity, and continuous improvement has established Dr ITM
@@ -56,10 +56,10 @@
                                                             operational excellence, and customer-centric solutions.
                                                         </p>
 
-                                                     
+
 
                                                         <div class="mt-2">
-                                                            <strong>CA (Dr.) M. K. Mahajan
+                                                            <strong>CA (Dr) M. K. Mahajan
                                                             </strong><br>
                                                             Chief Executive Officer
                                                         </div>
