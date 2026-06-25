@@ -101,7 +101,7 @@
                         </div>
                         <div class="featured-title">
                             <h3><a href="#">Deepti Mahajan</a></h3>
-                            <p align="justify">MBA fromLal Bahadur Shastri institute of Management,Delhi.A young
+                            <p align="justify">MBA fromLal Bahadur Shastri institute of Management, Delhi . A dynamic
                                 entrepreneur with a wealth of experience in the realms of Customer Relationship
                                 Management and Operational Excellence. Ms. Batra's vibrant approach to business is
                                 characterized by a forward-thinking mindset and innovative strategies. </p>

@@ -31,7 +31,7 @@
                 <div class="col-lg-8 my-auto">
                     <div class="top_bar_inner bg-base-skin text-base-white">
 
-                       
+
                         <div class="top_bar_contact_item  with-icon me-4">
                             <div class="top_bar_icon">
                                 <i class="icon-mail me-2"></i>
@@ -41,6 +41,9 @@
                                 class="text-base-white">
                                 {{
                                 $websiteSetting->email ?? 'info@drit.in' }}
+                            </a> |
+                            <a href="mailto:Hr.noida@drit.in" target="_blank" class="text-base-white">
+                                Hr.noida@drit.in
                             </a>
                         </div>
                         <div class="top_bar_contact_item with-icon">
@@ -54,6 +57,14 @@
 
                         <!-- Right Side Social -->
                         <div class="top_bar_contact_item  ms-auto d-flex align-items-center">
+                            <div class="top_bar_contact_item with-icon me-2">
+                                <div class="top_bar_icon">
+                                    <i class="flaticon flaticon-briefcase me-2 career-icon"></i>
+                                </div>
+                                <a href="{{ route('apply-now') }}" class=" career-link">
+                                    Apply Now
+                                </a>
+                            </div>
                             <span class="me-3">Follow Us On :</span>
 
                             <div class="social-icons d-flex align-items-center">
@@ -243,11 +254,11 @@
                                             <li class="mega-menu-item">
                                                 <a href="{{ route('mission-vision') }}">Mission & Vision</a>
                                             </li>
-                                           
-                                                <li class="mega-menu-item">
-                                                    <a href="{{ route('eea') }}">EEA</a>
-                                                </li>
-                                            
+
+                                            <li class="mega-menu-item">
+                                                <a href="{{ route('eea') }}">EEA</a>
+                                            </li>
+
 
                                         </ul>
                                     </li>
@@ -298,7 +309,7 @@
                                         </ul>
                                     </li>
                                     <li class="mega-menu-item">
-                                        <a href="{{ route('our-gallery') }}" >Our Gallery</a>
+                                        <a href="{{ route('our-gallery') }}">Our Gallery</a>
 
                                     </li>
                                     <li class="mega-menu-item">

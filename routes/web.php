@@ -38,6 +38,9 @@ Route::get('/career', function () {
 Route::get('/contact-us', function () {
     return view('website.pages.contact-us');
 })->name('contact-us');
+Route::get('/apply-now', function () {
+    return view('website.pages.apply-now');
+})->name('apply-now');
 Route::get('/our-clients', function () {
     return view('website.pages.our-clients');
 })->name('our-clients');
