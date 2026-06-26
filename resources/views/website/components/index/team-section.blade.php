@@ -27,7 +27,7 @@
                         <div class="team-position">Managing Director</div>
                         <div class="featured-title">
                             <h3><a href="#">Sameer Mahajan</a></h3>
-                            <p align="justify">An MBA Gold Medalist from New Zealand with diverse expertise spanning
+                            <p style="text-align: left;">An MBA Gold Medalist from New Zealand with diverse expertise spanning
                                 Customer Service,
                                 FMCG, Supply Chain Management, and Sales. His extensive background underscores a
                                 comprehensive understanding of these dynamic sectors, reflecting a commitment to
@@ -66,7 +66,7 @@
                         <div class="featured-title">
                             <h3><a href="#">Shilpa Mahajan
                                 </a></h3>
-                            <p align="justify">B.Com & MBA with a rich background in Project Management, Customer
+                            <p style="text-align: left;">B.Com & MBA with a rich background in Project Management, Customer
                                 Relationship, Training and Development activities. Her seasoned experience reflects a
                                 comprehensive understanding of these crucial domains. Ms. Mahajan's skill set, honed
                                 through years of dedicated work, positions her as a valuable asset capable of driving
@@ -101,7 +101,7 @@
                         </div>
                         <div class="featured-title">
                             <h3><a href="#">Deepti Mahajan</a></h3>
-                            <p align="justify">MBA fromLal Bahadur Shastri institute of Management, Delhi . A dynamic
+                            <p style="text-align: left;">MBA fromLal Bahadur Shastri institute of Management, Delhi . A dynamic
                                 entrepreneur with a wealth of experience in the realms of Customer Relationship
                                 Management and Operational Excellence. Ms. Batra's vibrant approach to business is
                                 characterized by a forward-thinking mindset and innovative strategies. </p>
