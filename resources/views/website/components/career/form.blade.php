@@ -49,15 +49,22 @@
                                     <span class="text-input select-option">
                                         <select name="specialization" required>
                                             <option value="">Specialization</option>
-                                            <option value="Customer Support Executive">Customer Support Executive
-                                            </option>
-                                            <option value="Telecaller">Telecaller</option>
+                                            <option value="Vice President">Vice President</option>
+                                            <option value="General Manager">General Manager</option>
+                                            <option value="Associate General Manager">Associate General Manager</option>
+                                            <option value="Sr Manager">Sr Manager</option>
+                                            <option value="Manager">Manager</option>
+                                            <option value="Assistant Manager">Assistant Manager</option>
+                                            <option value="Sr Team Leader">Sr Team Leader</option>
+                                            <option value="Team Leader">Team Leader</option>
+                                            <option value="Advisors">Advisors</option>
+                                            <!-- <option value="Telecaller">Telecaller</option>
                                             <option value="Technical Support Executive">Technical Support Executive
                                             </option>
                                             <option value="Team Leader">Team Leader</option>
                                             <option value="HR Executive">HR Executive</option>
                                             <option value="Business Development Executive">Business Development
-                                                Executive</option>
+                                                Executive</option> -->
                                         </select>
                                     </span>
                                 </label>
