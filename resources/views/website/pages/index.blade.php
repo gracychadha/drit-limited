@@ -184,9 +184,9 @@
                 document.body.style = "";
             });
 
-            // setTimeout(() => {
-            //     popup.hide();
-            // }, 5000);
+            setTimeout(() => {
+                popup.hide();
+            }, 3000);
 
         });
 
