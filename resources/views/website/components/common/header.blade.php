@@ -50,21 +50,21 @@
                             <div class="top_bar_icon">
                                 <i class="flaticon flaticon-briefcase me-2 career-icon"></i>
                             </div>
-                            <a href="{{ route('career') }}" class=" career-link">
-                                Careers
+                            <a href="{{ route('apply-now') }}" class=" career-link">
+                                Apply Now
                             </a>
                         </div>
 
                         <!-- Right Side Social -->
                         <div class="top_bar_contact_item  ms-auto d-flex align-items-center">
-                            <div class="top_bar_contact_item with-icon me-2">
+                            <!-- <div class="top_bar_contact_item with-icon me-2">
                                 <div class="top_bar_icon">
                                     <i class="flaticon flaticon-briefcase me-2 career-icon"></i>
                                 </div>
                                 <a href="{{ route('apply-now') }}" class=" career-link">
                                     Apply Now
                                 </a>
-                            </div>
+                            </div> -->
                             <span class="me-3">Follow Us On :</span>
 
                             <div class="social-icons d-flex align-items-center">

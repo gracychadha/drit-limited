@@ -5336,7 +5336,7 @@ section.error-404 .page-content p {
     .counter-number {
         font-size: 34px;
     }
-    .counter-stats-about{
+    .counter-stats-about {
         flex-wrap: wrap;
     }
 }
@@ -5428,89 +5428,158 @@ section.error-404 .page-content p {
         font-size: 130px;
     }
 } */
- .industrySlider{
+.industrySlider {
     border-top: 3px solid #c70000;
- }
- .industryMarqueeSec{
-    overflow:hidden;
-    background:#f5f5f5;
-    border-top:3px solid #bb0c17;
+}
+.industryMarqueeSec {
+    overflow: hidden;
+    background: #f5f5f5;
+    border-top: 3px solid #bb0c17;
 }
 
-.industryMarqueeTrack{
-    display:flex;
-    width:max-content;
-    animation:industryMarquee 30s linear infinite;
+.industryMarqueeTrack {
+    display: flex;
+    width: max-content;
+    animation: industryMarquee 30s linear infinite;
 }
 
-.industryMarqueeSec:hover .industryMarqueeTrack{
-    animation-play-state:paused;
+.industryMarqueeSec:hover .industryMarqueeTrack {
+    animation-play-state: paused;
 }
-.industryMarqueeItem svg{
-    width:65px;
-    height:65px;
-    color:#222;
-    margin-bottom:25px;
+.industryMarqueeItem svg {
+    width: 65px;
+    height: 65px;
+    color: #222;
+    margin-bottom: 25px;
 }
-.industryMarqueeItem{
-    min-width:320px;
-    height:240px;
-    border-right:1px solid #eb8f8f;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
-    text-align:center;
-    padding:30px 20px;
-    background:#f5f5f5;
-}
-
-.industryMarqueeItem i{
-    font-size:60px;
-    color:#222;
-    margin-bottom:25px;
+.industryMarqueeItem {
+    min-width: 320px;
+    height: 240px;
+    border-right: 1px solid #eb8f8f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 20px;
+    background: #f5f5f5;
 }
 
-.industryMarqueeItem h4{
-    margin:0;
-    color:#bb0c17;
-    font-size:24px;
-    font-weight:700;
-    text-transform:uppercase;
+.industryMarqueeItem i {
+    font-size: 60px;
+    color: #222;
+    margin-bottom: 25px;
 }
 
-@keyframes industryMarquee{
-    from{
-        transform:translateX(0);
+.industryMarqueeItem h4 {
+    margin: 0;
+    color: #bb0c17;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+@keyframes industryMarquee {
+    from {
+        transform: translateX(0);
     }
-    to{
-        transform:translateX(-50%);
-    }
-}
-
-@media(max-width:768px){
-
-    .industryMarqueeItem{
-        min-width:240px;
-        height:180px;
-    }
-
-    .industryMarqueeItem i{
-        font-size:45px;
-    }
-
-    .industryMarqueeItem h4{
-        font-size:16px;
+    to {
+        transform: translateX(-50%);
     }
 }
-.industrySlider{
-    overflow:hidden;
+
+@media (max-width: 768px) {
+    .industryMarqueeItem {
+        min-width: 240px;
+        height: 180px;
+    }
+
+    .industryMarqueeItem i {
+        font-size: 45px;
+    }
+
+    .industryMarqueeItem h4 {
+        font-size: 16px;
+    }
+}
+.industrySlider {
+    overflow: hidden;
 }
 
-.industrySlider .swiper-wrapper{
+.industrySlider .swiper-wrapper {
     transition-timing-function: linear !important;
 }
 
-.industrySlider .swiper-slide{
-    width:auto;
+.industrySlider .swiper-slide {
+    width: auto;
+}
+/* ================= Popup ================= */
+
+#dritPopupModal .modal-content {
+    border: 0;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+
+#dritPopupModal .modal-dialog {
+    max-width: 700px;
+    top:40px;
+}
+#dritPopupModal {
+    background: #00000094;
+}
+
+.drit-popup-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background: #fff;
+    color: #000;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 1060;
+    transition: 0.3s;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.drit-popup-close:hover {
+    background: #d60000;
+    color: #fff;
+}
+#dritPopupModal .btn-close{
+    position:absolute !important;
+    top:15px !important;
+    right:15px !important;
+    z-index:4 !important;
+    opacity:1 !important;
+    pointer-events:auto !important;
+    background:none !important;
+    width:40px;
+    height:40px;
+}
+
+#dritPopupModal .btn-close::after{
+    content:"✕";
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:40px;
+    height:40px;
+    background:#fff;
+    border-radius:50%;
+    color:#000;
+    font-size:24px;
+    font-weight:bold;
+}
+#popup-img{
+    max-height: 400px;
+    object-fit: cover;
 }

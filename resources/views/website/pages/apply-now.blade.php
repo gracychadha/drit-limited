@@ -26,44 +26,32 @@
     <!-- page-title end -->
 
 
-    @include('website.components.contact-us.form')
+    @include('website.components.career.about')
+    @include('website.components.career.form')
 @endsection
 @push('scripts')
 
     <script src="https://www.google.com/recaptcha/api.js?render={{ config('services.recaptcha.site_key') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-
-
     <script>
-        document.addEventListener('DOMContentLoaded', function () {
+        //  console.log('career page');
+        document.getElementById('contact-form').addEventListener('submit', function (e) {
 
-            const form = document.getElementById('contact-form');
-            const tokenInput = document.getElementById('recaptcha-token');
+            e.preventDefault();
 
-            if (!form || !tokenInput) {
-                return;
-            }
+            grecaptcha.ready(function () {
+                grecaptcha.execute('{{ env("RECAPTCHA_SITE_KEY") }}', {
+                    action: 'career_form'
+                }).then(function (token) {
 
-            form.addEventListener('submit', function (e) {
-                e.preventDefault();
+                    document.getElementById('recaptcha-token').value = token;
 
-                grecaptcha.ready(function () {
-                    grecaptcha.execute("{{ config('services.recaptcha.site_key') }}", { action: 'lead' })
-                        .then(function (token) {
-
-                            tokenInput.value = token;
-                            form.submit();
-
-                        });
+                    document.getElementById('contact-form').submit();
                 });
-
             });
 
         });
     </script>
-
-
-
     @if(session('success'))
         <script>
             Swal.fire({
@@ -85,5 +73,4 @@
             });
         </script>
     @endif
-
 @endpush

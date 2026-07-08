@@ -19,6 +19,8 @@ use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\TechnologyController;
 use App\Http\Controllers\PartnerController;
 use App\Http\Controllers\CareerApplicationController;
+use App\Http\Controllers\PopupController;
+use App\Http\Controllers\SocialFeedController;
 
 Route::get('/', function () {
     return view('website.pages.index');
@@ -197,6 +199,22 @@ Route::middleware('auth')->group(function () {
 
     Route::get('/admin-settings', [WebsiteSettingController::class, 'index'])->name('admin-settings.index');
     Route::put('/admin-settings', [WebsiteSettingController::class, 'update'])->name('admin-settings.update');
+    // ************************************************************************************
+    // ************************************************************************************
+    // POPUP CMS
+    // ************************************************************************************
+    // ************************************************************************************
+
+    Route::get('/admin-popup', [PopupController::class, 'index'])->name('admin-popup.index');
+    Route::put('/admin-popup', [PopupController::class, 'update'])->name('admin-popup.update');
+    // ************************************************************************************
+    // ************************************************************************************
+    // social feed CMS
+    // ************************************************************************************
+    // ************************************************************************************
+
+    Route::get('/admin-social-feed', [SocialFeedController::class, 'index'])->name('admin-social-feed.index');
+    Route::put('/admin-social-feed', [SocialFeedController::class, 'update'])->name('admin-social-feed.update');
     // ************************************************************************************
     // ************************************************************************************
     // social settings CMS

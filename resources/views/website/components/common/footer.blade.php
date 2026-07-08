@@ -152,7 +152,7 @@
     </div>
 </footer>
 <!-- Floating Call Button -->
-<div class="floating-call-btn">
+<!-- <div class="floating-call-btn">
 
     <span></span>
     <span></span>
@@ -162,4 +162,4 @@
         <i class="flaticon-phone-call"></i>
     </a>
 
-</div>
+</div> -->

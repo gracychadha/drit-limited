@@ -12,6 +12,17 @@
                 <i class="fe fe-smartphone"></i> <span>Socials Settings</span>
             </a>
         </li>
+
+        <li class="nav-item">
+            <a href="{{ route('admin-popup.index') }}" class="nav-link">
+                <i class="fe fe-image"></i> <span>Popup Settings</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="{{ route('admin-social-feed.index') }}" class="nav-link">
+                <i class="fe fe-globe"></i> <span>Social Feed Settings</span>
+            </a>
+        </li>
        
 
         <li class="nav-item">
