@@ -48,7 +48,7 @@
                                 <label>
                                     <span class="text-input select-option">
                                         <select name="specialization" required>
-                                            <option value="">Specialization</option>
+                                            <option value="">Apply For</option>
                                             <option value="Vice President">Vice President</option>
                                             <option value="General Manager">General Manager</option>
                                             <option value="Associate General Manager">Associate General Manager</option>
