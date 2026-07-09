@@ -130,6 +130,13 @@
                                 <th>Specialization  :</th>
                                 <td>{{ $item->specialization }}</td>
                             </tr>
+                            <tr>
+                                <th>Qualification :</th>
+                                <td>{{ $item->designation }}</td>
+
+                                <th>Department :</th>
+                                <td>{{ $item->department }}</td>
+                            </tr>
 
                             <tr>
                                 <th>Experience :</th>

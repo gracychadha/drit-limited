@@ -11,6 +11,8 @@ class CareerApplication extends Model
         'email',
         'phone',
         'specialization',
+        'designation',
+        'department',
         'experience',
         'resume',
         'message',

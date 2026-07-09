@@ -47,6 +47,34 @@
                             <div class="col-md-6">
                                 <label>
                                     <span class="text-input select-option">
+                                        <select name="designation" required>
+                                            <option value="">Qualification</option>
+                                            <option value="Under Graduate">Under Graduate</option>
+                                            <option value="Graduate">Graduate</option>
+                                            <option value="Post Graduate">Post Graduate</option>
+                                            <option value="Diploma">Diploma</option>
+                                        </select>
+                                    </span>
+                                </label>
+                            </div>
+                            <div class="col-md-6">
+                                <label>
+                                    <span class="text-input select-option">
+                                        <select name="department" required>
+                                            <option value="">Departments</option>
+                                            <option value="Operations">Operations</option>
+                                            <option value="Quality">Quality</option>
+                                            <option value="Training">Training</option>
+                                            <option value="HR">HR</option>
+                                            <option value="Administration">Administration</option>
+                                            <option value="IT">IT</option>
+                                        </select>
+                                    </span>
+                                </label>
+                            </div>
+                            <div class="col-md-6">
+                                <label>
+                                    <span class="text-input select-option">
                                         <select name="specialization" required>
                                             <option value="">Apply For</option>
                                             <option value="Vice President">Vice President</option>
