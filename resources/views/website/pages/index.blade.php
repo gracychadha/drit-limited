@@ -100,7 +100,6 @@
     @include('website.components.index.testimonial')
     @include('website.components.index.presence')
     @include('website.components.index.industries-serve')
-    @include('website.components.index.popup')
 
 
 @endsection

@@ -72,8 +72,11 @@
                                     :</b> Dr IT Group, Plot No: 4, IT Park, Sector-67 Mohali
                                 <br>
                                 <b>Noida :</b>
-                               Dr IT Group, C 56A/10&11, sector 62
+                                Dr IT Group, C 56A/10&11, sector 62
                                 Noida - 201301
+                                <br>
+                                <b>Jaipur :</b>
+                                Dr IT Group IT 2003, IT Zone, Behind Bombay Hospital, Sitapura, Jaipur, Rajasthan 302022
                             </h2>
                         </div>
                     </div>

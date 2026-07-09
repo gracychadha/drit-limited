@@ -122,8 +122,8 @@
                                 Online Support
                             </li>
                             <li><i class="flaticon-pin"></i>Dr IT Group, Plot No: 4, IT Park, Sector-67 Mohali</li>
-                            <li><i class="flaticon-pin"></i> Dr IT Group, C 56A/10&11, sector 62
-                                Noida - 201301</li>
+                            <li><i class="flaticon-pin"></i> Dr IT Group, C 56A/10&11, sector 62 Noida - 201301</li>
+                            <li><i class="flaticon-pin"></i> Dr IT Group IT 2003, IT Zone, Behind Bombay Hospital, Sitapura, Jaipur, Rajasthan 302022</li>
                         </ul>
                         <div class="g-map">
                             <iframe
@@ -131,7 +131,7 @@
                                 width="100%" height="150" style="border:0;">
                             </iframe>
                         </div>
-                        <a href="https://www.google.com/search?q=dr+itm+google+my+business&oq=dr+itm+google+my+bs&gs_lcrp=EgZjaHJvbWUqCQgBECEYChigATIGCAAQRRg5MgkIARAhGAoYoAEyCQgCECEYChigATIJCAMQIRgKGKABMgcIBBAhGI8CMgcIBRAhGI8C0gEKMTQ1ODU0ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8"
+                        <a href="https://www.google.com/search?q={{ urlencode($websiteSetting->location ?? 'Mohali,Punjab,India') }}=chrome&ie=UTF-8"
                             target="_blank"><button class=" mt-2 footer-button">Visit Now !</button></a>
                     </div>
                 </div>
