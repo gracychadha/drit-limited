@@ -82,12 +82,7 @@
                     </div>
                 </div><!-- featured-icon-box end -->
             </div>
-            <div class="col-lg-12">
-                <div class="mt-20 text-center">
-                    <p><span class="fs-20 fw-600 text-base-dark"> </span>A Trusted Growth Partner for <span
-                            class="text-base-skin fs-18"><strong><i>38k+</i></strong></span> Brands</p>
-                </div>
-            </div>
+           
         </div>
     </div>
 </section>
