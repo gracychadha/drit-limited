@@ -61,17 +61,20 @@
                             <div class="col-md-6">
                                 <label>
                                     <span class="text-input"><input name="phone" type="text"
-                                            placeholder="Enter Phone Numner" pattern="[6-9]{1}[0-9]{9}" maxlength="10"
+                                            placeholder="Enter Phone Number" pattern="[6-9]{1}[0-9]{9}" maxlength="10"
                                             required></span>
                                 </label>
                             </div>
                             <div class="col-md-6">
                                 <label>
-                                    <span class="text-input select-option">
-                                        <select name="enquiry_for">
+                                    <span class="text-input ">
+                                        <input name="enquiry_for" type="text"
+                                            placeholder="Enter Enquiry For" 
+                                            required>
+                                        <!-- <select name="enquiry_for">
                                             <option value="Experience Design">Experience Design</option>
                                             <option value="IT Consultancy">IT Consultancy</option>
-                                        </select>
+                                        </select> -->
                                     </span>
                                 </label>
                             </div>
