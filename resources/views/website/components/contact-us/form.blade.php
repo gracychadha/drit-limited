@@ -38,7 +38,7 @@
                     <!-- section title -->
                     <div class="section-title">
                         <div class="title-header">
-                            <h3>Looking for Expert IT Solutions?</h3>
+                            <h3>Looking for Expert BPO Solutions?</h3>
                             <h2 class="title">Connect With Us to Discuss Your Requirements.</h2>
                         </div>
                     </div><!-- section title end -->

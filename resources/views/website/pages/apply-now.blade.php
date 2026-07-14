@@ -26,8 +26,8 @@
     <!-- page-title end -->
 
 
-    @include('website.components.career.about')
     @include('website.components.career.form')
+    @include('website.components.career.about')
 @endsection
 @push('scripts')
 

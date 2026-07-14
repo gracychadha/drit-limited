@@ -6,7 +6,7 @@
     @include('website.components.about-us.about-section')
     @include('website.components.about-us.counter')
     @include('website.components.about-us.why-choose-us-section')
-    @include('website.components.common.testimonial-section')
+    @include('website.components.index.testimonial')
 
 
 @endsection

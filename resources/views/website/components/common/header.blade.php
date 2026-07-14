@@ -255,9 +255,9 @@
                                                 <a href="{{ route('mission-vision') }}">Mission & Vision</a>
                                             </li>
 
-                                            <li class="mega-menu-item">
+                                            <!-- <li class="mega-menu-item">
                                                 <a href="{{ route('eea') }}">EEA</a>
-                                            </li>
+                                            </li> -->
 
 
                                         </ul>
@@ -315,14 +315,14 @@
                                     <li class="mega-menu-item">
                                         <a href="{{ route('our-presence') }}">Our Presence</a>
                                     </li>
-                                    <li class="mega-menu-item d-xl-none d-lg-none">
+                                    <li class="mega-menu-item ">
                                         <a href="{{ route('contact-us') }}">Contact us</a>
                                     </li>
                                 </ul>
                             </nav><!-- menu end -->
                             <!-- header_extra -->
                             <div class="header_extra d-flex flex-row align-items-center">
-                                <div class="header_btn"><a
+                                <div class="header_btn d-none"><a
                                         class="cmt-btn btn-inline cmt-icon-btn-right cmt-btn-size-md cmt-btn-color-skincolor"
                                         href="{{ route('contact-us') }}">Contact Us<i class="icon-right"></i></a></div>
                                 <div class="header_search">
