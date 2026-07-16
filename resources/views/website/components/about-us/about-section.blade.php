@@ -21,23 +21,23 @@
                             </h2>
                         </div>
                         <div class="title-desc">
-                            <p align="justify">Dr IT Group is a dynamic BPO and ITES organization committed
+                            <p >Dr IT Group is a dynamic BPO and ITES organization committed
                                 to delivering end-to-end process management solutions that empower businesses to operate
                                 efficiently and grow sustainably. As a forward-thinking company, Dr ITM bridges the gap
                                 between complex technology and seamless business operations. Guided by strong principles
                                 of value creation, professionalism, and quality, we design solutions that help
                                 organizations adapt, perform, and succeed in an ever-evolving business environment.
                             </p>
-                            <p align="justify">With a deep understanding of client needs and operational challenges, we
+                            <p >With a deep understanding of client needs and operational challenges, we
                                 transform complexities into streamlined, value-driven processes that enhance efficiency
                                 and productivity.
                             </p>
-                            <p align="justify">Our core services include Business Process Outsourcing (BPO), IT Enabled
+                            <p >Our core services include Business Process Outsourcing (BPO), IT Enabled
                                 Services (ITES), technical networking support, and data management solutions—each
                                 designed to be scalable, cost-effective, and performance-oriented. We focus on
                                 optimizing operations while ensuring a seamless and positive customer experience.
                             </p>
-                            <p align="justify">Our mission is to create meaningful impact by improving operational
+                            <p >Our mission is to create meaningful impact by improving operational
                                 efficiency and delivering consistent, high-quality solutions you can trust.
                             </p>
                         </div>

@@ -84,7 +84,7 @@
                         <i class="fas fa-eye"></i>
                     </div>
                     <h3>Our Vision</h3>
-                    <p align="justify">
+                    <p >
                         Our vision is to be a globally trusted leader in BPO and IT-enabled services, recognized for
                         transforming businesses through innovation, operational excellence, and customer-centric
                         solutions. We aspire to set new benchmarks in service delivery by combining technology, talent,
@@ -105,7 +105,7 @@
                         <i class="fas fa-crosshairs"></i>
                     </div>
                     <h3>Our Mission</h3>
-                    <p align="justify">Our mission is to help businesses operate smarter, serve customers better, and
+                    <p >Our mission is to help businesses operate smarter, serve customers better, and
                         grow faster
                         through reliable BPO and IT-enabled solutions. We are committed to delivering exceptional
                         customer experiences, optimizing business processes, and creating measurable value through

@@ -231,7 +231,14 @@
                                         : asset('website/images/main-logo.png');
                                 @endphp
                                 <a class="home-link" href="{{ route('home') }}" rel="home">
-                                    <img id="logo-img" class="img-fluid auto_size" src="{{ $logo }}" alt="logo-img">
+                                    <img id="logo-img" class="img-fluid auto_size" src="{{ $logo }}" alt="logo-img" >
+                                    <style>
+                                       @media (min-width:786px) {
+                                        #logo-img{
+                                            min-height:100px;
+                                        }
+                                       }
+                                    </style>
                                 </a>
                             </div><!-- site-branding end -->
                             <div class="btn-show-menu-mobile menubar menubar--squeeze">

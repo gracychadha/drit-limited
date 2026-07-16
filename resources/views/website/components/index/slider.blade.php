@@ -72,6 +72,29 @@
                     </p>
                 </div> -->
             </div>
+            <div class="swiper-slide drit-slide">
+                <img src="{{ asset('website/images/upload/banner-03.png') }}" alt="Banner" class="drit-slide-image">
+
+                <!-- <div class="drit-slide-content">
+                    <span class="drit-slide-badge">
+                        Customer-Centric Approach
+                    </span>
+
+                    <h1 class="drit-slide-title">
+                        Focused on What
+                        <br>
+                        <strong>
+                            Matters
+                            <span>Most</span>
+                        </strong>
+                    </h1>
+
+                    <p class="drit-slide-description">
+                        We put clients first—delivering tailored solutions
+                        that build trust and long-term value.
+                    </p>
+                </div> -->
+            </div>
 
             <!-- Slide 2 -->
             <!-- <div class="swiper-slide drit-slide">

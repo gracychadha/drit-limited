@@ -22,7 +22,7 @@
 
             <div class="entry-content">
                 <div class="cmt-box-desc-text">
-                    <p align="justify">{{ $technology->description ?? 'No Description Found' }}</p>
+                    <p >{{ $technology->description ?? 'No Description Found' }}</p>
 
                     <blockquote class="cmt-bgcolor-grey cmt-textcolor-darkgrey">
                         <div class="qoute-text">
@@ -33,7 +33,7 @@
 
 
 
-                    <p align="justify">{{ $technology->overview ?? ' No Overview found' }}</p>
+                    <p >{{ $technology->overview ?? ' No Overview found' }}</p>
 
 
 

@@ -3,6 +3,39 @@
     <div class="container">
         <!-- row -->
         <div class="row mt_15 mb_15">
+            <div class=" col-lg-4 col-md-6 col-sm-6 mb-2">
+
+                <div class="featured-imagebox featured-imagebox-portfolio style2">
+                    <div class="featured-thumbnail">
+                        <img width="700" height="800" class="img-fluid"
+                            src="{{ asset('website/images/upload/gallery-09.png') }}" alt="portfolio_img">
+                    </div>
+
+
+                </div>
+            </div>
+            <div class=" col-lg-4 col-md-6 col-sm-6 mb-2">
+
+                <div class="featured-imagebox featured-imagebox-portfolio style2">
+                    <div class="featured-thumbnail">
+                        <img width="700" height="800" class="img-fluid"
+                            src="{{ asset('website/images/upload/gallery-10.png') }}" alt="portfolio_img">
+                    </div>
+
+
+                </div>
+            </div>
+            <div class=" col-lg-4 col-md-6 col-sm-6 mb-2">
+
+                <div class="featured-imagebox featured-imagebox-portfolio style2">
+                    <div class="featured-thumbnail">
+                        <img width="700" height="800" class="img-fluid"
+                            src="{{ asset('website/images/upload/sm-03.png') }}" alt="portfolio_img">
+                    </div>
+
+
+                </div>
+            </div>
             <div class=" col-lg-8 col-md-6 col-sm-6 mb-2">
 
                 <div class="featured-imagebox featured-imagebox-portfolio style2">
@@ -60,18 +93,7 @@
                 </div>
             </div>
 
-            <div class=" col-lg-4 col-md-6 col-sm-6 mb-2">
-
-                <div class="featured-imagebox featured-imagebox-portfolio style2">
-                    <div class="featured-thumbnail">
-                        <img width="700" height="800" class="img-fluid"
-                            src="{{ asset('website/images/upload/sm-03.png') }}" alt="portfolio_img">
-                    </div>
-
-
-                </div>
-            </div>
-
+           
         </div>
         <!-- row end -->
     </div>
