@@ -2,7 +2,7 @@
     $websiteSetting = App\Models\WebsiteSetting::where('is_active', true)->first();
     $social = App\Models\SocialSetting::where('is_active', true)->first();
 @endphp
-<section class="cmt-row padding_top_zero-section bg-layer-equal-height clearfix">
+<section class="cmt-row  bg-layer-equal-height clearfix">
     <div class="container">
         <!-- row end -->
         <div class="row align-items-center">
