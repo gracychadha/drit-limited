@@ -122,7 +122,7 @@
                                 Online Support
                             </li>
                             <li><i class="flaticon-pin"></i>Dr IT Group, Plot No: 4, IT Park, Sector-67 Mohali</li>
-                            <li><i class="flaticon-pin"></i> Dr IT Group, C 56A/10&11, sector 62 Noida - 201301</li>
+                            <li><i class="flaticon-pin"></i> Dr IT Group, C 56A/10&11, Sector 62 Noida - 201301</li>
                             <li><i class="flaticon-pin"></i> Dr IT Group IT 2003, IT Zone, Behind Bombay Hospital, Sitapura, Jaipur, Rajasthan 302022</li>
                         </ul>
                         <div class="g-map">
