@@ -2,8 +2,8 @@
 @section('title', 'Contact Us | Dr IT Group')
 @section('content')
     @include('website.components.contact-us.banner')
-    @include('website.components.contact-us.cards')
     @include('website.components.contact-us.form')
+    @include('website.components.contact-us.cards')
 @endsection
 @push('scripts')
 
