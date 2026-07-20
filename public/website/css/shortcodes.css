@@ -3155,6 +3155,8 @@ div:hover > .cmt-box-view-content-inner:before {
 
 .wrap-form.query_form span.text-input {
     margin: 4px 0 20px;
+   
+    
 }
 .wrap-form.query_form span.text-input input,
 .wrap-form.query_form span.text-input textarea,
@@ -3162,7 +3164,9 @@ div:hover > .cmt-box-view-content-inner:before {
     border-radius: 5px;
     border: 0;
     background-color: var(--base-grey);
-    color: rgba(102, 102, 102, 0.5);
+    color: rgb(88 82 82 / 84%);
+     border: 1px solid #c2bfbf;
+     box-shadow: 0 0 6px #e2dfdf;
 }
 
 .wrap-form span.text-input select {

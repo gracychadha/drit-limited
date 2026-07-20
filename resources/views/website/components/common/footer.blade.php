@@ -143,9 +143,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <span class="cpy-text">&copy; <?= date('Y') ?> <a href="{{ route('home') }}">Dr IT Group</a> |
-                        Designed and Developed by <span class=""><a href="http://vibrantick.in/" target="_blank">
-                                Vibrantick Infotech Solutions
-                            </a></span>
+                        Designed and Developed by Dr. ITM Development Team</span>
                 </div>
             </div>
         </div>
