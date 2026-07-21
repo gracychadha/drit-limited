@@ -143,7 +143,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <span class="cpy-text">&copy; <?= date('Y') ?> <a href="{{ route('home') }}">Dr IT Group</a> |
-                        Designed and Developed by Dr. ITM Development Team</span>
+                        Designed and Developed by Dr IT Software Development Team</span>
                 </div>
             </div>
         </div>
