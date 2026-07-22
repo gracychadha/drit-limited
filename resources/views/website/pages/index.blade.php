@@ -98,7 +98,6 @@
     @include('website.components.about-us.why-choose-us-section')
     @include('website.components.index.cta')
     @include('website.components.index.testimonial')
-    @include('website.components.index.presence')
     @include('website.components.index.industries-serve')
 
 
