@@ -45,10 +45,21 @@
                         </ul>
                     </li>
                 @endcan
-
                 <li>
+                    <a href="{{ route('admin-gallery.index') }}">
+                        <i class="fe fe-image"></i> <span>Gallery </span>
+                    </a>
+                </li>
+
+                <!-- <li>
                     <a href="{{ route('admin-partner.index') }}">
                         <i class="fe fe-briefcase"></i> <span>Partner</span>
+                    </a>
+                </li> -->
+                
+                <li>
+                    <a href="{{ route('admin-slider.index') }}">
+                        <i class="fe fe-image"></i> <span>Home Slider </span>
                     </a>
                 </li>
                 <li>
@@ -61,6 +72,7 @@
                         <i class="fe fe-cpu"></i> <span>Technology</span>
                     </a>
                 </li>
+
 
 
 

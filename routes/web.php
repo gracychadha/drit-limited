@@ -21,6 +21,8 @@ use App\Http\Controllers\PartnerController;
 use App\Http\Controllers\CareerApplicationController;
 use App\Http\Controllers\PopupController;
 use App\Http\Controllers\SocialFeedController;
+use App\Http\Controllers\GaleryImagesController;
+use App\Http\Controllers\HomeSliderController;
 
 Route::get('/', function () {
     return view('website.pages.index');
@@ -225,6 +227,18 @@ Route::middleware('auth')->group(function () {
 
     Route::put('/admin-social-settings', [SocialSettingController::class, 'update'])
         ->name('admin-social-settings.update');
+
+
+    // admin gallery
+    Route::get('/admin-gallery', [GaleryImagesController::class, 'index'])->name('admin-gallery.index');
+    Route::post('/admin-gallery', [GaleryImagesController::class, 'store'])->name('admin-gallery.store');
+    Route::put('/admin-gallery/{item}', [GaleryImagesController::class, 'update'])->name('admin-gallery.update');
+    Route::delete('/admin-gallery/{item}', [GaleryImagesController::class, 'destroy'])->name('admin-gallery.destroy');
+    // admin slider
+    Route::get('/admin-slider', [HomeSliderController::class, 'index'])->name('admin-slider.index');
+    Route::post('/admin-slider', [HomeSliderController::class, 'store'])->name('admin-slider.store');
+    Route::put('/admin-slider/{item}', [HomeSliderController::class, 'update'])->name('admin-slider.update');
+    Route::delete('/admin-slider/{item}', [HomeSliderController::class, 'destroy'])->name('admin-slider.destroy');
 
 });
 
